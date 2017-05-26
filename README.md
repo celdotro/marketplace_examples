@@ -6,7 +6,7 @@ ___
 
 ## Setari principale
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**api_include.php** => schimbati calea pentru instructiunea include  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**/vendor/celdotro/marketplace/src/Dispatcher.php** (API) => schimbati numele de utilizator si parola  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**/vendor/celdotro/marketplace/src/Dispatcher.php** (API) => schimbati constantele userName (nume de utilizator) si password (parola)
 
 ## Structura fisierelor si directoarelor
 1. Fisierul "api_include.php" aflat la baza structurii include fisierul index al API-ului. De asemenea, contine o sectiune de comentarii in care sunt reluate problemele discutate in "Setari principale".  
@@ -26,7 +26,7 @@ ___
 
 ## Main settings
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**api_include.php** => change include path  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**/vendor/celdotro/marketplace/src/Dispatcher.php** (API) => change username and password  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**/vendor/celdotro/marketplace/src/Dispatcher.php** (API) => change userName and password constants
 
 ## Files and folders structure
 1. The file "api_include.php" situated in the path root includes the path for the API index file. It also provides a comment section about the issues presented in "Main settings".  
