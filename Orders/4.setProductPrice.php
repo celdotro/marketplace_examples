@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Seteaza un pret nou pentru un produs al unei comenzi
+ * [EN] Sets a new price for a product in an order
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Orders\OrdersUpdate;

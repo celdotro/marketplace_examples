@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Creaza o pagina noua folosind datele trimise ca parametru
+ * [EN] Creates a new page using the data specified as a parameter
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Pages\PagesImport;

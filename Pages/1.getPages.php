@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Returneaza datele paginilor disponibile
+ * [EN] Returns the data for all the available pages
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Pages\PagesData;

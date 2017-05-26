@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Sterge o pagina
+ * [EN] Deletes a page
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Pages\PagesDelete;

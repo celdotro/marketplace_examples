@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Sterge AWB-ul aferent unei comenzi trimisa ca parametru
+ * [EN] Deletes the AWB of an order specified as a parameter
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\AWB\AWBDelete;

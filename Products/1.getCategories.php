@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Returneaza lista de categorii disponibile
+ * [EN] Returns the list of available categories
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Products\ProductsList;

@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Seteaza datele comenzii necesare generarii de AWB-uri
+ * [EN] Sets an orders data required for AWB generation
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Orders\OrdersAWBInfo;

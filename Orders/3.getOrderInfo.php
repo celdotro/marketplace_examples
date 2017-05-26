@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Returneaza informatiile aferente unei comenzi specificata prin parametru
+ * [EN] Returns all relevant informations for an order specified as a parameter
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Orders\OrdersData;

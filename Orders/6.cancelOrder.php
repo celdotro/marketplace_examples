@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Anuleaza o comanda. Are nevoie de un motiv valid.
+ * [EN] Cancels an order. It's necessary to use a valid reason.
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Orders\OrdersCancel;

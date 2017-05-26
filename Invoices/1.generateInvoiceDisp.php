@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Genereaza dispozitia de facturare pentru o comanda trimisa ca parametru
+ * [EN] Generates the invoice disposition for an order specified as a parameter
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Invoices\InvoicesGenerate;

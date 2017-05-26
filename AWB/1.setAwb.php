@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Genereaza AWB pentru o comanda trimisa ca parametru
+ * [EN] Generates an AWB for an order specified as a parameter
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\AWB\AWBImport;

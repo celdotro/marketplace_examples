@@ -1,4 +1,8 @@
 <?php
+/**
+ * [RO] Listeaza comenzile unui client raportate la o anumita data. Poate limita numarul de inregistrari returnate prin specificarea pozitiei de start si a unei limite superioare.
+ * [EN] Lists a clients orders taking into account the specified date. It can limit the list by using a start value and an upper limit.
+ */
 include __DIR__ . '/../api_include.php';
 
 use celmarket\Orders\OrdersList;
