@@ -9,7 +9,7 @@ ___
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**index.php** (API) => schimbati numele de utilizator si parola  
 
 ## Structura fisierelor si directoarelor
-1. Fisierul "api_include.php" aflat la baza structurii include fisierul index al API-ului. De asemenea, contine o sectiune de comentarii in care reia problemele discutate in "Setari principale".  
+1. Fisierul "api_include.php" aflat la baza structurii include fisierul index al API-ului. De asemenea, contine o sectiune de comentarii in care sunt reluate problemele discutate in "Setari principale".  
 2. Fiecare director reprezinta o categorie de exemple: Products (Produse), Pages (Pagini), Orders (Comenzi), Invoices (Facturi), AWB  
 3. Fiecare fisier este compus din 4 parti  
     i. **include** => include api_include.php (este necesar numai pentru exemple)  
