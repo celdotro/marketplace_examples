@@ -5,6 +5,9 @@
  */
 include __DIR__ . '/../api_include.php';
 
+use celmarket\Auth;
+Auth::setUserDetails('USERNAME', 'PASSWORD');
+
 use celmarket\AWB\AWBDelete;
 
 #24#
