@@ -29,41 +29,41 @@ $arrProducts = array(
     // Primul produs din lista -> forma detaliata
     // First product -> detailed form
     array(
+        'products_name' => 'Nume1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_model' => 'Model1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'manufacturers_name' => 'AOC', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'moneda' => 3, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_description' => 'Desc1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'garantie' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'categories_id' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'stoc' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        
         'products_url' => 'http://cel.ro',
         'pretf' => 200,
         'products_image' => 'http://cel.ro',
-        'products_model' => 'Model1',
-        'garantie' => 1,
-        'categories_id' => 1,
-        'stoc' => 1,
-        'products_name' => 'Nume1',
         'charact' => array(
             4 => 'Dimensiuni mediu printare:',
             20 => 'Interfata:'
         ),
         'products_weight' => 15,
         'products_status' => 1,
-        'moneda' => 3,
         'import_code' => 2,
         'products_quantity' => 2,
         'adaos' => 15,
-        'products_description' => 'Desc1',
         'bonus' => 10,
         'recomandate' => 2,
         'image' => 'Image1',
         'procesare_in' => 1,
         'cand' => '2017-04-03 09:00:00',
-        'pret_vechi' => 100,
-        'manufacturers_name' => 'AOC',
-        'products_description' => 'DESC1'
+        'pret_vechi' => 100, 
     ),
 
     // Al doilea produs din lista -> forma scurta
     // Second product -> short form
      array(
-        'pretf' => 203,
-        'products_model' => 'Model1',
-        'stoc' => 38
+        'products_model' => 'Model1', // Obligatoriu pentru forma scurta / Mandatory for short form
+        'pretf' => 203, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
+        'stoc' => 38 // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
     )
 
     // [... N]      
