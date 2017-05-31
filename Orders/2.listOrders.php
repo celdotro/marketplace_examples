@@ -29,11 +29,11 @@ $limit = 10;
 $arrOptions = array(
     'date'  =>   array(
         'from'  =>   '2017-05-05',
-        'to'  =>  '2017-05-07'
+        'to'  =>  '2017-05-31'
     ),
     'customer'  =>   array(
         array( // Semne acceptate / Accepted signs: ee, ne
-            'name'  =>  'nume1',
+            'name'  =>  'nume1', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
             'sign'  =>  'ee'
         ),
         array(
@@ -43,20 +43,11 @@ $arrOptions = array(
     ),
     'product'  =>   array(
         array( // Semne acceptate / Accepted signs: ee, ne
-            'name'  =>   'laptop',
+            'name'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
             'sign'  =>  'ee'
         )
     ),
-    'order'  =>   array(
-        array( // Semne acceptate / Accepted signs: gt, st, ge, se, ee, ne
-            'id'  =>   '1234',
-            'sign'  =>  'ge'
-        )
-    ),
-    'invoice'  =>   array(
-        array( // Semnul este implicit egal // The sign is equal by default
-            'num'   =>  12
-        )
-    ),
+    'order'  =>   0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
+    'invoice'  =>  0 // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
 );
 getOrdersList($start, $limit, $arrOptions);
