@@ -29,8 +29,8 @@ $limit = 10;
 $arrOptions = array(
     'date'  =>   array(
         array(
-            'datetime'  =>   '2017-05-05',
-            'sign'  =>  'ee' // Semne acceptate / Accepted signs: gt, st, ge, se, ee, ne
+            'from'  =>   '2017-05-05',
+            'to'  =>  '2017-05-07'
         )
     ),
     'customer'  =>   array(
