@@ -12,11 +12,11 @@ use celmarket\Orders\OrdersAWBInfo;
 
 #24#
 #FUNCTION#
-function setAwbInfo($cmd, $courier, $plic = null, $packages = null, $kg = null){
+function setAwbInfo($cmd, $courier, $plic = null, $packages = null, $kg = null, $saturdayDelivery = 0){
     $object = new OrdersAWBInfo();
 
     try{
-        $response = $object->setAwbInfo($cmd, $courier, $plic, $packages, $kg);
+        $response = $object->setAwbInfo($cmd, $courier, $plic, $packages, $kg, $saturdayDelivery);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,4 @@ function setAwbInfo($cmd, $courier, $plic = null, $packages = null, $kg = null){
 }
 
 #EXAMPLE#
-setAwbInfo(564074,'NemoExpress', 1, 2, 1);
+setAwbInfo(564074,'Fan Curier', 1, 2, 1, 0);

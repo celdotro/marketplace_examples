@@ -27,12 +27,13 @@ function updateProductsFromOrder($cmd, $arrModels){
 $cmd = 564076;
 $products = array(
     array(
-        'model' =>  'edn64011',
+        'model' =>  'Model1',
         'products_price'    =>  305.44,
         'cantitate' =>  1,
         'tva'   =>  20,
         'id_prod_com'   =>  1001960,
-        'deschidere_colet'  =>  1
+        'deschidere_colet'  =>  1,
+        'status_livrare' => 0
     )
 );
 updateProductsFromOrder(492347, $products);
