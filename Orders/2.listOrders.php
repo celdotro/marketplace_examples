@@ -29,7 +29,7 @@ $limit = 10;
 $arrOptions = array(
     'date'  =>   array(
         'from'  =>   '2017-05-05',
-        'to'  =>  '2017-05-31'
+        'to'  =>  '2017-05-31 23:59:59'
     ),
     'customer'  =>   array(
         array( // Semne acceptate / Accepted signs: ee, ne
