@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Listeaza comenzile unui client raportate la o anumita data. Poate limita numarul de inregistrari returnate prin specificarea pozitiei de start si a unei limite superioare.
- * [EN] Lists a clients orders taking into account the specified date. It can limit the list by using a start value and an upper limit.
+ * [RO] Listeaza comenzile in functie de data, nume client, nume produs, id comanda sau numar factura. Poate limita numarul de inregistrari returnate prin specificarea pozitiei de start si a unei limite superioare.
+ * [EN] Lists orders based on date, customer's name, product's name, order id or invoice number. It can limit the list by using a start value and an upper limit.
  */
 include __DIR__ . '/../api_include.php';
 
@@ -30,11 +30,11 @@ $arrOptions = array(
     'date'  =>   array(
         array(
             'datetime'  =>   '2017-05-05',
-            'sign'  =>  'ee'
+            'sign'  =>  'ee' // Semne acceptate / Accepted signs: gt, st, ge, se, ee, ne
         )
     ),
     'customer'  =>   array(
-        array(
+        array( // Semne acceptate / Accepted signs: ee, ne
             'name'  =>  'nume1',
             'sign'  =>  'ee'
         ),
@@ -44,19 +44,19 @@ $arrOptions = array(
         )
     ),
     'product'  =>   array(
-        array(
+        array( // Semne acceptate / Accepted signs: ee, ne
             'name'  =>   'laptop',
             'sign'  =>  'ee'
         )
     ),
     'order'  =>   array(
-        array(
+        array( // Semne acceptate / Accepted signs: gt, st, ge, se, ee, ne
             'id'  =>   '1234',
             'sign'  =>  'ge'
         )
     ),
     'invoice'  =>   array(
-        array(
+        array( // Semnul este implicit egal // The sign is equal by default
             'num'   =>  12
         )
     ),
