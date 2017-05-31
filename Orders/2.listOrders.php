@@ -12,11 +12,11 @@ use celmarket\Orders\OrdersList;
 
 #10#
 #FUNCTION#
-function getOrdersList($start, $limit, $data, $sign, $customer){
+function getOrdersList($start, $limit, $arrOptions){
     $object = new OrdersList();
 
     try{
-        $response = $object->listOrders($start, $limit, $data, $sign, $customer);
+        $response = $object->listOrders($start, $limit, $arrOptions);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,41 @@ function getOrdersList($start, $limit, $data, $sign, $customer){
 }
 
 #EXAMPLE#
-getOrdersList(0, 15, '2017-04-04', 'ee', 'client1');
+$start = 0;
+$limit = 10;
+$arrOptions = array(
+    'date'  =>   array(
+        array(
+            'datetime'  =>   '2017-05-05',
+            'sign'  =>  'ee'
+        )
+    ),
+    'customer'  =>   array(
+        array(
+            'name'  =>  'nume1',
+            'sign'  =>  'ee'
+        ),
+        array(
+            'name'  =>  'nume2',
+            'sign'  =>  'ne'
+        )
+    ),
+    'product'  =>   array(
+        array(
+            'name'  =>   'laptop',
+            'sign'  =>  'ee'
+        )
+    ),
+    'order'  =>   array(
+        array(
+            'id'  =>   '1234',
+            'sign'  =>  'ge'
+        )
+    ),
+    'invoice'  =>   array(
+        array(
+            'num'   =>  12
+        )
+    ),
+);
+getOrdersList($start, $limit, $arrOptions);
