@@ -5,7 +5,10 @@ ___
 # [RO]
 
 ## Setari principale
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**api_include.php** => schimbati calea pentru instructiunea include  
+Rulati urmatoarea comanda in directorul principal  
+```
+composer install
+``` 
 
 ## Rulare script
 >Exemplu
@@ -31,7 +34,10 @@ ___
 # [EN]
 
 ## Main settings
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**api_include.php** => change include path  
+Run the following command in the main folder  
+```
+composer install
+``` 
 
 ## Run script
 >Example
