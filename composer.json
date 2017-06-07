@@ -1,0 +1,7 @@
+{  
+    "require": {  
+        "celdotro/marketplace": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

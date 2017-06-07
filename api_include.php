@@ -1,5 +1,5 @@
 <?php
 /**
- *  Change include path
+ *  Use composer install to install dependencies
  */
-include 'PATH_TO/marketplace/index.php';
+include 'vendor/autoload.php';

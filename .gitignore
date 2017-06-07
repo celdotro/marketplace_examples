@@ -1,3 +1,5 @@
 token
 todo
 .vscode
+vendor
+composer.lock
