@@ -1,6 +1,6 @@
 # marketplace_examples
-**[RO]** Exemple pentru folosirea API-ului [marketplaceului](https://github.com/celdotro/marketplace)  
-**[EN]** Examples for [marketplace's](https://github.com/celdotro/marketplace) API usage
+**[RO]** Exemple pentru folosirea API wrapper-ului [marketplaceului](https://github.com/celdotro/marketplace)  
+**[EN]** Examples for [marketplace's](https://github.com/celdotro/marketplace) API wrapper usage
 ___
 # [RO]
 
