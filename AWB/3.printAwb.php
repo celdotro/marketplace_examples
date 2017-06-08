@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Genereaza AWB pentru o comanda trimisa ca parametru
- * [EN] Generates an AWB for an order specified as a parameter
+ * [RO] Listeaza AWB-ul pentru o comanda trimisa ca parametru
+ * [EN] Prints the AWB for an order specified as a parameter
  */
 include __DIR__ . '/../api_include.php';
 
