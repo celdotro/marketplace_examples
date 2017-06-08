@@ -4,6 +4,10 @@
 ___
 # [RO]
 
+## Despre
+Acest proiect contine exemple ce pot fi folosite pentru intelegerea mai buna a [API Wrapper-ului pentru CEL.ro Marketplace](https://github.com/celdotro/marketplace).  
+Pentru instructiunile generale legate de utilizarea wrapper-ului, va trebui sa consultati [documentatia](https://github.com/celdotro/marketplace/wiki/Prima-pagina).
+
 ## Setari principale
 Rulati urmatoarea comanda in directorul principal  
 ```
@@ -30,8 +34,19 @@ php /CALE_CATRE_PROIECT/Orders/1.getOrdersSummary.php
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- apeleaza functia necesara si stocheaza valoarea returnata in variabila $response  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- printeaza valoarea returnata sau foloseste echo pentru mesajul de eroare  
     vi. **exemplu** => apeleaza functia cu date aleatorii. In functie de datele pe care le aveti deja, exista posibilitatea ca argumentele functiei sa nu duca la returnarea de valori relevante, de aceea ar trebui sa le schimbati in consecinta.  
+
+## Web
+In folderul principal, fisierul *index.php* genereaza automat un cuprins al tuturor directoarelor si fisierelor relevante pentru exemple. Acesta poate fi folosit ca referinta, dar este incurajata rularea din linia de comanda si editarea manuala a fisierelor, proiectul fiind conceput pentru a servi intelegerii modului de utilizare al API wrapper-ului de catre programatori, nu pentru a demonstra facilitatile API-ului.  
+
+```
+http://****/marketplace_examples/index.php
+```
 ___
 # [EN]
+
+## About
+This project contains examples that can be used for a better understanding of [CEL.ro Marketplace API Wrapper](https://github.com/celdotro/marketplace).  
+For general instructions about the wrapper's usage, read the [documentation](https://github.com/celdotro/marketplace/wiki/First-page).  
 
 ## Main settings
 Run the following command in the main folder  
@@ -59,3 +74,10 @@ php /PATH_TO_PROJECT/Orders/1.getOrdersSummary.php
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- call the appropriate function and store the returned value in the $response variable  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- print the returned value or echo the error message  
     vi. **example** => calls the function with random data. Depending on your specific case, the provided arguments may not render relevant return values, therefore you should change them accordingly.
+
+## Web
+The file *index.php* from the main folder automatically generates a contents of all relevant folders and files needed for examples. This can be used as a reference point, but running the scripts from command line and manually editing files are highly recommended because this project's purpose is to help programmers with the process of understanding of how the API wrapper works and not to be a showcase of the API.  
+
+```
+http://****/marketplace_examples/index.php
+```
