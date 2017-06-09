@@ -24,4 +24,4 @@ function printInvoice($cmd, $check = null){
 }
 
 #EXAMPLE#
-printInvoice(564074, false);
+printInvoice(123456, false);

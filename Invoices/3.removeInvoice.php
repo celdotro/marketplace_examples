@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Sterge dispozitia de facturare pentru o comanda
- * [EN] Deletes the invoice disposition for an order
+ * [RO] Sterge factura unei comenzi
+ * [EN] Deletes an order's invoice
  */
 include __DIR__ . '/../api_include.php';
 
@@ -24,4 +24,4 @@ function removeInvoice($cmd){
 }
 
 #EXAMPLE#
-removeInvoice(123456);
+removeInvoice(113171);
