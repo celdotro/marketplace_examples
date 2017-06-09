@@ -16,7 +16,7 @@ function generateInvoice($cmd){
     $object = new InvoicesGenerate();
 
     try{
-        $response = $object->generateInvoiceDisp($cmd);
+        $response = $object->generateInvoice($cmd);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
