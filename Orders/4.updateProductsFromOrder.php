@@ -27,7 +27,6 @@ function updateProductsFromOrder($cmd, $arrModels){
 $cmd = 564076;
 $products = array(
     array(
-        'model' =>  'Model1',
         'products_price'    =>  305.44,
         'cantitate' =>  1,
         'tva'   =>  20,
