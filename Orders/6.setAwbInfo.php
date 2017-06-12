@@ -10,10 +10,10 @@ Auth::setUserDetails('USERNAME', 'PASSWORD');
 
 use celmarket\Orders\OrdersAWBInfo;
 
-#24#
+#33#
 #FUNCTION#
-function setAwbInfo($cmd, $courier, $plic = null, $packages = null, $kg = null, $saturdayDelivery = 0){
-    $object = new OrdersAWBInfo();
+function setAwbInfo($cmd, $courier, $plic, $packages, $kg, $saturdayDelivery){
+    $object = new OrdersAWBInfo(); 
 
     try{
         $response = $object->setAwbInfo($cmd, $courier, $plic, $packages, $kg, $saturdayDelivery);
@@ -24,4 +24,4 @@ function setAwbInfo($cmd, $courier, $plic = null, $packages = null, $kg = null, 
 }
 
 #EXAMPLE#
-setAwbInfo(564074,'Fan Curier', 1, 2, 1, 0);
+setAwbInfo(123456,'Fan Curier', 1, 2, 1, 0);
