@@ -24,4 +24,4 @@ function deleteAwb($cmd){
 }
 
 #EXAMPLE#
-deleteAwb(564076);
+deleteAwb(123456);

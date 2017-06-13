@@ -24,4 +24,4 @@ function removeInvoice($cmd){
 }
 
 #EXAMPLE#
-removeInvoice(113171);
+removeInvoice(123456);
