@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Adauga o campanie noua
- * [EN] Adds a new campaign
+ * [RO] Adauga o campanie noua (https://github.com/celdotro/marketplace/wiki/Adaugare-campanie)
+ * [EN] Adds a new campaign (https://github.com/celdotro/marketplace/wiki/Add-Campaign)
  */
 include __DIR__ . '/../api_include.php';
 

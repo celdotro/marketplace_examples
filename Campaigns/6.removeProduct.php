@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Elimina un produs din campanii
- * [EN] Removes a product from any campaign
+ * [RO] Elimina un produs din campanii (https://github.com/celdotro/marketplace/wiki/Eliminare-produs-din-campanie)
+ * [EN] Removes a product from any campaign (https://github.com/celdotro/marketplace/wiki/Remove-Product-from-Campaign)
  */
 include __DIR__ . '/../api_include.php';
 

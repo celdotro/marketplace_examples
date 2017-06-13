@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Listeaza campaniile active. Datele pot fi filtrate in functie de data de inceput, data de sfarsit si numele campaniei.
- * [EN] Lists all active campaigns. Data can be filtered by start date, end date, and campaign name.
+ * [RO] Listeaza campaniile active. Datele pot fi filtrate in functie de data de inceput, data de sfarsit si numele campaniei. (https://github.com/celdotro/marketplace/wiki/Listare-campanii-active)
+ * [EN] Lists all active campaigns. Data can be filtered by start date, end date, and campaign name. (https://github.com/celdotro/marketplace/wiki/List-Active-Campaigns)
  */
 include __DIR__ . '/../api_include.php';
 

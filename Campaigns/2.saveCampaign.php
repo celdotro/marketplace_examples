@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Actualizeaza detaliile unei campanii
- * [EN] Updates campaign details
+ * [RO] Actualizeaza detaliile unei campanii (https://github.com/celdotro/marketplace/wiki/Salvare-campanie)
+ * [EN] Updates campaign details (https://github.com/celdotro/marketplace/wiki/Save-Campaign)
  */
 include __DIR__ . '/../api_include.php';
 
