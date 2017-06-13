@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Actualizeaza anumite date ale produselor dintr-o comanda (pentru lista completa de date, vezi sectiunea de exemplu)
- * [EN] Updates certain data for the products that belong to a certain order (for the full list of data that can be updated, check the example section)
+ * [RO] Actualizeaza anumite date ale produselor dintr-o comanda (pentru lista completa de date, vezi sectiunea de exemplu) (https://github.com/celdotro/marketplace/wiki/Actualizare-comenzi)
+ * [EN] Updates certain data for the products that belong to a certain order (for the full list of data that can be updated, check the example section) (https://github.com/celdotro/marketplace/wiki/Update-orders)
  */
 include __DIR__ . '/../api_include.php';
 

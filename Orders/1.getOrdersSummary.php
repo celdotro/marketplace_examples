@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Returneaza un sumar al comenzilor pe un numar de zile specificat prin parametru
- * [EN] Returns the orders summary that encompasses a number of days specified as a parameter
+ * [RO] Returneaza un sumar al comenzilor pe un numar de zile specificat prin parametru (https://github.com/celdotro/marketplace/wiki/Sumar-comenzi)
+ * [EN] Returns the orders summary that encompasses a number of days specified as a parameter (https://github.com/celdotro/marketplace/wiki/Orders-summary)
  */
 include __DIR__ . '/../api_include.php';
 

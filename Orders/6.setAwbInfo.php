@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Seteaza datele comenzii necesare generarii de AWB-uri
- * [EN] Sets an orders data required for AWB generation
+ * [RO] Seteaza datele comenzii necesare generarii de AWB-uri (https://github.com/celdotro/marketplace/wiki/Setare-date-AWB)
+ * [EN] Sets an orders data required for AWB generation (https://github.com/celdotro/marketplace/wiki/Set-AWB-Info)
  */
 include __DIR__ . '/../api_include.php';
 
