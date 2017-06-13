@@ -1,6 +1,6 @@
 <?php
 /**
- * [RO] Sterge bonusuri ale produselor
+ * [RO] Sterge bonusurile produselor
  * [EN] Deletes products' bonuses
  */
 include __DIR__ . '/../api_include.php';

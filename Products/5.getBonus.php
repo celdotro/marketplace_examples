@@ -1,6 +1,6 @@
 <?php
 /**
- * [RO] Preia bonusurile unui produs
+ * [RO] Listeaza bonusurile unui produs
  * [EN] Gets a products' bonuses
  */
 include __DIR__ . '/../api_include.php';
