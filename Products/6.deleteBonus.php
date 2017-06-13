@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Sterge bonusurile produselor
- * [EN] Deletes products' bonuses
+ * [RO] Sterge bonusurile produselor (https://github.com/celdotro/marketplace/wiki/Stergere-bonus)
+ * [EN] Deletes products' bonuses (https://github.com/celdotro/marketplace/wiki/Delete-bonus)
  */
 include __DIR__ . '/../api_include.php';
 

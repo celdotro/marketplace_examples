@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Listeaza bonusurile unui produs
- * [EN] Gets a products' bonuses
+ * [RO] Listeaza bonusurile unui produs (https://github.com/celdotro/marketplace/wiki/Listeaza-bonus)
+ * [EN] Gets a products' bonuses (https://github.com/celdotro/marketplace/wiki/List-bonus)
  */
 include __DIR__ . '/../api_include.php';
 

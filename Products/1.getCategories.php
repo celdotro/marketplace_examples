@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Returneaza lista de categorii disponibile
- * [EN] Returns the list of available categories
+ * [RO] Returneaza lista de categorii disponibile (https://github.com/celdotro/marketplace/wiki/Listeaza-categorii)
+ * [EN] Returns the list of available categories (https://github.com/celdotro/marketplace/wiki/List-categories)
  */
 include __DIR__ . '/../api_include.php';
 

@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Adauga bonusuri pentru produsele deja aprobate
- * [EN] Adds bonuses for the products that have been approved
+ * [RO] Adauga bonusuri pentru produsele deja aprobate (https://github.com/celdotro/marketplace/wiki/Adauga-bonus)
+ * [EN] Adds bonuses for the products that have been approved (https://github.com/celdotro/marketplace/wiki/Add-bonus)
  */
 include __DIR__ . '/../api_include.php';
 
