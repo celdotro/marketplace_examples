@@ -37,9 +37,9 @@ $arrProducts = array(
         'garantie' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'categories_id' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'stoc' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'pretf' => 200, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         
         'products_url' => 'http://cel.ro',
-        'pretf' => 200,
         'products_image' => 'http://cel.ro',
         'charact' => array(
             4 => 'Dimensiuni mediu printare:',
@@ -61,7 +61,7 @@ $arrProducts = array(
     // Al doilea produs din lista -> forma scurta
     // Second product -> short form
      array(
-        'products_model' => 'Model1', // Obligatoriu pentru forma scurta / Mandatory for short form
+        'products_model' => 'Model2', // Obligatoriu pentru forma scurta / Mandatory for short form
         'pretf' => 203, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
         'stoc' => 38 // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
     )
