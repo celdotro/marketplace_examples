@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Sterge o pagina
- * [EN] Deletes a page
+ * [RO] Sterge o pagina (https://github.com/celdotro/marketplace/wiki/Stergere-pagini)
+ * [EN] Deletes a page (https://github.com/celdotro/marketplace/wiki/Remove-page)
  */
 include __DIR__ . '/../api_include.php';
 

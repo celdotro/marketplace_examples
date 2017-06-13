@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Returneaza datele paginilor disponibile
- * [EN] Returns the data for all the available pages
+ * [RO] Returneaza datele paginilor disponibile (https://github.com/celdotro/marketplace/wiki/Listare-Pagini)
+ * [EN] Returns the data for all the available pages (https://github.com/celdotro/marketplace/wiki/List-pages)
  */
 include __DIR__ . '/../api_include.php';
 
