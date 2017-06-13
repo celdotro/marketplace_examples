@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Genereaza AWB pentru o comanda trimisa ca parametru
- * [EN] Generates an AWB for an order specified as a parameter
+ * [RO] Genereaza AWB pentru o comanda trimisa ca parametru (https://github.com/celdotro/marketplace/wiki/Creare-AWB)
+ * [EN] Generates an AWB for an order specified as a parameter (https://github.com/celdotro/marketplace/wiki/AWB-Import)
  */
 include __DIR__ . '/../api_include.php';
 
