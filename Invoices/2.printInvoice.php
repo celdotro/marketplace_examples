@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Returneaza o factura in format PDF pentru o comanda specificata prin parametru. Optional, se poate verifica stocul existent ianinte de tiparire.
- * [EN] Returns an invoice as a PDF file for an order specified as a parameter. Optionally it checks the existing product stock before printing.
+ * [RO] Returneaza o factura in format PDF pentru o comanda specificata prin parametru. Optional, se poate verifica stocul existent ianinte de tiparire. (https://github.com/celdotro/marketplace/wiki/Printare-factura)
+ * [EN] Returns an invoice as a PDF file for an order specified as a parameter. Optionally it checks the existing product stock before printing. (https://github.com/celdotro/marketplace/wiki/Print-Invoice)
  */
 include __DIR__ . '/../api_include.php';
 
