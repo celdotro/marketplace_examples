@@ -24,4 +24,4 @@ function setAwb($cmd){
 }
 
 #EXAMPLE#
-setAwb(564076);
+setAwb(123456);
