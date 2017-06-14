@@ -28,7 +28,7 @@ php /CALE_CATRE_PROIECT/Orders/1.getOrdersSummary.php
     ii. **include** => include api_include.php (este necesar numai pentru exemple)  
     iii. **auth** => contine namespaceul si numele clasei de autentificare, precum si metoda statica ce trebuie folosita inainte de apelarea oricarei alte metode din API (inlocuiti numele de utilizator si parola cu cele aferente contului dumneavoastra)  
     iv. **use** => contine namespaceul si numele clasei folosite din API  
-    v. **functie** => contine instructiunile principale prin care API-ul poate fi folosit. De asemenea, parametrii functieic orespund intocmai celor ai metodei din API  
+    v. **functie** => contine instructiunile principale prin care API-ul poate fi folosit. De asemenea, parametrii functiei corespund intocmai celor ai metodei din API  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- instantierea obiectului  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- declararea unui bloc try-catch  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- apeleaza functia necesara si stocheaza valoarea returnata in variabila $response  
