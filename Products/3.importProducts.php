@@ -26,8 +26,8 @@ function importProducts($products){
 #EXAMPLE#
 $arrProducts = array(
     
-    // Primul produs din lista -> forma detaliata
-    // First product -> detailed form
+    // Primul produs din lista -> forma detaliata (orice tip de produs)
+    // First product -> detailed form (any type of product)
     array(
         'products_name' => 'Nume1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_model' => 'Model1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
@@ -55,11 +55,11 @@ $arrProducts = array(
         'image' => 'Image1',
         'procesare_in' => 1,
         'cand' => '2017-04-03 09:00:00',
-        'pret_vechi' => 100, 
+        'pret_vechi' => 100
     ),
 
-    // Al doilea produs din lista -> forma scurta
-    // Second product -> short form
+    // Al doilea produs din lista -> forma scurta (produse deja aprobate)
+    // Second product -> short form (already approved products)
      array(
         'products_model' => 'Model2', // Obligatoriu pentru forma scurta / Mandatory for short form
         'pretf' => 203, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
