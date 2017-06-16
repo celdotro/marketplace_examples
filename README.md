@@ -6,9 +6,10 @@ ___
 
 ## Despre
 Acest proiect contine exemple ce pot fi folosite pentru intelegerea mai buna a [API Wrapper-ului pentru CEL.ro Marketplace](https://github.com/celdotro/marketplace).  
-Pentru instructiunile generale legate de utilizarea wrapper-ului, va trebui sa consultati [documentatia](https://github.com/celdotro/marketplace/wiki/Prima-pagina).  
-* Instalare: [https://github.com/celdotro/marketplace/wiki/Instalare#instalare-1](https://github.com/celdotro/marketplace/wiki/Instalare#instalare-1)
-* Folosire: [https://github.com/celdotro/marketplace/wiki/Instalare#folosire](https://github.com/celdotro/marketplace/wiki/Instalare#folosire)
+Pentru instructiunile generale legate de utilizarea wrapper-ului, va trebui sa consultati [documentatia](https://github.com/celdotro/marketplace/wiki/Prima-pagina):
+
+* Instalare (WIKI): [https://github.com/celdotro/marketplace/wiki/Instalare#instalare-1](https://github.com/celdotro/marketplace/wiki/Instalare#instalare-1)
+* Folosire (WIKI): [https://github.com/celdotro/marketplace/wiki/Instalare#folosire](https://github.com/celdotro/marketplace/wiki/Instalare#folosire)
 
 ## Setari principale
 Rulati urmatoarea comanda in directorul principal  
@@ -50,8 +51,8 @@ ___
 This project contains examples that can be used for a better understanding of [CEL.ro Marketplace API Wrapper](https://github.com/celdotro/marketplace).  
 For general instructions about the wrapper's usage, read the [documentation](https://github.com/celdotro/marketplace/wiki/First-page).  
 
-* Install: [https://github.com/celdotro/marketplace/wiki/Install#installation-1](https://github.com/celdotro/marketplace/wiki/Install#installation-1)
-* Use: [https://github.com/celdotro/marketplace/wiki/Install#use](https://github.com/celdotro/marketplace/wiki/Install#use)
+* Install (WIKI): [https://github.com/celdotro/marketplace/wiki/Install#installation-1](https://github.com/celdotro/marketplace/wiki/Install#installation-1)
+* Use (WIKI): [https://github.com/celdotro/marketplace/wiki/Install#use](https://github.com/celdotro/marketplace/wiki/Install#use)
 
 ## Main settings
 Run the following command in the main folder  
