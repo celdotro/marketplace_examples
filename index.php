@@ -1,5 +1,4 @@
 <?php
-
 function getPHPFiles($path){
     return glob($path . '/*.php');
 }
@@ -14,7 +13,6 @@ function getFolders($excludeFilter = NULL){
 }
 
 $folders = getFolders('/vendor/');
-
 ?>
 <html>
     <body>
