@@ -32,7 +32,7 @@ $folders = getFolders('/vendor/');
     <?php foreach($folders as $folder) { // Iterate through the folders list ?>
         <h2><?=$folder?></h2>
         <ul>
-            <?php foreach(getPHPFiles($folder) as $file) { // Get all PHP files of the current folder, add a link to them and exlcude the folder path from their names?>
+            <?php foreach(getPHPFiles($folder) as $file) { // Get each PHP file in the current folder, add a link to it and exlcude the folder path from its name?>
             <li><a href=<?=$file?>><?=str_replace($folder . '/', '', $file)?></a></li>
             <?php } ?>
         </ul>
