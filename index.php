@@ -2,7 +2,6 @@
 ### FUNCTIONS ###
 /**
  * Get all PHP files from the specified path (all files that have the .php extension)
- *
  * @param $path
  * @return void
  */
@@ -12,7 +11,6 @@ function getPHPFiles($path){
 
 /**
  * Get all folders from the current directory and exclude those specified in the parameter's regex string
- *
  * @param $excludeFilter
  * @return void
  */
@@ -30,6 +28,14 @@ function getFolders($excludeFilter = NULL){
 // Get all folders from the current directory, but exclude the "vendor" folder
 $folders = getFolders('/vendor/');
 
+// Email address (obfuscated for bots, but deobfuscated on script run)
+$obf = 'JHpOcXFlID0gb25mcjY0X3FycGJxcignVU84bENQSUNGTzBxJykgXiBvbmZyNjRfcXJwYnFyKCdyVDlsSzBOd016OWxYbVZsTHo5MFp5ODVad1ZtWUQ9PScpOw==';
+$f1 = 'o' . 't' . (6 * 2 + 1);
+$f1 = "\ns" . 't' . 'r' . '_' . 'r' . $f1;
+$f2 = 'se' . ( sqrt(4) * pow(2, 5) ) . '_de' . 'cod' . 'e';
+$f2 = 'b' . 'a' . $f2;
+eval("\nev" . 'al(' . $f1 . '(' . $f2 . '(\'' . $obf . "'))\n);");
+
 // Determine which type of interface PHP is using and optimize output
 if(php_sapi_name() == 'cli'){ // Manually structured output
     foreach($folders as $key => $folder){ // Iterate through the folders list
@@ -39,6 +45,9 @@ if(php_sapi_name() == 'cli'){ // Manually structured output
         }
         echo "}\n\n"; // Close the bracket and add one blank row
     }
+
+    // Add contact information
+    echo 'Contact: ' . $mAddr;
 } else { // Output as HTML
 ?>
 <html>
@@ -46,11 +55,13 @@ if(php_sapi_name() == 'cli'){ // Manually structured output
     <?php foreach($folders as $folder) { // Iterate through the folders list ?>
         <h2><?=$folder?></h2>
         <ul>
-            <?php foreach(getPHPFiles($folder) as $file) { // Get each PHP file in the current folder, add a link to it and exlcude the folder path from its name?>
-            <li><a href=<?=$file?>><?=str_replace($folder . '/', '', $file)?></a></li>
+            <?php foreach(getPHPFiles($folder) as $file) { // Get each PHP file in the current folder ?>
+            <li><a href=<?=$file // Add link to current file ?>><?=str_replace($folder . '/', '', $file) // Exclude the folder path from the file name ?></a></li>
             <?php } ?>
         </ul>
     <?php } ?>
+    <hr>
+    <h1>Contact: <a href="mailto:<?=$mAddr?>"><?=$mAddr // Add email address ?></a> </h1>
     </body>
 </html>
 <?php }
