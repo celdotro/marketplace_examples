@@ -72,8 +72,14 @@ if(php_sapi_name() == 'cli'){ // Manually structured output
             <?php } ?>
         </ul>
     <?php } ?>
-    <hr>
-    <h1>Contact: <a href="mailto:<?=$mAddr?>"><?=$mAddr // Add email address ?></a> </h1>
+    <hr><hr><hr>
+    <h2>Readme: </h2>
+    <ul>
+        <li><a href="https://github.com/celdotro/marketplace_examples#ro">Romana</a></li>
+        <li><a href="https://github.com/celdotro/marketplace_examples#en">English</a></li>
+    </ul>
+    <hr><hr><hr>
+    <h2>Contact: <a href="mailto:<?=$mAddr?>"><?=$mAddr // Add contact information ?></a> </h2>
     </body>
 </html>
 <?php }
