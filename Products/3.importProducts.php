@@ -55,7 +55,8 @@ $arrProducts = array(
         'image' => 'Image1',
         'procesare_in' => 1,
         'cand' => '2017-04-03 09:00:00',
-        'pret_vechi' => 100
+        'pret_vechi' => 100,
+        'status' => 1
     ),
 
     // Al doilea produs din lista -> forma scurta (produse deja aprobate)
