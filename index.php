@@ -1,5 +1,5 @@
 <?php
-### FUNCITONS ###
+### FUNCTIONS ###
 /**
  * Get all PHP files from the specified path (all files that have the .php extension)
  *
@@ -24,7 +24,7 @@ function getFolders($excludeFilter = NULL){
     else
         return preg_grep($excludeFilter, $folderList, PREG_GREP_INVERT);
 }
-### END OF FUNCITONS ###
+### END OF FUNCTIONS ###
 
 ### MAIN ###
 // Get all folders from the current directory, but exclude the "vendor" folder
@@ -37,7 +37,7 @@ if(php_sapi_name() == 'cli'){ // Manually structured output
         foreach(getPHPFiles($folder) as $file){ // Get each PHP file in the current folder
             echo "\t" . __DIR__ . '/' . $file . "\n"; // Add the full path for the current file
         }
-        echo "}\n\n"; // Add one blank row
+        echo "}\n\n"; // Close the bracket and add one blank row
     }
 } else { // Output as HTML
 ?>
