@@ -38,12 +38,17 @@ composer install
 php /CALE_CATRE_PROIECT/Orders/1.getOrdersSummary.php
 ```
 
-## Web
-In folderul principal, fisierul *index.php* genereaza automat un cuprins al tuturor directoarelor si fisierelor relevante pentru exemple. Acesta poate fi folosit ca referinta, dar este incurajata rularea din linia de comanda si editarea manuala a fisierelor, proiectul fiind conceput pentru a servi intelegerii modului de utilizare al API wrapper-ului de catre programatori, nu pentru a demonstra facilitatile API-ului.  
+## Index
+In folderul principal, fisierul *index.php* genereaza automat un cuprins al tuturor directoarelor si fisierelor relevante pentru exemple. Acesta poate fi folosit ca referinta, dar este incurajata rularea din linia de comanda si editarea manuala a fisierelor, proiectul fiind conceput pentru a servi intelegerii modului de utilizare al API wrapper-ului de catre programatori, nu pentru a demonstra facilitatile API-ului.
 
-```
-http://****/marketplace_examples/index.php
-```
+1. Accesare prin intermediul unui server web
+    ```
+    http://****/marketplace_examples/index.php
+    ```
+2. Accesare prin intermediul liniei de comanda
+   ```
+   php index.php
+   ```
 
 ## Contact
 > dp [_ AT _] cel.ro
@@ -83,12 +88,17 @@ composer install
 php /PATH_TO_PROJECT/Orders/1.getOrdersSummary.php
 ```
 
-## Web
-The file *index.php* from the main folder automatically generates a contents of all relevant folders and files needed for examples. This can be used as a reference point, but running the scripts from command line and manually editing files are highly recommended because this project's purpose is to help programmers with the process of understanding of how the API wrapper works and not to be a showcase of the API.  
+## Index
+The file *index.php* from the main folder automatically generates a contents of all relevant folders and files needed for examples. This can be used as a reference point, but running the scripts from command line and manually editing files are highly recommended because this project's purpose is to help programmers with the process of understanding of how the API wrapper works and not to be a showcase of the API.
 
-```
-http://****/marketplace_examples/index.php
-```
+1. Access through a web server
+    ```
+    http://****/marketplace_examples/index.php
+    ```
+2. Access through the command line
+   ```
+   php index.php
+   ```
 
 ## Contact
 > dp [_ AT _] cel.ro
