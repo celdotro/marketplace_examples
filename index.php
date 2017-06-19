@@ -1,4 +1,11 @@
 <?php
+/**
+ * [RO] Bine ai venit, rau ai nimerit :(
+ *      Aceasta este o pagina pentru indexarea partilor principale ale proiectului. Fie ruleaza acest script, fie viziteaza urmatoarea adresa pentru mai multe instructiuni: https://github.com/celdotro/marketplace_examples#ro
+ * [EN] If you arrived here, then you're in the wrong place :(
+ *      This is just a page that indexes the main parts of the project. Either run this script or visit this following link for instructions: https://github.com/celdotro/marketplace_examples#en
+ */
+
 ### FUNCTIONS ###
 /**
  * Get all PHP files from the specified path (all files that have the .php extension)
