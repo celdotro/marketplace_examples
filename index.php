@@ -1,4 +1,5 @@
 <?php
+### FUNCITONS ###
 /**
  * Get all PHP files from the specified path (all files that have the .php extension)
  *
@@ -23,7 +24,9 @@ function getFolders($excludeFilter = NULL){
     else
         return preg_grep($excludeFilter, $folderList, PREG_GREP_INVERT);
 }
+### END OF FUNCITONS ###
 
+### MAIN ###
 // Get all folders from the current directory, but exclude the "vendor" folder
 $folders = getFolders('/vendor/');
 
@@ -50,4 +53,6 @@ if(php_sapi_name() == 'cli'){ // Manually structured output
     <?php } ?>
     </body>
 </html>
-<?php } ?>
+<?php }
+### END OF MAIN ###
+?>
