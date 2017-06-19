@@ -56,9 +56,14 @@ if(php_sapi_name() == 'cli'){ // Manually structured output
     }
 
     // Add contact information
-    echo 'Contact: ' . $mAddr;
+    echo 'Contact: ' . $mAddr . "\n";
+
+    // Add README link
+    echo 'Readme: ';
+    echo "\n\tRomana: https://github.com/celdotro/marketplace_examples#ro";
+    echo "\n\tEnglish: https://github.com/celdotro/marketplace_examples#en";
     
-    // Add blank line at the end of output
+    // Add new line at the end of output
     echo "\n"; 
 } else { // Output as HTML
 ?>
