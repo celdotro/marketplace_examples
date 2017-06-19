@@ -44,6 +44,9 @@ In folderul principal, fisierul *index.php* genereaza automat un cuprins al tutu
 ```
 http://****/marketplace_examples/index.php
 ```
+
+## Contact
+> dp [_ AT _] cel.ro
 ___
 # [EN]
 
@@ -86,3 +89,6 @@ The file *index.php* from the main folder automatically generates a contents of 
 ```
 http://****/marketplace_examples/index.php
 ```
+
+## Contact
+> dp [_ AT _] cel.ro
