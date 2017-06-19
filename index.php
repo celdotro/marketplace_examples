@@ -2,6 +2,7 @@
 ### FUNCTIONS ###
 /**
  * Get all PHP files from the specified path (all files that have the .php extension)
+ * 
  * @param $path
  * @return void
  */
@@ -11,6 +12,7 @@ function getPHPFiles($path){
 
 /**
  * Get all folders from the current directory and exclude those specified in the parameter's regex string
+ * 
  * @param $excludeFilter
  * @return void
  */
@@ -48,6 +50,9 @@ if(php_sapi_name() == 'cli'){ // Manually structured output
 
     // Add contact information
     echo 'Contact: ' . $mAddr;
+    
+    // Add blank line at the end of output
+    echo "\n"; 
 } else { // Output as HTML
 ?>
 <html>
