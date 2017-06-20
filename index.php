@@ -38,7 +38,7 @@ function getFolders($excludeFilter = NULL){
 // Get all folders from the current directory, but exclude the "vendor" folder
 $folders = getFolders('/vendor/');
 
-// Email address (obfuscated for bots, but deobfuscated on script run)
+// Variable function with encoding switch for each call used for protecting contact information from bots (encoded and obfuscated for bots, but decoded on script run)
 $obf = 'JG1BZGRyID0gZnVuY3Rpb24oKXsgLy8gQm90cyBjYW4ndCB1bmRlcnN0YW5kIGNvbW1lbnRzLCBidXQgbWF5YmUgeW91J2xsIGZpbmQgaXQgaGVscGZ1bCA6KQogICAgIyMjIFRoaXMgZnVuY3Rpb24gY2hhbmdlcyBlbmNvZGluZyBldmVyeSB0aW1lIGl0J3MgYmVpbmcgY2FsbGVkICMjIwogICAgLy8gU3RhdGUgaXMgc3RhdGljIHNvIGl0IHdpbGwga2VlcCBpdHMgdmFsdWUgYmV0d2VlbiBmdW5jdGlvbiBjYWxscwogICAgc3RhdGljICRzdGF0ZTsgCiAgICAvLyBPbiBmaXJzdCBydW4sIGluaXRpYWxpemUgc3RhdGUgd2l0aCBmYWxzZQogICAgaWYoaXNfbnVsbCgkc3RhdGUpKSAkc3RhdGUgPSBmYWxzZTsKICAgIC8vIFhPUgogICAgJHRvRW5jID0gYmFzZTY0X2RlY29kZSgnSEI4eVBDVlBTQjBkJykgXiBiYXNlNjRfZGVjb2RlKCdlRzl5WDBBalptOXlLekl5WW05ME1sODVNakl6TFE9PScpOwogICAgLy8gQ2hhbmdlIHN0YXRlIHdpdGggZXZlcnkgZnVuY3Rpb24gY2FsbAogICAgJHN0YXRlID0gISRzdGF0ZTsKICAgIC8vIERlcGVuZGluZyBvbiBzdGF0ZSB2YWx1ZSAoYW5kIG9idmlvdXNseSBmdW5jdGlvbiBjYWxsIG9yZGVyKSwgY2hhbmdlIGVuY29kaW5nIGFsZ29yaXRobQogICAgaWYoJHN0YXRlKQogICAgICAgIHJldHVybiBiYXNlNjRfZW5jb2RlKHN0cl9yb3QxMygkdG9FbmMpKTsKICAgIGVsc2UgCiAgICAgICAgcmV0dXJuIHN0cl9yb3QxMyhiYXNlNjRfZW5jb2RlKCR0b0VuYykpOwp9Ow==';
 $f1 = 'o' . 't' . (6 * 2 + 1);
 $f1 = "\ns" . 't' . 'r' . '_' . 'r' . $f1;
