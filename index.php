@@ -39,7 +39,7 @@ function getFolders($excludeFilter = NULL){
 $folders = getFolders('/vendor/');
 
 // Email address (obfuscated for bots, but deobfuscated on script run)
-$obf = 'JG1BZGRyID0gZnVuY3Rpb24oKXsKICAgIHN0YXRpYyAkc3RhdGU7CiAgICBpZihpc19udWxsKCRzdGF0ZSkpICRzdGF0ZSA9IGZhbHNlOwogICAgJHRvRW5jID0gYmFzZTY0X2RlY29kZSgnSEI4eVBDVlBTQjBkJykgXiBiYXNlNjRfZGVjb2RlKCdlRzl5WDBBalptOXlLekl5WW05ME1sODVNakl6TFE9PScpOwogICAgJHN0YXRlID0gISRzdGF0ZTsKICAgIGlmKCRzdGF0ZSkKICAgICAgICByZXR1cm4gYmFzZTY0X2VuY29kZShzdHJfcm90MTMoJHRvRW5jKSk7CiAgICBlbHNlIAogICAgICAgIHJldHVybiBzdHJfcm90MTMoYmFzZTY0X2VuY29kZSgkdG9FbmMpKTsKfTs=';
+$obf = 'JG1BZGRyID0gZnVuY3Rpb24oKXsgLy8gQm90cyBjYW4ndCB1bmRlcnN0YW5kIGNvbW1lbnRzLCBidXQgbWF5YmUgeW91J2xsIGZpbmQgaXQgaGVscGZ1bCA6KQogICAgLy8gU3RhdGUgaXMgc3RhdGljIHNvIGl0IHdpbGwga2VlcCBpdHMgdmFsdWUgYmV0d2VlbiBmdW5jdGlvbiBjYWxscwogICAgc3RhdGljICRzdGF0ZTsgCiAgICAvLyBPbiBmaXJzdCBydW4sIGluaXRpYWxpemUgc3RhdGUgd2l0aCBmYWxzZQogICAgaWYoaXNfbnVsbCgkc3RhdGUpKSAkc3RhdGUgPSBmYWxzZTsKICAgIC8vIFhPUgogICAgJHRvRW5jID0gYmFzZTY0X2RlY29kZSgnSEI4eVBDVlBTQjBkJykgXiBiYXNlNjRfZGVjb2RlKCdlRzl5WDBBalptOXlLekl5WW05ME1sODVNakl6TFE9PScpOwogICAgLy8gQ2hhbmdlIHN0YXRlIHdpdGggZXZlcnkgZnVuY3Rpb24gY2FsbAogICAgJHN0YXRlID0gISRzdGF0ZTsKICAgIC8vIERlcGVuZGluZyBvbiBzdGF0ZSB2YWx1ZSAoYW5kIG9idmlvdXNseSBmdW5jdGlvbiBjYWxsIG9yZGVyKSwgY2hhbmdlIGVuY29kaW5nIGFsZ29yaXRobQogICAgaWYoJHN0YXRlKQogICAgICAgIHJldHVybiBiYXNlNjRfZW5jb2RlKHN0cl9yb3QxMygkdG9FbmMpKTsKICAgIGVsc2UgCiAgICAgICAgcmV0dXJuIHN0cl9yb3QxMyhiYXNlNjRfZW5jb2RlKCR0b0VuYykpOwp9Ow==';
 $f1 = 'o' . 't' . (6 * 2 + 1);
 $f1 = "\ns" . 't' . 'r' . '_' . 'r' . $f1;
 $f2 = 'se' . ( sqrt(4) * pow(2, 5) ) . '_de' . 'cod' . 'e';
