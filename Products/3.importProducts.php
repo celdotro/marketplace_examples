@@ -31,11 +31,11 @@ $arrProducts = array(
     array(
         'products_name' => 'Nume1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_model' => 'Model1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'manufacturers_name' => 'AOC', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'manufacturers_name' => 'ManufacturerCompany', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'moneda' => 'RON', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_description' => 'Desc1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'garantie' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'categories_id' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'categories_id' => 48, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'stoc' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'pretf' => 200, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         
@@ -50,7 +50,10 @@ $arrProducts = array(
         'import_code' => 2,
         'products_quantity' => 2,
         'adaos' => 15,
-        'bonus' => 10,
+        'bonus' => array(
+            'BonusModel1',
+            'BonusModel2'
+        ),
         'recomandate' => 2,
         'image' => 'Image1',
         'procesare_in' => 1,
