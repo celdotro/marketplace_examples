@@ -10,4 +10,4 @@
  *      - issue this command in the main folder (the folder in which this file is located): composer install
  * WIKI : https://github.com/celdotro/marketplace/wiki/First-page
  */
-include 'vendor/autoload.php';
+include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';

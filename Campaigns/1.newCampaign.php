@@ -3,7 +3,7 @@
  * [RO] Adauga o campanie noua (https://github.com/celdotro/marketplace/wiki/Adaugare-campanie)
  * [EN] Adds a new campaign (https://github.com/celdotro/marketplace/wiki/Add-Campaign)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

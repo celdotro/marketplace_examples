@@ -3,7 +3,7 @@
  * [RO] Adauga bonusuri pentru produsele deja aprobate (https://github.com/celdotro/marketplace/wiki/Adauga-bonus)
  * [EN] Adds bonuses for the products that have been approved (https://github.com/celdotro/marketplace/wiki/Add-bonus)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

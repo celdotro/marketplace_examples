@@ -3,7 +3,7 @@
  * [RO] Listeaza AWB-ul pentru o comanda trimisa ca parametru (https://github.com/celdotro/marketplace/wiki/Listare-AWB)
  * [EN] Prints the AWB for an order specified as a parameter (https://github.com/celdotro/marketplace/wiki/AWB-Print)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

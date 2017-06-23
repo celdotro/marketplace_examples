@@ -3,7 +3,7 @@
  * [RO] Listeaza detaliile unei campanii. Se pot pune filtre pe numele produselor si produselor disponibile (altele decat cele listate in campanie). (https://github.com/celdotro/marketplace/wiki/Citire-campanie)
  * [EN] Lists the details of a specified campaign. Filters can be applied on the names of products and available products (other than those listed in the campaign). (https://github.com/celdotro/marketplace/wiki/Read-Campaign)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

@@ -3,7 +3,7 @@
  * [RO] Returneaza datele paginilor disponibile (https://github.com/celdotro/marketplace/wiki/Listare-Pagini)
  * [EN] Returns the data for all the available pages (https://github.com/celdotro/marketplace/wiki/List-pages)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

@@ -3,7 +3,7 @@
  * [RO] Actualizeaza un produs cu un pret promotional diferit de cel implicit din campanie (https://github.com/celdotro/marketplace/wiki/Salvare-produs-in-campanie)
  * [EN] Updates a product with a promotional price different than the campaign default (https://github.com/celdotro/marketplace/wiki/Save-Product-in-Campaign)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

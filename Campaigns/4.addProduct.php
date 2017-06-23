@@ -3,7 +3,7 @@
  * [RO] Adauga un produs intr-o campanie si ii aplica discountul acestia (https://github.com/celdotro/marketplace/wiki/Adaugare-produs-in-campanie)
  * [EN] Adds a product to a campaign and applies the campaign's discount (https://github.com/celdotro/marketplace/wiki/Add-Product-to-Campaign)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

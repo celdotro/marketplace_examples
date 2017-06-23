@@ -3,7 +3,7 @@
  * [RO] Actualizeaza detaliile unei campanii (https://github.com/celdotro/marketplace/wiki/Salvare-campanie)
  * [EN] Updates campaign details (https://github.com/celdotro/marketplace/wiki/Save-Campaign)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

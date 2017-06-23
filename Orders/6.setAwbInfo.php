@@ -3,7 +3,7 @@
  * [RO] Seteaza datele comenzii necesare generarii de AWB-uri (https://github.com/celdotro/marketplace/wiki/Setare-date-AWB)
  * [EN] Sets an orders data required for AWB generation (https://github.com/celdotro/marketplace/wiki/Set-AWB-Info)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

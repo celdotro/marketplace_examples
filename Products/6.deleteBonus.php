@@ -3,7 +3,7 @@
  * [RO] Sterge bonusurile produselor (https://github.com/celdotro/marketplace/wiki/Stergere-bonus)
  * [EN] Deletes products' bonuses (https://github.com/celdotro/marketplace/wiki/Delete-bonus)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

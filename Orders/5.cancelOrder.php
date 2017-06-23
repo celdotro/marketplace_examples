@@ -3,7 +3,7 @@
  * [RO] Anuleaza o comanda. Are nevoie de un motiv valid. (https://github.com/celdotro/marketplace/wiki/Anularea-comenzii)
  * [EN] Cancels an order. It's necessary to use a valid reason. (https://github.com/celdotro/marketplace/wiki/Cancel-Order)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

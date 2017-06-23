@@ -3,7 +3,7 @@
  * [RO] Sterge AWB-ul aferent unei comenzi trimisa ca parametru (https://github.com/celdotro/marketplace/wiki/Stergere-AWB)
  * [EN] Deletes the AWB of an order specified as a parameter (https://github.com/celdotro/marketplace/wiki/AWB-Delete)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');

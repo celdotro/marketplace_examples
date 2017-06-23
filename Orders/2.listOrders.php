@@ -3,7 +3,7 @@
  * [RO] Listeaza comenzile in functie de data, nume client, nume produs, id comanda sau numar factura. Poate limita numarul de inregistrari returnate prin specificarea pozitiei de start si a unei limite superioare. (https://github.com/celdotro/marketplace/wiki/Listare-comenzi)
  * [EN] Lists orders based on date, customer's name, product's name, order id or invoice number. It can limit the list by using a start value and an upper limit. (https://github.com/celdotro/marketplace/wiki/List-orders)
  */
-include __DIR__ . '/../api_include.php';
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');
