@@ -13,7 +13,7 @@ Pentru instructiunile generale legate de utilizarea wrapper-ului, va trebui sa c
 
 ## Setari principale
 Rulati urmatoarea comanda in directorul principal  
-```
+```shell
 composer install
 ``` 
 
@@ -34,7 +34,7 @@ composer install
 
 ## Rulare script
 >Exemplu
-```
+```shell
 php /CALE_CATRE_PROIECT/Orders/1.getOrdersSummary.php
 ```
 
@@ -46,7 +46,7 @@ In folderul principal, fisierul *index.php* genereaza automat un cuprins al tutu
     http://****/marketplace_examples/index.php
     ```
 2. Accesare prin intermediul liniei de comanda
-   ```
+   ```shell
    php index.php
    ```
 
@@ -64,7 +64,7 @@ For general instructions about the wrapper's usage, read the [documentation](htt
 
 ## Main settings
 Run the following command in the main folder  
-```
+```shell
 composer install
 ``` 
 ## Files and folders structure
@@ -84,7 +84,7 @@ composer install
 
 ## Run script
 >Example
-```
+```shell
 php /PATH_TO_PROJECT/Orders/1.getOrdersSummary.php
 ```
 
@@ -96,7 +96,7 @@ The file *index.php* from the main folder automatically generates a contents of 
     http://****/marketplace_examples/index.php
     ```
 2. Access through the command line
-   ```
+   ```shell
    php index.php
    ```
 
