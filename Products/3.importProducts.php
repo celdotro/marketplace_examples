@@ -68,9 +68,10 @@ $arrProducts = array(
         'products_model' => 'Model2', // Obligatoriu pentru forma scurta / Mandatory for short form
         'pretf' => 203, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
         'stoc' => 38, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
-        'hasTVA' => 0 // Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT tax included or 1 otherwise
-    )
+        'hasTVA' => 0 // Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
+    ),
 
     // [... N]      
+    'hasTVA' => 0 // Camp optional care poate intra in conflict cu cel specificat la linia de produs. Verificati pagina de WIKI pentru mai multe informatii: https://github.com/celdotro/marketplace/wiki/Import-produse#parametri / Optional field that can conflict with the value specified in the product's line. Please check the WIKI page for more information: https://github.com/celdotro/marketplace/wiki/Import-products#parameters
 );
 importProducts($arrProducts);
