@@ -31,13 +31,12 @@ $products = array(
         //'pretlei' => 120, // numai daca pretf nu este specificat / only if pretf is not specified
         'moneda' => 1,
         'status' => 0,
-        'pretspecial' => 1,
         'adaos' => 1,
         'bonus' => 1,
         'stoc' => 2,
         'pret_vechi' => 100,
-        // (pretspecial, start, end) formeaza un tuplu, asadar, daca un camp exista, restul, care nu sunt stocate inca in baza de date, sunt obligatorii / (pretspecial, start, end) form a tuple, therefore if a field is specified, the rest, that aren't yet stored in the database, are mandatory
-        'pretspecial' => 101,
+        // (pret_promo, start, end) formeaza un tuplu, asadar, daca un camp exista, restul, care nu sunt stocate inca in baza de date, sunt obligatorii / (pret_promo, start, end) form a tuple, therefore if a field is specified, the rest, that aren't yet stored in the database, are mandatory
+        'pret_promo' => 101,
         'start' => '2017-01-01',
         'end' => '2017-08-01',
         'hasTVA' => false
