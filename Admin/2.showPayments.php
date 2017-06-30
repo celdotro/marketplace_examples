@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Returneaza date despre platile efectuate de Corsar Online catre afiliat pentru o anumita factura si comanda
- * [EN] Returns data about the payments done in an affiliate's account for a specific invoice
+ * [RO] Returneaza date despre platile efectuate de Corsar Online catre afiliat pentru o anumita factura si comanda (https://github.com/celdotro/marketplace/wiki/Date-plati-pentru-o-factura)
+ * [EN] Returns data about the payments done in an affiliate's account for a specific invoice (https://github.com/celdotro/marketplace/wiki/Detailed-payment-data-for-an-invoice)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
