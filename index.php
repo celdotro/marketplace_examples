@@ -27,7 +27,7 @@ function getPHPFiles($path){
 function getFolders($excludeFilter = NULL){
     $folderList = glob('*', GLOB_ONLYDIR );
     
-    if(is_null($excludeFilter))
+    if(!isset($excludeFilter) || is_null($excludeFilter))
         return $folderList;
     else
         return preg_grep($excludeFilter, $folderList, PREG_GREP_INVERT);
