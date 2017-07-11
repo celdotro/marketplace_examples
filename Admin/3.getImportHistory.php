@@ -12,7 +12,7 @@ use celmarket\Admin\History;
 
 #0#
 #FUNCTION#
-function getImportHistory($date_start, $date_stop, $import_type = null, $page = 0){
+function getImportHistory($date_start = null, $date_stop = null, $import_type = null, $page = 0){
     $object = new History();
 
     try{
@@ -21,7 +21,7 @@ function getImportHistory($date_start, $date_stop, $import_type = null, $page = 
     } catch (Exception $e) {
         echo $e->getMessage();
     }
-}
+}   
 
 #EXAMPLE#
 $date_start = '2017-01-01';
