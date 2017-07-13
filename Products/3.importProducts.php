@@ -36,8 +36,8 @@ $arrProducts = array(
         'products_description' => 'Desc1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'garantie' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'categories_id' => 48, // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'stoc' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'pretf' => 200, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'stoc' => 1, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
+        'pretf' => 200, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
         
         'products_url' => 'http://cel.ro',
         'products_image' => 'http://cel.ro',
@@ -65,7 +65,7 @@ $arrProducts = array(
     // Al doilea produs din lista -> forma scurta (produse deja aprobate)
     // Second product -> short form (already approved products)
      array(
-        'products_model' => 'Model2', // Obligatoriu pentru forma scurta / Mandatory for short form
+        'products_model' => 'Model1', // Obligatoriu pentru forma scurta / Mandatory for short form
         'pretf' => 203, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
         'stoc' => 38, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
         'hasTVA' => 0 // Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
