@@ -43,13 +43,13 @@ $arrProducts = array(
         'products_url' => 'http://cel.ro',
         'products_image' => 'http://cel.ro',
         'charact' => array(
-            4 => 'Dimensiuni mediu printare:',
-            20 => 'Interfata:'
+            'CharName1:' => 'val1',
+            'CharName2:' => 'val2:'
         ),
         'products_weight' => 15,
         'products_status' => 1,
         'import_code' => 2,
-        'products_quantity' => 2,
+        'products_quantity' => 22,
         'adaos' => 15,
         'bonus' => array(
             'BonusModel1',
@@ -66,7 +66,6 @@ $arrProducts = array(
     // Al doilea produs din lista -> forma scurta (produse deja aprobate)
     // Second product -> short form (already approved products)
      array(
-          'image' => 'Image1', 
         'products_model' => 'Model2', // Obligatoriu pentru forma scurta / Mandatory for short form
         'pretf' => 203, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
         'stoc' => 38, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
