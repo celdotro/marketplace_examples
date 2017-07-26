@@ -8,12 +8,12 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');
 
-use celmarket\Admin\Payments;
+use celmarket\Admin\AdminPayments;
 
 #0#
 #FUNCTION#
 function getInvoicesData($paymentStatus, $numInvoice = NULL, $startDate_inv = NULL, $endDate_inv = NULL, $numOrder = NULL, $startDate_order = NULL, $endDate_order = NULL, $page = NULL){
-    $object = new Payments();
+    $object = new AdminPayments();
 
     try{
         $response = $object->getInvoicesData($paymentStatus, $numInvoice, $startDate_inv, $endDate_inv, $numOrder, $startDate_order, $endDate_order, $page);

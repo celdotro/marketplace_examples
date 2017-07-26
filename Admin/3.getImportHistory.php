@@ -8,7 +8,7 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');
 
-use celmarket\Admin\History;
+use celmarket\Admin\AdminHistory;
 
 #0#
 #FUNCTION#
