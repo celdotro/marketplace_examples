@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Actualizeaza adresa unui punct de ridicare pentru curieri
- * [EN] Updates address information of a pick-up point
+ * [RO] Actualizeaza adresa unui punct de ridicare pentru curieri (https://github.com/celdotro/marketplace/wiki/Editare-adresa)
+ * [EN] Updates address information of a pick-up point (https://github.com/celdotro/marketplace/wiki/Edit-address)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
