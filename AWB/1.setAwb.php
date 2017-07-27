@@ -12,11 +12,11 @@ use celmarket\AWB\AWBImport;
 
 #24#
 #FUNCTION#
-function setAwb($cmd){
+function setAwb($cmd, $idAdresaRidicare){
     $object = new AWBImport();
 
     try{
-        $response = $object->setAwb($cmd);
+        $response = $object->setAwb($cmd, $idAdresaRidicare);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,4 @@ function setAwb($cmd){
 }
 
 #EXAMPLE#
-setAwb(123456);
+setAwb(123456, 1);
