@@ -44,8 +44,13 @@ $arrProducts = array(
         'image' => array('http://example1.ro', 'http://example2.ro'),
         
         'charact' => array(
-            'CharName1:' => 'val1',
-            'CharName2:' => 'val2:'
+            'CharName1:' => array(
+                'val1_char1',
+                'val2_char1'
+            ),
+            'CharName2:' => array(
+                'val2:'
+            )
         ),
         'products_weight' => 15,
         'products_status' => 1,
