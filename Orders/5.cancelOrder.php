@@ -8,12 +8,12 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');
 
-use celmarket\Orders\OrdersCancel;
+use celmarket\Orders\OrdersStatus;
 
 #25#
 #FUNCTION#
 function cancelOrder($cmd, $reason){
-    $object = new OrdersCancel();
+    $object = new OrdersStatus();
 
     try{
         $response = $object->cancelOrder($cmd, $reason);
