@@ -1,0 +1,27 @@
+<?php
+/**
+ * [RO] Sterge un produs dintr-o comanda existenta
+ * [EN] Remove a product model from an existing order
+ */
+include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
+
+use celmarket\Auth;
+Auth::setUserDetails('USERNAME', 'PASSWORD');
+
+use celmarket\Orders\OrdersUpdate;
+
+function removeProductsFromOrder($cmd, $arrProducts){
+    $object = new OrdersUpdate();
+
+    try{
+        $response = $object->removeProductsFromOrder($cmd, $arrProducts);
+        print_r($response);
+    } catch (Exception $e) {
+        echo $e->getMessage();
+    }
+}
+
+#EXAMPLE#
+$cmd = 123456;
+$arrProducts = array('Model1', 'Model2');
+removeProductsFromOrder($cmd, $arrProducts);
