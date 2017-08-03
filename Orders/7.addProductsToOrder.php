@@ -20,6 +20,6 @@ function addProductsToOrder($cmd, $arrProducts){
 }
 
 #EXAMPLE#
-$cmd = 113298;
+$cmd = 123456;
 $arrProducts = array('Model1', 'Model2');
 addProductsToOrder($cmd, $arrProducts);
