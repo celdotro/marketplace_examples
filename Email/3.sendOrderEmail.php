@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Trimite clientului un email predefinit aferent unei comenzi (https://github.com/celdotro/marketplace/wiki/Trimitere-email-aferent-comenzii)
+ * [EN] Sends the client a predefined email related to an order (https://github.com/celdotro/marketplace/wiki/Send-predefined-order-email)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
