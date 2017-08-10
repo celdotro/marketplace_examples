@@ -24,4 +24,4 @@ function listCancellingStatuses(){
 }
 
 #EXAMPLE#
-listStatuses();
+listCancellingStatuses();
