@@ -13,7 +13,7 @@ use celmarket\Admin\AdminHistory;
 #0#
 #FUNCTION#
 function getImportHistory($date_start = null, $date_stop = null, $import_type = null, $page = 0){
-    $object = new History();
+    $object = new AdminHistory();
 
     try{
         $response = $object->getImportHistory($date_start, $date_stop, $import_type, $page);
