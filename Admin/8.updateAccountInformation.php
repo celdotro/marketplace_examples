@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Actualizeaza urmatoarele date aferente afiliatului: CIF, IBAN si numar de telefon (https://github.com/celdotro/marketplace/wiki/Actualizare-informatii-cont)
+ * [EN] Updates the following data of an affiliate: CIF, IBAN, and phone number (https://github.com/celdotro/marketplace/wiki/Actualizare-informatii-cont)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
