@@ -51,5 +51,4 @@ $arrOptions = array(
     'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
     'order_status' => 11 // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
 );
-$status = 2; // optional: in lipsa lui, vor fi afisate informatii pentru toate statusurile / optionally: without this element, information for all statuses will be retrieved
 getOrdersList($start, $limit, $arrOptions, $status);
