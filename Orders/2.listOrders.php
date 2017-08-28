@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Listeaza comenzile in functie de data, nume client, nume produs, id comanda sau numar factura. Poate limita numarul de inregistrari returnate prin specificarea pozitiei de start si a unei limite superioare. (https://github.com/celdotro/marketplace/wiki/Listare-comenzi)
- * [EN] Lists orders based on date, customer's name, product's name, order id or invoice number. It can limit the list by using a start value and an upper limit. (https://github.com/celdotro/marketplace/wiki/List-orders)
+ * [RO] Listeaza comenzile in functie de data, nume client, nume produs, id comanda sau numar factura. Limiteaza numarul de inregistrari returnate prin specificarea pozitiei de start si a unei limite superioare. (https://github.com/celdotro/marketplace/wiki/Listare-comenzi)
+ * [EN] Lists orders based on date, customer's name, product's name, order id or invoice number. It limits the list by using a start value and an upper limit. (https://github.com/celdotro/marketplace/wiki/List-orders)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -12,11 +12,11 @@ use celmarket\Orders\OrdersList;
 
 #10#
 #FUNCTION#
-function getOrdersList($start, $limit, $arrOptions){
+function getOrdersList($start, $limit, $arrOptions, $status = null){
     $object = new OrdersList();
 
     try{
-        $response = $object->listOrders($start, $limit, $arrOptions);
+        $response = $object->listOrders($start, $limit, $arrOptions, $status = null);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -51,4 +51,5 @@ $arrOptions = array(
     'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
     'order_status' => 11 // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
 );
-getOrdersList($start, $limit, $arrOptions);
+$status = 2; // optional: in lipsa lui, vor fi afisate informatii pentru toate statusurile / optionally: without this element, information for all statuses will be retrieved
+getOrdersList($start, $limit, $arrOptions, $status);
