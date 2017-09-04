@@ -12,11 +12,11 @@ use celmarket\Orders\OrdersStatus;
 
 #25#
 #FUNCTION#
-function cancelOrder($cmd, $reason){
+function cancelOrder($cmd, $motiv = 0, $observatii = ''){
     $object = new OrdersStatus();
 
     try{
-        $response = $object->cancelOrder($cmd, $reason);
+        $response = $object->cancelOrder($cmd, $motiv, $observatii);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,4 @@ function cancelOrder($cmd, $reason){
 }
 
 #EXAMPLE#
-cancelOrder(123456, 65);
+cancelOrder(123456, 65, '');
