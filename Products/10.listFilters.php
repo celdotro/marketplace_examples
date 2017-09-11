@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Listeaza filtrele disponibile si datele acestora dupa ce au fost corelate
+ * [EN] List available filters after correlation
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
