@@ -1,6 +1,6 @@
 <?php
 /**
- * [RO] Listeaza filtrele disponibile si datele acestora dupa ce au fost corelate (https://github.com/celdotro/marketplace/wiki/Listeaza-filtre )
+ * [RO] Listeaza filtrele disponibile si datele acestora dupa ce au fost corelate (https://github.com/celdotro/marketplace/wiki/Listeaza-filtre)
  * [EN] List available filters after correlation (https://github.com/celdotro/marketplace/wiki/List-filters)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
