@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Preia o lista cu informatii generale ale contului de afiliat (https://github.com/celdotro/marketplace/wiki/Listeaza-informatiile-contului)
+ * [EN] Retrieves a list of general account information (https://github.com/celdotro/marketplace/wiki/List-account-information)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
