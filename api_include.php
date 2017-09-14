@@ -14,6 +14,6 @@
 // Include vendor
 include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
-// Authenticate
+// Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
 Auth::setUserDetails('USERNAME', 'PASSWORD');
