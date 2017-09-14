@@ -5,8 +5,8 @@
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
-use celmarket\Auth;
-Auth::setUserDetails('USERNAME', 'PASSWORD');
+
+
 
 use celmarket\Email\EmailContact;
 

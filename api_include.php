@@ -10,4 +10,10 @@
  *      - issue this command in the main folder (the folder in which this file is located): composer install
  * WIKI : https://github.com/celdotro/marketplace/wiki/First-page
  */
+
+// Include vendor
 include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+
+// Authenticate
+use celmarket\Auth;
+Auth::setUserDetails('USERNAME', 'PASSWORD');
