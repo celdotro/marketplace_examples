@@ -23,5 +23,5 @@ function sendBugReport($message, $debug){
 
 #EXAMPLE#
 $message = 'Continutul email-ului';
-$debug = 'Parametri debug';
+$debug = array('test' => 1);
 sendBugReport($message, $debug);
