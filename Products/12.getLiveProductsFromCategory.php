@@ -12,7 +12,7 @@ use celmarket\Products\ProductsList;
 
 #0#
 #FUNCTION#
-function getLiveProductsFromCategory($category, $start = null, $limit = null){
+function getLiveProductsFromCategory($category, $keyword = null, $start = null, $limit = null){
     $object = new ProductsList();
 
     try{
@@ -24,7 +24,8 @@ function getLiveProductsFromCategory($category, $start = null, $limit = null){
 }
 
 #EXAMPLE#
-$category = 1;
+$category = 91;
+$keyword = 'product_name';
 $start = 0;
 $limit = 10;
-getLiveProductsFromCategory($category, $start, $limit);
+getLiveProductsFromCategory($category, $keyword, $start, $limit);
