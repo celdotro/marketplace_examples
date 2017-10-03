@@ -16,7 +16,7 @@ function getLiveProductsFromCategory($category, $keyword = null, $start = null, 
     $object = new ProductsList();
 
     try{
-        $response = $object->getLiveProductsFromCategory($category, $start, $limit);
+        $response = $object->getLiveProductsFromCategory($category, $keyword, $start, $limit);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();

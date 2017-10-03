@@ -40,6 +40,7 @@ $arrProducts = array(
         'products_description' => 'Desc1',
         'moneda' => 'RON',
         'garantie' => 1,
+        'garantie_pj' => 2,
         'products_url' => 'http://cel.ro',
         'image' => array('http://example1.ro', 'http://example2.ro'),
         
@@ -53,7 +54,7 @@ $arrProducts = array(
             )
         ),
         'products_weight' => 15,
-        'products_status' => 1,
+        'status' => 1,
         'import_code' => 2,
         'products_quantity' => 22,
         'adaos' => 15,
