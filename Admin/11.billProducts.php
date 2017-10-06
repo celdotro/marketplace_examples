@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Factureaza produsele disponibile (https://github.com/celdotro/marketplace/wiki/Factureaza-produse)
+ * [EN] Bills available products (https://github.com/celdotro/marketplace/wiki/Bill-products)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
