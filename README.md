@@ -18,7 +18,10 @@ composer install
 ``` 
 
 ### Structura fisierelor si directoarelor
-1. Fisierul "api_include.php" aflat la baza structurii include fisierul index al API-ului. De asemenea, contine o sectiune de comentarii in care sunt reluate problemele discutate in "Setari principale". iii. Acesta contine namespaceul si numele clasei de autentificare, precum si metoda statica ce trebuie folosita inainte de apelarea oricarei alte metode din API. Pentru a rula oricare dintre script-uri, va trebui sa inlocuiti numele de utilizator si parola cu cele aferente contului dumneavoastra.
+1. Fisierul "api_include.php" aflat la baza structurii include fisierul index al API-ului. De asemenea, contine o sectiune de comentarii in care sunt reluate problemele discutate in "Setari principale". iii. Acesta contine namespaceul si numele clasei de autentificare, precum si metoda statica ce trebuie folosita inainte de apelarea oricarei alte metode din API. Pentru a rula oricare dintre script-uri, va trebui sa inlocuiti numele de utilizator si parola cu cele aferente contului dumneavoastra. De asemenea, daca doriti sa utilizati serverul live, va trebui sa comentati linia de cod:
+   ```php
+   celmarket\Config::setDemo();
+   ```
 2. Fiecare director reprezinta o categorie de exemple: Products (Produse), Pages (Pagini), Orders (Comenzi), Invoices (Facturi), AWB  
 3. Fiecare fisier este compus din 5 parti  
     i. **comentariu** => pune la dispozitie o scurta descriere a exemplului (in RO si EN)  
@@ -67,7 +70,10 @@ Run the following command in the main folder
 composer install
 ``` 
 ### Files and folders structure
-1. The file "api_include.php" situated in the path root includes the path for the API index file. It also provides a comment section about the issues presented in "Main settings". It contains the namespace and class name used in the authentication process, and the static method that must be called before calling any other method of the API. In order to use any script you must replace the user name and password with the supplied credentials.
+1. The file "api_include.php" situated in the path root includes the path for the API index file. It also provides a comment section about the issues presented in "Main settings". It contains the namespace and class name used in the authentication process, and the static method that must be called before calling any other method of the API. In order to use any script you must replace the user name and password with the supplied credentials. Also, if you decide to use the live server, you should comment out the line below
+   ```php
+   celmarket\Config::setDemo();
+   ```
 2. Each folder represents a category of examples: Products, Pages, Orders, Invoices and AWBs  
 3. Each file has 5 parts  
     i. **comment** => provides a short description of the example (in RO and EN)  
