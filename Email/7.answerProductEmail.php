@@ -22,7 +22,6 @@ function answerProductEmail($questionID, $answer){
 }
 
 #EXAMPLE#
-// $product_model = 'CPA1002';
-$questionID = 419488;
-$answer = 'Meh, probabil';
+$questionID = 1;
+$answer = 'Minim 10 caractere';
 answerProductEmail($questionID, $answer);
