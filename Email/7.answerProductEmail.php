@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Trimite un raspuns catre email-ul unui client referitor la un anumit produs (https://github.com/celdotro/marketplace/wiki/Raspunde-email-ului-unui-produs)
+ * [EN] Answer a specific email for a product (https://github.com/celdotro/marketplace/wiki/Answer-a-specific-email-for-a-product)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -8,7 +10,6 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 
 use celmarket\Email\EmailCommunication;
 
-#0#
 #FUNCTION#
 function answerProductEmail($questionID, $answer){
     $object = new EmailCommunication();
