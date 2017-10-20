@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Actualizeaza SN-ul unui produs comandat (https://github.com/celdotro/marketplace/wiki/Actualizare-SN)
+ * [EN] Updates an ordered product's SN (https://github.com/celdotro/marketplace/wiki/Update-SN)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
