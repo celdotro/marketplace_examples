@@ -1,6 +1,6 @@
 <?php
 /**
- * [RO] Sterge factura unei comenzi (https://github.com/celdotro/marketplace/wiki/Stergere-factura)
+ * [RO] Sterge factura unei facturi (https://github.com/celdotro/marketplace/wiki/Stergere-factura)
  * [EN] Deletes an order's invoice (https://github.com/celdotro/marketplace/wiki/Remove-Invoice)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';

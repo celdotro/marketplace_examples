@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Genereaza o noua factura (https://github.com/celdotro/marketplace/wiki/Adaugare-factura)
+ * [EN] Generates a new invoice (https://github.com/celdotro/marketplace/wiki/Add-invoice)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
