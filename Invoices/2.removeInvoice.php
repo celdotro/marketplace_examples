@@ -8,12 +8,12 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 
 
 
-use celmarket\Invoices\InvoicesRemove;
+use celmarket\Invoices\InvoicesData;
 
 #32#
 #FUNCTION#
 function removeInvoice($cmd){
-    $object = new InvoicesRemove();
+    $object = new InvoicesData();
 
     try{
         $response = $object->removeInvoice($cmd);
