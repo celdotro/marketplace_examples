@@ -1,6 +1,7 @@
 <?php
 /**
- *
+ * [RO] Preia taxa de transport (https://github.com/celdotro/marketplace/wiki/Preia-taxa-de-transport)
+ * [EN] Retrieves the transport tax (https://github.com/celdotro/marketplace/wiki/Get-transport-tax)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
