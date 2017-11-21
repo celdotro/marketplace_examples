@@ -11,11 +11,11 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 use celmarket\Admin\AdminInformation;
 
 #FUNCTION#
-function updateTransportTax($id, $newValue = null, $newLimit = null){
+function updateTransportTax($id, $newValue = null, $impusa = null){
     $object = new AdminInformation();
 
     try{
-        $response = $object->updateTransportTax($id, $newValue, $newLimit);
+        $response = $object->updateTransportTax($id, $newValue, $impusa);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -25,5 +25,5 @@ function updateTransportTax($id, $newValue = null, $newLimit = null){
 #EXAMPLE#
 $id = 1;
 $newValue = 150;
-$newLimit = 150;
-updateTransportTax($id, $newValue, $newLimit);
+$impusa = 150;
+updateTransportTax($id, $newValue, $impusa);
