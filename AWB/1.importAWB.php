@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Un AWB poate fi creat pentru o singura comanda
- * [EN] An AWB can be used for one order
+ * [RO] Un AWB poate fi creat pentru o singura comanda (https://github.com/celdotro/marketplace/wiki/Creare-AWB)
+ * [EN] An AWB can be used for one order (https://github.com/celdotro/marketplace/wiki/AWB-Import)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
