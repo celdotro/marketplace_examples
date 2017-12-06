@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Un AWB poate fi creat pentru o singura comanda
+ * [EN] An AWB can be used for one order
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
