@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Preia produsele live pe categorii (https://github.com/celdotro/marketplace/wiki/Preia-produsele-live-pe-categorii)
+ * [EN] Get live products for each category (https://github.com/celdotro/marketplace/wiki/Get-live-products-categories)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
