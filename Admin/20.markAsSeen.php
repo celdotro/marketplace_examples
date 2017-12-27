@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Marcheaza o notificare drept citita (https://github.com/celdotro/marketplace/wiki/Marcheaza-drept-citita)
+ * [EN] Marks a notification as seen (https://github.com/celdotro/marketplace/wiki/Mark-as-seen)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
