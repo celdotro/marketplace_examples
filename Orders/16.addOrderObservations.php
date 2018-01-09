@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Adauga observatii comenzii (https://github.com/celdotro/marketplace/wiki/Adauga-observatii-comanda)
+ * [EN] Add order observations (https://github.com/celdotro/marketplace/wiki/Add-Order-Observations)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
