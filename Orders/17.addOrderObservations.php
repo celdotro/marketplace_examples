@@ -22,6 +22,6 @@ function addOrderObservations($orders_id, $observations){
 }
 
 #EXAMPLE#
-$orders_id = 113563;
+$orders_id = 123456;
 $observations = 'ABC';
 addOrderObservations($orders_id, $observations);
