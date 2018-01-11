@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Permite importul unei facturi (https://github.com/celdotro/marketplace/wiki/Import-factura)
+ * [EN] Imports a new invoice (https://github.com/celdotro/marketplace/wiki/Import-Invoice)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
