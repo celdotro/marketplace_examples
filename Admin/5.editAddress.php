@@ -12,11 +12,11 @@ use celmarket\Admin\AdminAddress;
 
 #0#
 #FUNCTION#
-function editAddress($id, $address, $courier){
+function editAddress($id, $address){
     $object = new AdminAddress();
 
     try{
-        $response = $object->editAddress($id, $address, $courieri);
+        $response = $object->editAddress($id, $address);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -26,6 +26,5 @@ function editAddress($id, $address, $courier){
 #EXAMPLE#
 $id = 1;
 $address = 'Str. Y...';
-$courier = "Courier Name";
 
-editAddress($id, $address, $courier);
+editAddress($id, $address);

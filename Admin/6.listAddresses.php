@@ -10,7 +10,6 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 
 use celmarket\Admin\AdminAddress;
 
-#0#
 #FUNCTION#
 function listAddresses(){
     $object = new AdminAddress();

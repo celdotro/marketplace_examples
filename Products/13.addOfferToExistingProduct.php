@@ -12,11 +12,11 @@ use celmarket\Products\ProductsInsert;
 
 #0#
 #FUNCTION#
-function addOfferToExistingProduct($products_model, $stoc, $pret){
+function addOfferToExistingProduct($products_model, $stoc, $pret, $overridePrice){
     $object = new ProductsInsert();
 
     try{
-        $response = $object->addOfferToExistingProduct($products_model, $stoc, $pret);
+        $response = $object->addOfferToExistingProduct($products_model, $stoc, $pret, $overridePrice);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,7 +24,8 @@ function addOfferToExistingProduct($products_model, $stoc, $pret){
 }
 
 #EXAMPLE#
-$products_model = 'Model';
+$products_model = base64_encode('Model');
 $stoc = 1;
 $pret = 100;
-addOfferToExistingProduct($products_model, $stoc, $pret);
+$overridePrice = 1;
+addOfferToExistingProduct($products_model, $stoc, $pret, $overridePrice);
