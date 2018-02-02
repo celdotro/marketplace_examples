@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Storneaza comanda (https://github.com/celdotro/marketplace/wiki/Stornare-comanda)
+ * [EN] Order cancellation (https://github.com/celdotro/marketplace/wiki/Order-cancellation)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
