@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Actualizeaza statusul unui produs (https://github.com/celdotro/marketplace/wiki/Actualizare-status-produs)
+ * [EN] Update product's status (https://github.com/celdotro/marketplace/wiki/Update-product-status)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -22,6 +24,6 @@ function updateStatus($model, $status){
 }
 
 #EXAMPLE#
-$model = 'Model 1';
+$model = 'Model1';
 $status = 1;
 updateStatus($model, $status);
