@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Schimba statusul unui produs dintr-o comanda
+ * [EN] Changes the status of a product from a specific order
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -22,6 +24,6 @@ function changeOrderProductStatus($orders_products_id, $status){
 
 #EXAMPLE#
 $orders_products_id = 1234;
-$status = 0;
+$status = 0;// 0 4 5
 
 changeOrderProductStatus($orders_products_id, $status);
