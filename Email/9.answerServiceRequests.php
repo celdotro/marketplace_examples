@@ -11,11 +11,11 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 use celmarket\Email\EmailCommunication;
 
 #FUNCTION#
-function answerServiceRequest($id, $answer){
+function answerServiceRequest($id, $answer, $images){
     $object = new EmailCommunication();
 
     try{
-        $response = $object->answerServiceRequest($id, $answer);
+        $response = $object->answerServiceRequest($id, $answer, $images);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -23,6 +23,7 @@ function answerServiceRequest($id, $answer){
 }
 
 #EXAMPLE#
-$id = 126972;
+$id = 123456;
 $answer = 'TEST';
-answerServiceRequest($id, $answer);
+$images = array('photo.png' => fopen(__DIR__ . '/photo.png', 'rb'));
+answerServiceRequest($id, $answer, $images);
