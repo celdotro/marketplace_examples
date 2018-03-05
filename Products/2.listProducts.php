@@ -24,7 +24,7 @@ function listProducts($start, $limit, $search = null, $forceCount = false, $filt
 }
 
 #EXAMPLE#
-listProducts(1, 5, 'word1 word2', true, json_encode(
+listProducts(0, 5, 'word1 word2', true, json_encode(
     array(
         'keyword' => 'word1 word2',
         'manufacturer' => array('Manufacturer'),
