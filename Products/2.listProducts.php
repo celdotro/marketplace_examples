@@ -33,6 +33,7 @@ listProducts(0, 5, 'word1 word2', true, json_encode(
         'products_last_modified_min' => '2017-01-01',
         'products_last_modified_max' => date('Y-m-d H:i:s'),
         'products_date_added_min' => '2017-01-01',
-        'products_date_added_max' => date('Y-m-d H:i:s')
+        'products_date_added_max' => date('Y-m-d H:i:s'),
+        'products_model' => array('model1', 'model2')
     )
 ));
