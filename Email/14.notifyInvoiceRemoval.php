@@ -1,7 +1,7 @@
 <?php
 /**
  * [RO] Trimite o notificare prin care se doreste eliminarea facturii (https://github.com/celdotro/marketplace/wiki/Notifica-eliminarea-facturii)
- * [EN] Send a notification in order to ask for an invoice to be removed
+ * [EN] Send a notification in order to ask for an invoice to be removed (https://github.com/celdotro/marketplace/wiki/Notify-invoice-removal)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
