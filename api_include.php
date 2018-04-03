@@ -12,11 +12,12 @@
  */
 
 // Include vendor
-include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+// include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+include __DIR__ . '/../marketplace/index.php';
 
 // Optional - set link to demo server
 celmarket\Config::setDemo();
 
 // Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
-Auth::setUserDetails('USERNAME', 'PASSWORD');
+Auth::setUserDetails('flo2', 'qwerty');
