@@ -12,11 +12,11 @@ use celmarket\Products\ProductsList;
 
 #12#
 #FUNCTION#
-function listProducts($start, $limit, $search = null, $forceCount = false, $filters = null, $includeTransport = null){
+function listProducts($start, $limit, $search = null, $forceCount = false, $filters = null, $includeTransport = null, $orderByMostViewed = false){
     $object = new ProductsList();
 
     try{
-        $response = $object->listProducts($start, $limit, $search, $forceCount, $filters, $includeTransport);
+        $response = $object->listProducts($start, $limit, $search, $forceCount, $filters, $includeTransport, $orderByMostViewed);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -37,4 +37,5 @@ listProducts(0, 5, 'word1 word2', true, json_encode(
         'products_model' => array('model1', 'model2'),
     ),
     false
-));
+),
+    true);
