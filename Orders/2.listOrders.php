@@ -27,28 +27,29 @@ function getOrdersList($start, $limit, $arrOptions, $status = null){
 $start = 0;
 $limit = 10;
 $arrOptions = array(
-    'date'  =>   array(
-        'from'  =>   '2017-05-05',
-        'to'  =>  '2017-05-31 23:59:59'
-    ),
-    'customer'  =>   array(
-        array( // Semne acceptate / Accepted signs: ee, ne
-            'name'  =>  'nume1', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
-            'sign'  =>  'ee'
-        ),
-        array(
-            'name'  =>  'nume2',
-            'sign'  =>  'ne'
-        )
-    ),
-    'product'  =>   array(
-        array( // Semne acceptate / Accepted signs: ee, ne
-            'name'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
-            'sign'  =>  'ee'
-        )
-    ),
-    'order'  =>   0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
-    'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
-    'order_status' => 11 // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
+    // 'date'  =>   array(
+    //     'from'  =>   '2017-05-05',
+    //     'to'  =>  '2017-05-31 23:59:59'
+    // ),
+    // 'customer'  =>   array(
+    //     array( // Semne acceptate / Accepted signs: ee, ne
+    //         'name'  =>  'nume1', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
+    //         'sign'  =>  'ee'
+    //     ),
+    //     array(
+    //         'name'  =>  'nume2',
+    //         'sign'  =>  'ne'
+    //     )
+    // ),
+    // 'product'  =>   array(
+    //     array( // Semne acceptate / Accepted signs: ee, ne
+    //         'name'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
+    //         'sign'  =>  'ee'
+    //     )
+    // ),
+    // 'order'  =>   0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
+    // 'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
+    'order_status' => 2 // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
 );
+$status = 1;
 getOrdersList($start, $limit, $arrOptions, $status);

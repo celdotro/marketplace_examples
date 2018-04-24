@@ -26,7 +26,7 @@ function updateData($products){
 #EXAMPLE#
 $products = array(
     array(
-        'model' => 'Model1', // obligatoriu / mandatory 
+        'model' => 'jhg-f001', // obligatoriu / mandatory 
         'pretf' => 120, // numai daca pretlei nu este specificat / only if pretlei is not specified
         //'pretlei' => 120, // numai daca pretf nu este specificat / only if pretf is not specified
         'moneda' => 'RON',
