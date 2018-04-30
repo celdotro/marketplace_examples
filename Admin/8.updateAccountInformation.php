@@ -12,11 +12,11 @@ use celmarket\Admin\AdminAccount;
 
 
 #FUNCTION#
-function updateAccountInformation($cif = NULL, $iban = NULL, $telephone = NULL, $password = NULL, $bank = NULL, $fullName = NULL, $hqAddress = NULL, $description = NULL, $apiLink = NULL, $contactPerson, $county, $city){
+function updateAccountInformation($cif = NULL, $iban = NULL, $telephone = NULL, $password = NULL, $bank = NULL, $fullName = NULL, $hqAddress = NULL, $description = NULL, $apiLink = NULL, $contactPerson, $county, $city, $reg){
     $object = new AdminAccount();
 
     try{
-        $response = $object->updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city);
+        $response = $object->updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city, $reg);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -36,5 +36,11 @@ $apiLink = 'http://example.com/api.php?alert_type=$1$&alert_value=$2$&other_para
 $contactPerson = 'Ionescu';
 $county = 'Judet';
 $city = 'Localitate';
+$reg = array(
+    'j1' => 'J',
+    'j2' => '05',
+    'j3' => 'ABCD',
+    'j4' => '2018'
+);
 
-updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city);
+updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city, $reg);
