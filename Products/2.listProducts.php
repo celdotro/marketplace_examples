@@ -24,9 +24,9 @@ function listProducts($start, $limit, $search = null, $forceCount = false, $filt
 }
 
 #EXAMPLE#
-listProducts(0, 5, 'jhg-f001', true, json_encode(
+listProducts(0, 5, null, true, json_encode(
     array(
-        'keyword' => 'jhg-f001',
+        // 'keyword' => 'jhg-f001',
         // 'manufacturer' => array('Manufacturer'),
         // 'status' => array(0,1),
         // 'categories_id' => array(100),
@@ -34,7 +34,7 @@ listProducts(0, 5, 'jhg-f001', true, json_encode(
         // 'products_last_modified_max' => date('Y-m-d H:i:s'),
         // 'products_date_added_min' => '2017-01-01',
         // 'products_date_added_max' => date('Y-m-d H:i:s'),
-        // 'products_model' => array('model1', 'model2')
+        'products_model' => array('col1002', 'jhg-f001')
     )
 ),
     true);
