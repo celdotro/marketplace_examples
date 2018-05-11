@@ -22,7 +22,7 @@ function returProduct($orderId, $reason, $model){
     }
 }
 #EXAMPLE#
-$orderId = 113614;
+$orderId = 123456;
 $reason = 'Motiv';
-$model = 'jhg-f001';
+$model = 'Model';
 returProduct($orderId, $reason, $model);
