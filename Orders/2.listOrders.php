@@ -53,6 +53,7 @@ $arrOptions = array(
     'group_by_status' => false, // lipsa elementului sau prezenta sa cu valoarea true va determina gruparea in functie de status, valoarea false va determina lispsa gruparii in functie de status / if the element is missing or its value is true, it will group by status, otherwise it will not group by any field
     // 'order_by_date_purchased' => 'DESC',
     // 'min_order' => 113637
+    'payment_method' => 'Numerar sau ramburs'
 );
 $status = 1;
 getOrdersList($start, $limit, $arrOptions, $status);

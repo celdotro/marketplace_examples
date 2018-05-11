@@ -22,6 +22,6 @@ function sendOrderEmail($cmd, $idEmail){
 }
 
 #EXAMPLE#
-$cmd = 123456;
+$cmd = 113672;
 $idEmail = 1;
 sendOrderEmail($cmd, $idEmail);

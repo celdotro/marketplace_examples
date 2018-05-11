@@ -16,10 +16,12 @@ function getAccountInformation(){
     $object = new AdminAccount();
 
     try{
+        throw new \Exception(1);
         $response = $object->getAccountInformation();
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
+        print_r($e);
     }
 }
 
