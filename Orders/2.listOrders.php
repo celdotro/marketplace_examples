@@ -27,31 +27,31 @@ function getOrdersList($start, $limit, $arrOptions, $status = null){
 $start = 0;
 $limit = 10;
 $arrOptions = array(
-    'date'  =>   array(
-        'from'  =>   '2017-05-05',
-        'to'  =>  '2017-05-31 23:59:59'
-    ),
-    'customer'  =>   array(
-        array( // Semne acceptate / Accepted signs: ee, ne
-            'name'  =>  'nume1', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
-            'sign'  =>  'ee'
-        ),
-        array(
-            'name'  =>  'nume2',
-            'sign'  =>  'ne'
-        )
-    ),
-    'product'  =>   array(
-        array( // Semne acceptate / Accepted signs: ee, ne
-            'name'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
-            'sign'  =>  'ee'
-        )
-    ),
-    'order'  =>   0, // lipsa elementului sau prezenta sa cu valoarile null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
-    'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarile null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
-    'order_status' => 11, // lipsa elementului sau prezenta sa cu valoarile null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
-    'group_by_status' => true, // lipsa elementului sau prezenta sa cu valoarea true va determina gruparea in functie de status, valoarea false va determina lispsa gruparii in functie de status / if the element is missing or its value is true, it will group by status, otherwise it will not group by any field
-    'order_by_date_purchased' => 'DESC', // lipsa elementului va determina ca sortarea sa se faca pe orders_id, valoarea ASC va sorta crescator in functie de date_purchased, valoarea DESC va sorta descrescator in functie de date_purchased / if the element is missing, it will group by orders_id, if its value is ASC it will sort ascending based on date_purchased, if its value is DESC it will sort descending based on date_purchased
-    'min_order' => 123456 // lipsa elementului sau prezenta sa cu valoarile null sau 0 va determina afisarea tuturor comenzilor si sortarea descrescatoarea in functie de orders_id, altfel va determina afisarea tuturor comenzilor mai mari decat valoarea selectata si ordonarea crescatoare in functie de orders_id / if the element is wissing or its value is null or 0, it will list all orders and sort them ascending by orders_id, otherwise it will show all orders greater than its value and sort them descending by orders_id
+    // 'date'  =>   array(
+    //     'from'  =>   '2017-05-05',
+    //     'to'  =>  '2017-05-31 23:59:59'
+    // ),
+    // 'customer'  =>   array(
+    //     array( // Semne acceptate / Accepted signs: ee, ne
+    //         'name'  =>  'nume1', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
+    //         'sign'  =>  'ee'
+    //     ),
+    //     array(
+    //         'name'  =>  'nume2',
+    //         'sign'  =>  'ne'
+    //     )
+    // ),
+    // 'product'  =>   array(
+    //     array( // Semne acceptate / Accepted signs: ee, ne
+    //         'name'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
+    //         'sign'  =>  'ee'
+    //     )
+    // ),
+    'order'  =>   1936677, // lipsa elementului sau prezenta sa cu valoarile null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
+    // 'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarile null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
+    // 'order_status' => 11, // lipsa elementului sau prezenta sa cu valoarile null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
+    // 'group_by_status' => true, // lipsa elementului sau prezenta sa cu valoarea true va determina gruparea in functie de status, valoarea false va determina lispsa gruparii in functie de status / if the element is missing or its value is true, it will group by status, otherwise it will not group by any field
+    // 'order_by_date_purchased' => 'DESC', // lipsa elementului va determina ca sortarea sa se faca pe orders_id, valoarea ASC va sorta crescator in functie de date_purchased, valoarea DESC va sorta descrescator in functie de date_purchased / if the element is missing, it will group by orders_id, if its value is ASC it will sort ascending based on date_purchased, if its value is DESC it will sort descending based on date_purchased
+    // 'min_order' => 123456 // lipsa elementului sau prezenta sa cu valoarile null sau 0 va determina afisarea tuturor comenzilor si sortarea descrescatoarea in functie de orders_id, altfel va determina afisarea tuturor comenzilor mai mari decat valoarea selectata si ordonarea crescatoare in functie de orders_id / if the element is wissing or its value is null or 0, it will list all orders and sort them ascending by orders_id, otherwise it will show all orders greater than its value and sort them descending by orders_id
 );
 getOrdersList($start, $limit, $arrOptions, $status);

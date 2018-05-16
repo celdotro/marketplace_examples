@@ -15,8 +15,8 @@
 include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
 // Optional - set link to demo server
-celmarket\Config::setDemo();
+// celmarket\Config::setDemo();
 
 // Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
-Auth::setUserDetails('USERNAME', 'PASSWORD');
+Auth::setUserDetails('watchsale', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
