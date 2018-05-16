@@ -10,11 +10,11 @@ use celmarket\Reports\AnalyticsReports;
 
 #16#
 #FUNCTION#
-function getViews($dateMin = null, $dateMax = null, $location = null, $start = 0, $limit = 50){
+function getClicks($dateMin = null, $dateMax = null, $location = null, $start = 0, $limit = 50){
     $object = new AnalyticsReports();
 
     try{
-        $response = $object->getViews($dateMin, $dateMax, $location, $start, $limit);
+        $response = $object->getClicks($dateMin, $dateMax, $location, $start, $limit);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -27,4 +27,4 @@ $dateMax = '2018-04-30';
 $location = null;
 $start = 0;
 $limit = -1;
-getViews($dateMin, $dateMax, $location, $start, $limit);
+getClicks($dateMin, $dateMax, $location, $start, $limit);
