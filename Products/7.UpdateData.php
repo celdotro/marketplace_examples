@@ -26,21 +26,13 @@ function updateData($products){
 #EXAMPLE#
 $products = array(
     array(
-        'model' => 'Model1', // obligatoriu / mandatory 
-        'pretf' => 120, // numai daca pretlei nu este specificat / only if pretlei is not specified
-        //'pretlei' => 120, // numai daca pretf nu este specificat / only if pretf is not specified
+        'model' => 'dpcbfhbbm', // obligatoriu / mandatory 
+        // 'pretf' => 120, // numai daca pretlei nu este specificat / only if pretlei is not specified
+        'pretlei' => 218.96, // numai daca pretf nu este specificat / only if pretf is not specified
         'moneda' => 'RON',
-        'status' => 0,
-        'adaos' => 1,
-        'bonus' => 1,
-        'pret_vechi' => 100,
+        'pret_vechi' => 218.96,
         // (pret_promo, start, end) formeaza un tuplu, asadar, daca un camp exista, restul, care nu sunt stocate inca in baza de date, sunt obligatorii / (pret_promo, start, end) form a tuple, therefore if a field is specified, the rest, that aren't yet stored in the database, are mandatory
-        'pret_promo' => 101,
-        'start' => '2017-01-01',
-        'end' => '2017-08-01',
-        'hasTVA' => false,
-        'garantie' => 2,
-        'garantie_pj' => 12
+        'hasTVA' => 1,
     )
 );
 updateData($products);
