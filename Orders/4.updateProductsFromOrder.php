@@ -24,13 +24,13 @@ function updateProductsFromOrder($cmd, $arrModels){
 }
 
 #EXAMPLE#
-$cmd = 123456;
+$cmd = 113685;
 $products = array(
     array(
         'products_price'    =>  305.44,
         'cantitate' =>  1,
         'tva'   =>  20,
-        'id_prod_com'   =>  987654,
+        'id_prod_com'   =>  4472,
         'deschidere_colet'  =>  1,
         'status_livrare' => 0
     )

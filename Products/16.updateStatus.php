@@ -24,6 +24,6 @@ function updateStatus($model, $status){
 }
 
 #EXAMPLE#
-$model = 'Model1';
-$status = 1;
+$model = 'schimbarestoc';
+$status = 0;
 updateStatus($model, $status);
