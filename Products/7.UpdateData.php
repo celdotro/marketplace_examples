@@ -26,9 +26,9 @@ function updateData($products){
 #EXAMPLE#
 $products = array(
     array(
-        'model' => 'bb86696mn', // obligatoriu / mandatory 
+        'model' => 'schimbarestoc', // obligatoriu / mandatory 
         // 'pretf' => 120, // numai daca pretlei nu este specificat / only if pretlei is not specified
-        'pretlei' => 120, // numai daca pretf nu este specificat / only if pretf is not specified
+        'pretlei' => 250, // numai daca pretf nu este specificat / only if pretf is not specified
         'moneda' => 'RON',
         // 'status' => 0,
         // 'adaos' => 1,
@@ -39,7 +39,7 @@ $products = array(
         // 'pret_promo' => 101,
         // 'start' => '2017-01-01',
         // 'end' => '2017-08-01',
-        'hasTVA' => 1,
+        'hasTVA' => 0,
         // 'garantie' => 2,
         // 'garantie_pj' => 12
     )
