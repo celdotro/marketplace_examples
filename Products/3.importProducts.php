@@ -42,7 +42,17 @@ $arrProducts = array(
         'garantie' => 1,
         'garantie_pj' => 2,
         'products_url' => 'http://cel.ro',
-        'image' => array('http://example1.ro', 'http://example2.ro'),
+        'image' => 
+            array(
+                array(
+                    'id' => 0,
+                    'url' => 'https://example1.ro/image1.jpg'
+                ), 
+                array(
+                    'id' => 0,
+                    'url' => 'http://example2.ro/image2.png'
+                )
+            ),
         
         'charact' => array(
             'CharName1:' => array(
