@@ -30,7 +30,7 @@ $arrProducts = array(
     // First product -> detailed form (any type of product)
     array(
         'products_name' => 'Name1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'products_model' => '2imagini5', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_model' => '2imagini6', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'manufacturers_name' => 'ManufacturerCompany', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'categories_id' => 48, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'stoc' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
