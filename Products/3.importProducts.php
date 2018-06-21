@@ -30,7 +30,7 @@ $arrProducts = array(
     // First product -> detailed form (any type of product)
     array(
         'products_name' => 'Name1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'products_model' => '2imagini6', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_model' => '6imagini', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'manufacturers_name' => 'ManufacturerCompany', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'categories_id' => 48, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'stoc' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
@@ -44,14 +44,11 @@ $arrProducts = array(
         'products_url' => 'http://cel.ro',
         'image' => 
             array(
+               
                 array(
                     'id' => 0,
                     'url' => 'https://ih1.redbubble.net/image.112605481.9243/flat,750x1000,075,t.jpg'
-                ), 
-                array(
-                    'id' => 0,
-                    'url' => 'https://www.gnu.org/graphics/babies/BabyGnuTux-Small.png'
-                )
+                ),
             ),
         
         'charact' => array(
