@@ -34,7 +34,7 @@ listProducts(0, 5, '', true, json_encode(
         // 'products_last_modified_max' => date('Y-m-d H:i:s'),
         // 'products_date_added_min' => '2017-01-01',
         // 'products_date_added_max' => date('Y-m-d H:i:s'),
-        'products_model' => array('dpcbfhbbm'),
+        'products_model' => array('dj3kj7bbm'),
     ),
     false
 ),
