@@ -32,7 +32,7 @@ $arrProducts = array(
         'products_name' => 'Name1', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_model' => '6imagini', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'manufacturers_name' => 'ManufacturerCompany', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'categories_id' => 48, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'categories_id' => 401, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'stoc' => 1, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'pretf' => 200, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_image' => 'https://cdn.shopify.com/s/files/1/1007/9194/products/porcelain-happy-tux-penguin-figurine_1024x1024.jpg?v=1457205166', // Obligatoriu pentru forma detailata / Mandatory for detailed form
@@ -62,11 +62,11 @@ $arrProducts = array(
                 'val2:'
             )
         ),
-        'products_weight' => 15,
+        'products_weight' => 16,
         'status' => 1,
         'import_code' => 2,
-        'products_quantity' => 22,
-        'adaos' => 15,
+        'products_quantity' => 2,
+        'adaos' => 10,
         'bonus' => array(
             'BonusModel1',
             'BonusModel2'
