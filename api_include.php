@@ -20,6 +20,6 @@ include __DIR__ . '/../marketplace/index.php';
 
 // Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
-Auth::setUserDetails('itelgsm', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
+Auth::setUserDetails('flo2', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
 // Auth::setUserDetails('alecoair', 'test');
 // Auth::setUserDetails('itelgsm', 'mbPeLK7wx5');
