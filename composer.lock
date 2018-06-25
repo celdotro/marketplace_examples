@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d37492a288358b3c777b01a0c6cdfa81",
+    "content-hash": "5c8476ee9e484b6f9b79feba2dd464c0",
     "packages": [
         {
             "name": "celdotro/marketplace",
-            "version": "1.2.4",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/celdotro/marketplace.git",
-                "reference": "e99434e803d1be59e47320e523d7de91c8f844b2"
+                "reference": "caa93292a379214b9f3e655e9122a91d131b14b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/celdotro/marketplace/zipball/e99434e803d1be59e47320e523d7de91c8f844b2",
-                "reference": "e99434e803d1be59e47320e523d7de91c8f844b2",
+                "url": "https://api.github.com/repos/celdotro/marketplace/zipball/caa93292a379214b9f3e655e9122a91d131b14b8",
+                "reference": "caa93292a379214b9f3e655e9122a91d131b14b8",
                 "shasum": ""
             },
             "require": {
@@ -61,20 +61,20 @@
                 "php",
                 "wiki"
             ],
-            "time": "2018-04-03T14:10:13+00:00"
+            "time": "2018-06-25T14:18:45+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.3.2",
+            "version": "6.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "68d0ea14d5a3f42a20e87632a5f84931e2709c90"
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/68d0ea14d5a3f42a20e87632a5f84931e2709c90",
-                "reference": "68d0ea14d5a3f42a20e87632a5f84931e2709c90",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
                 "psr/log": "^1.0"
             },
             "suggest": {
@@ -126,7 +126,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-03-26T16:33:04+00:00"
+            "time": "2018-04-22T15:46:56+00:00"
         },
         {
             "name": "guzzlehttp/promises",
