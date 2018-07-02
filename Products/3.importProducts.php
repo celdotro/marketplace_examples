@@ -91,17 +91,121 @@ $arrProducts = array(
     //     // 'procesare_in' => 1
     // ),
 
+    // array(
+    //     'products_name' => 'Birou Calculator Global Network Fag TESTEEE', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+    //     'products_model' => '444', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+    //     'manufacturers_name' => 'Global Network', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+    //     'categories_id' => 1270, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+    //     'stoc' => 13, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+    //     'pretf' => 264.0000, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+    //     'products_image' => "http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpg", // Obligatoriu pentru forma detailata / Mandatory for detailed form
+    //     'products_description' => 'Test Descriere',
+    //     // 'moneda' => 'RON',
+    //     'products_url' => 'http://markemag.totulpentrubebe.ro/1610-2707.html',
+    //     // 'garantie' => 1,
+    //     // 'garantie_pj' => 1,
+    //     // 'products_url' => 'https://dev.itelmobile.ro/husa-slim-nillkin-frosted-samsung-j7-max-negru/',
+    //     'image' => 
+    //         array(
+               
+    //             array(
+    //                 'id' => 0,
+    //                 'url' => 'http://markemag.totulpentrubebe.ro/6321-thickbox_default/2707.jpg'
+    //             ),
+    //             array(
+    //                 'id' => 0,
+    //                 'url' => 'http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpgg'
+    //             ),
+    //             array(
+    //                 'id' => 0,
+    //                 'url' => 'http://markemag.totulpentrubebe.ro/6323-thickbox_default/2707.jpg'
+    //             ),
+    //             // array(
+    //             //     'id' => 0,
+    //             //     'url' => 'https://dev.itelmobile.ro/10955/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg'
+    //             // ),
+    //         ),
+    //     // "image"=> array(
+    //     //     "https://dev.itelmobile.ro/10954/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg",
+    //     //     "https://dev.itelmobile.ro/10955/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg"
+    //     // ),
+    //     'charact' => array(
+    //         'culoare:' => array(
+    //             'Fag',
+    //         ),
+    //         'Material cadru (scaune-birou):' => array(
+    //             'Pal'
+    //         ),
+    //         'Lungime (birou,masa):' => array(
+    //             '100 cm'
+    //         ),
+    //         'Stil :' => array(
+    //             'Clasic'
+    //         ),
+    //         'Utilizat pentru (mese+scaune):' => array(
+    //             'Birou '
+    //         ),
+    //         'Material blat:'=> array(
+    //             'Pal'
+    //         ),
+    //         'Tip produs :' => array(
+    //             'Birou'
+    //         ),
+    //         'Forma (birou):' => array(
+    //             'Standard'
+    //         ),
+    //         'Stare asamblare :' => array(
+    //             'Neasamblat'
+    //         ),
+    //         'Tip:' => array(
+    //             'Birou'
+    //         )
+
+    //     ),
+    //     'products_weight' => 26.0000,
+    //     // 'status' => 1,
+    //     // 'import_code' => 'hus-nlk-frosted-j7max-neg',
+    //     // 'products_quantity' => 9,
+    //     // 'adaos' => 5.0000,
+    //     // 'bonus' => array(
+    //     //     'BonusModel1',
+    //     //     'BonusModel2'
+    //     // ),
+    //     // 'recomandate' => 2,
+    //     // 'procesare_in' => 1,
+    //     // 'cand' => '2018-06-22 15:28',
+    //     // 'pret_vechi' => 28.17,
+    //     'status' => 1,
+    //     // 'hasTVA' => 1, // (Poate fi suprascris de cel de pe nivelul 0) Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / (Can be overwritten by the attribute from level 0 with the same name) Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
+    //     'type' => 'insert',
+    //     // 'procesare_in' => 1
+    // ),
+
     array(
-        'products_name' => 'Birou Calculator Global Network Fag TESTEEE', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'products_model' => '444', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'manufacturers_name' => 'Global Network', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'categories_id' => 1270, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_name' => 'Birou Calculator Global Network Fag', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_model' => '16101', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'manufacturers_name' => 'Drimus', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'categories_id' => 402, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'stoc' => 13, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'pretf' => 264.0000, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_image' => "http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpg", // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'products_description' => 'Test Descriere',
+        'products_description' => 'Birou calculator este in ziua de astazi o piesa de mobilier prezenta in toate spatiile office si in aproape toate spatiile de locuit. Este clar ca biroul trebuie sa fie unul functional si foarte rezistent, el trebuie sa raspunda tuturor cerintelor tale atunci cand petreci mult timp in fata calculatorului si sa faca fata tuturor pericolelor de zi cu zi (cafea, ceai, sucuri, zgarieturi, lovituri).
+
+        Biroul pentru calculator este unul rezistent, simplu, realizat din PAL melaminat cu grosimea de 18 mm. Datorita dimensiunilor sale nu foarte mari, el este alegerea ideala atunci cand nu dispui de prea mult spatiu in camera in care vrei sa-l pozitionezi.
+        
+        Biroul este unul foarte practic – el este prevazut cu polita glisanta pentru tastatura, dar si cu loc pentru unitate. De asemenea, deasupra spatiului pentru unitate, biroul mai dispune si de o polita pentru depozitarea diverselor lucruri necesare muncii la birou.
+        
+        Biroul se livreaza la colet. El este usor de montat si foarte usor de manevrat.
+        
+        Dimensiunile biroului pentru calculator sunt:
+        Lungime blat – 100 cm
+        Latime blat – 52 cm
+        Inaltime – 76 cm
+        
+        Garantia produsului este de 2 ani.
+        ',
         // 'moneda' => 'RON',
-        'products_url' => 'http://markemag.totulpentrubebe.ro/1610-2707.html',
+        'products_url' => 'http://markemag.totulpentrubebe.ro/1610-2707.htm',
         // 'garantie' => 1,
         // 'garantie_pj' => 1,
         // 'products_url' => 'https://dev.itelmobile.ro/husa-slim-nillkin-frosted-samsung-j7-max-negru/',
@@ -133,33 +237,18 @@ $arrProducts = array(
             'culoare:' => array(
                 'Fag',
             ),
-            'Material cadru (scaune-birou):' => array(
-                'Pal'
+            'Material:' => array(
+                'Pal',
             ),
-            'Lungime (birou,masa):' => array(
+            'Dimensiune:' => array(
                 '100 cm'
-            ),
-            'Stil :' => array(
-                'Clasic'
-            ),
-            'Utilizat pentru (mese+scaune):' => array(
-                'Birou '
-            ),
-            'Material blat:'=> array(
-                'Pal'
-            ),
-            'Tip produs :' => array(
-                'Birou'
-            ),
-            'Forma (birou):' => array(
-                'Standard'
-            ),
-            'Stare asamblare :' => array(
-                'Neasamblat'
             ),
             'Tip:' => array(
                 'Birou'
-            )
+            ),
+            'Format:' => array(
+                'Standard'
+            ),
 
         ),
         'products_weight' => 26.0000,
