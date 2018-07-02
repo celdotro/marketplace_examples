@@ -20,4 +20,4 @@ include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 // Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
 // Auth::setUserDetails('watchsale', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
-Auth::setUserDetails('catmobile', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
+Auth::setUserDetails('watchsale', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
