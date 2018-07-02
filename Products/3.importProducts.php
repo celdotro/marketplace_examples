@@ -90,19 +90,19 @@ $arrProducts = array(
     //     // 'procesare_in' => 1
     // ),
     array(
-        'products_name' => 'Birou Calculator Global Network Fag TESTEEE', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'products_model' => '444', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'manufacturers_name' => 'Global Network', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'categories_id' => 1270, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_name' => 'Birou Calculator Global Network Fag', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_model' => '16101', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'manufacturers_name' => 'Drimus', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'categories_id' => 402, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'stoc' => 13, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'pretf' => 264.0000, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_image' => "http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpg", // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_description' => 'Test Descriere',
         // 'moneda' => 'RON',
-        'products_url' => 'http://markemag.totulpentrubebe.ro/1610-2707.html',
+        'products_url' => 'http://markemag.totulpentrubebe.ro/1610-2707.htm',
         // 'garantie' => 1,
         // 'garantie_pj' => 1,
-        'products_url' => 'https://dev.itelmobile.ro/husa-slim-nillkin-frosted-samsung-j7-max-negru/',
+        // 'products_url' => 'https://dev.itelmobile.ro/husa-slim-nillkin-frosted-samsung-j7-max-negru/',
         'image' => 
             array(
                
@@ -131,33 +131,18 @@ $arrProducts = array(
             'culoare:' => array(
                 'Fag',
             ),
-            'Material cadru (scaune-birou):' => array(
-                'Pal'
+            'Material:' => array(
+                'Pal',
             ),
-            'Lungime (birou,masa):' => array(
+            'Dimensiune:' => array(
                 '100 cm'
-            ),
-            'Stil :' => array(
-                'Clasic'
-            ),
-            'Utilizat pentru (mese+scaune):' => array(
-                'Birou '
-            ),
-            'Material blat:'=> array(
-                'Pal'
-            ),
-            'Tip produs :' => array(
-                'Birou'
-            ),
-            'Forma (birou):' => array(
-                'Standard'
-            ),
-            'Stare asamblare :' => array(
-                'Neasamblat'
             ),
             'Tip:' => array(
                 'Birou'
-            )
+            ),
+            'Format:' => array(
+                'Standard'
+            ),
 
         ),
         'products_weight' => 26.0000,
