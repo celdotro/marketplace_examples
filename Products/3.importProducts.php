@@ -185,7 +185,8 @@ $arrProducts = array(
         'products_name' => 'Birou Calculator Global Network Fag', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_model' => '16101', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'manufacturers_name' => 'Drimus', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'categories_id' => 402, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        // 'manufacturers_id' => 1,
+        'categories_id' => 1270, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'stoc' => 13, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'pretf' => 264.0000, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_image' => "http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpg", // Obligatoriu pentru forma detailata / Mandatory for detailed form
@@ -198,7 +199,7 @@ $arrProducts = array(
         Biroul se livreaza la colet. El este usor de montat si foarte usor de manevrat.
         
         Dimensiunile biroului pentru calculator sunt:
-        Lungime blat – 100 cm
+        Lungime blat – 100 cm   
         Latime blat – 52 cm
         Inaltime – 76 cm
         
