@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "celdotro/marketplace",
-            "version": "1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/celdotro/marketplace.git",
-                "reference": "caa93292a379214b9f3e655e9122a91d131b14b8"
+                "reference": "ef0c3d5f6525c623dca4c54c5b4d84a9b6580375"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/celdotro/marketplace/zipball/caa93292a379214b9f3e655e9122a91d131b14b8",
-                "reference": "caa93292a379214b9f3e655e9122a91d131b14b8",
+                "url": "https://api.github.com/repos/celdotro/marketplace/zipball/ef0c3d5f6525c623dca4c54c5b4d84a9b6580375",
+                "reference": "ef0c3d5f6525c623dca4c54c5b4d84a9b6580375",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "php",
                 "wiki"
             ],
-            "time": "2018-06-25T14:18:45+00:00"
+            "time": "2018-07-03T14:20:40+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
