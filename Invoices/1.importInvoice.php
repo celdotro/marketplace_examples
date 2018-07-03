@@ -12,11 +12,11 @@ use celmarket\Invoices\InvoicesData;
 
 #24#
 #FUNCTION#
-function setInvoiceData($cmd, $serie, $nr){
+function importInvoice($cmd, $serie, $nr){
     $object = new InvoicesData();
 
     try{
-        $response = $object->setInvoiceData($cmd, $serie, $nr);
+        $response = $object->importInvoice($cmd, $serie, $nr);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,7 +24,7 @@ function setInvoiceData($cmd, $serie, $nr){
 }
 
 #EXAMPLE#
-$cmd = 123456;
+$cmd = 113680;
 $serie = 'AA';
 $nr = 11;
-setInvoiceData($cmd, $serie, $nr);
+importInvoice($cmd, $serie, $nr);
