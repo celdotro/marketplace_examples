@@ -33,7 +33,7 @@ $products = array(
         // 'status' => 0,
         // 'adaos' => 1,
         // 'bonus' => 1,
-        'stoc' => 2,
+        // 'stoc' => 2,
         'pret_vechi' => 100,
         // (pret_promo, start, end) formeaza un tuplu, asadar, daca un camp exista, restul, care nu sunt stocate inca in baza de date, sunt obligatorii / (pret_promo, start, end) form a tuple, therefore if a field is specified, the rest, that aren't yet stored in the database, are mandatory
         // 'pret_promo' => 101,
@@ -41,7 +41,8 @@ $products = array(
         // 'end' => '2017-08-01',
         'hasTVA' => 0,
         // 'garantie' => 2,
-        // 'garantie_pj' => 12
+        // 'garantie_pj' => 12,
+        'data_minima' => '2018-07-04'
     )
 );
 updateData($products);
