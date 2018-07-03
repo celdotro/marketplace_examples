@@ -40,7 +40,8 @@ $products = array(
         'end' => '2017-08-01',
         'hasTVA' => false,
         'garantie' => 2,
-        'garantie_pj' => 12
+        'garantie_pj' => 12,
+        'data_minima' => '2018-01-01'
     )
 );
 updateData($products);
