@@ -12,11 +12,11 @@ use celmarket\Orders\OrdersUpdate;
 
 #19#
 #FUNCTION#
-function changeOrderPaymentMethod($cmd, $paymentMethod){
+function changeOrderPaymentMethod($cmd, $paymentMethod, $paidSum = null){
     $object = new OrdersUpdate();
 
     try{
-        $response = $object->changeOrderPaymentMethod($cmd, $paymentMethod);
+        $response = $object->changeOrderPaymentMethod($cmd, $paymentMethod, $paidSum);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,6 +24,7 @@ function changeOrderPaymentMethod($cmd, $paymentMethod){
 }
 
 #EXAMPLE#
-$order = 123456;
+$order = 113638;
 $paymentMethod = 'Ordin de Plata';
-changeOrderPaymentMethod($order, $paymentMethod);
+$paidSum = 10;
+changeOrderPaymentMethod($order, $paymentMethod, $paidSum);

@@ -24,7 +24,7 @@ function importInvoice($cmd, $serie, $nr){
 }
 
 #EXAMPLE#
-$cmd = 113680;
+$cmd = 113638;
 $serie = 'AA';
 $nr = 11;
 importInvoice($cmd, $serie, $nr);
