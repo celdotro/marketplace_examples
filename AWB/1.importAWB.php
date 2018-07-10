@@ -24,4 +24,4 @@ function importAwb($cmd, $awb, $idAdresaRidicare){
 }
 
 #EXAMPLE#
-importAwb(113555, 2176840631007, 141);
+importAwb(113710, 849924190, 204);
