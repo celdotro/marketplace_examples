@@ -37,5 +37,5 @@ $products = array(
     'id_prod_com'   =>  987654,
     'deschidere_colet'  =>  1,
     'status_livrare' => 0
-)
+);
 finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products);
