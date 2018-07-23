@@ -24,4 +24,4 @@ function checkPaymentForOrder($order_id){
 }
 
 #EXAMPLE#
-checkPaymentForOrder(113680);
+checkPaymentForOrder(113723);

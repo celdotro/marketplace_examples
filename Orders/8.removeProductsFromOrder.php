@@ -22,6 +22,7 @@ function removeProductsFromOrder($cmd, $arrProducts){
 }
 
 #EXAMPLE#
-$cmd = 113540;
-$arrProducts = array('bb86696mn');
+$cmd = 113710;
+// $arrProducts = array('memore 160/200/25');
+$arrProducts = array('chic-2_albastru_0');
 removeProductsFromOrder($cmd, $arrProducts);
