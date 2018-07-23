@@ -24,18 +24,20 @@ function finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidica
 }
 
 #EXAMPLE#
-$orders_id = 113617;
+$orders_id = 113726;
 $serie = 'A';
 $nr_fact = 111;
 $awb = 222;
 $idAdresaRidicare = 141;
 $observations = 'a';
 $products = array(
+    array(
     'products_price'    =>  250,
     'cantitate' =>  1,
     'tva'   =>  20,
-    'id_prod_com'   =>  423346,
+    'id_prod_com'   =>  4567,
     'deschidere_colet'  =>  1,
     'status_livrare' => 5
+    )
 );
 finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products);
