@@ -41,7 +41,8 @@ $products = array(
         'hasTVA' => false,
         'garantie' => 2,
         'garantie_pj' => 12,
-        'data_minima' => '2018-01-01'
+        'data_minima' => '2018-01-01',
+        'stoc' => 1
     )
 );
 updateData($products);
