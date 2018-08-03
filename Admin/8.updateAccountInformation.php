@@ -29,18 +29,18 @@ $iban = 'RO35RNCB0205044180940001';
 $telephone = '+40799999999';
 $password = '1Pass__)';
 $bank = 'BANK_NAME';
-$fullName = 'SC Company SA'; // LEGACY - nu face nimic si va fi eliminat in versiunea 2.0 (puteti sa il sariti)/ does nothing and it will be removed in version 2.0
+$fullName = 'SC Company SA'; // LEGACY - nu face nimic si va fi eliminat in versiunea 2.0 (puteti sa il sariti)/ does nothing and it will be removed in version 2.0 (you can ignore it)
 $hqAddress = 'Headquaters Address';
 $description = 'Short description';
-$apiLink = 'http://example.com/api.php?alert_type=$1$&alert_value=$2$&other_parameters=$3$';
-$contactPerson = 'Ionescu';
+$apiLink = '';
+$contactPerson = 'Ion Ionescu';
 $county = 'Judet';
 $city = 'Localitate';
-$reg = array(
+$reg = json_encode(array(
     'j1' => 'J',
     'j2' => '05',
     'j3' => 'ABCD',
     'j4' => '2018'
-);
+));
 
 updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city, $reg);
