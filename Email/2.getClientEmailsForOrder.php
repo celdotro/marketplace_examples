@@ -22,5 +22,5 @@ function getClientEmailsForOrder($cmd){
 }
 
 #EXAMPLE#
-$cmd = 113606;
+$cmd = 113537;
 getClientEmailsForOrder($cmd);
