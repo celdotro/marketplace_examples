@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Trimite notificare de stergere a AWB-ului (https://github.com/celdotro/marketplace/wiki/Trimite-notificare-de-stergere-a-AWB-ului)
+ * [EN] Send AWB removal notification (https://github.com/celdotro/marketplace/wiki/Send-notification-for-AWB-removal)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
