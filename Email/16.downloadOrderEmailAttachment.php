@@ -20,6 +20,6 @@ function downloadOrderEmailAttachment($emailID, $attachmentNumber){
 }
 
 #EXAMPLE#
-$emailID = 99;
-$attachmentNumber = 2;
+$emailID = 94;
+$attachmentNumber = 1;
 downloadOrderEmailAttachment($emailID, $attachmentNumber);
