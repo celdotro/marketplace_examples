@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Cere acces la o categorie (https://github.com/celdotro/marketplace/wiki/Cere-acces-la-o-categorie)
+ * [EN] Request access to category (https://github.com/celdotro/marketplace/wiki/Request-category-access)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -21,6 +23,5 @@ function requestCategoryAccess($categ_id){
 }
 
 #EXAMPLE#
-$categ_id = 788;
-// $categ_id = 45;
+$categ_id = 1;
 requestCategoryAccess($categ_id);
