@@ -11,11 +11,11 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 use celmarket\Admin\AdminInformation;
 
 #FUNCTION#
-function getRequests($availability){
+function listCategoryRequests($availability){
     $object = new AdminInformation();
 
     try{
-        $response = $object->getRequests($availability);
+        $response = $object->listCategoryRequests($availability);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,4 @@ function getRequests($availability){
 
 #EXAMPLE#
 $availability = 2;
-getRequests($availability);
+listCategoryRequests($availability);
