@@ -25,7 +25,7 @@ function updateAccountInformation($cif = NULL, $iban = NULL, $telephone = NULL, 
 
 #EXAMPLE#
 $cif = '6859662';
-$iban = 'RO35RNCB0205044180940001';
+$iban = 'RO54INGB0000999906487396';
 $telephone = '+40799999999';
 $password = '1Pass__)';
 $bank = 'BANK_NAME';
