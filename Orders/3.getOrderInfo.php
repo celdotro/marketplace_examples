@@ -24,4 +24,4 @@ function getOrderInfo($order_id){
 }
 
 #EXAMPLE#
-getOrderInfo(113726);
+getOrderInfo(2000543);
