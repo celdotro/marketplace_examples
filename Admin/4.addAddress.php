@@ -12,11 +12,11 @@ use celmarket\Admin\AdminAddress;
 
 #0#
 #FUNCTION#
-function addAddress($address, $courier){
+function addAddress($address, $courier, $accData){
     $object = new AdminAddress();
 
     try{
-        $response = $object->addAddress($address, $courier);
+        $response = $object->addAddress($address, $courier, $accData);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -25,6 +25,7 @@ function addAddress($address, $courier){
 
 #EXAMPLE#
 $address = 'Str. X...';
-$courier = 'Courier Name';
+$courier = 0;
+$accData = array();
 
-addAddress($address, $courier);
+addAddress($address, $courier, $accData);
