@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Preia o sinteza a informatiilor despre cont
- * [EN] Retrieve a summary of account information
+ * [RO] Preia o sinteza a informatiilor despre cont (https://github.com/celdotro/marketplace/wiki/Preia-informatii-combinate)
+ * [EN] Retrieve a summary of account information (https://github.com/celdotro/marketplace/wiki/Get-information-combined)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
