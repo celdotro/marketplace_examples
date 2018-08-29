@@ -23,5 +23,5 @@ function getCategoryFaqContent($category){
 }
 
 #EXAMPLE#
-$category = 100;
+$category = 6;
 getCategoryFaqContent($category);
