@@ -10,11 +10,11 @@ use celmarket\Products\ProductsList;
 
 #16#
 #FUNCTION#
-function getProductsFamilies($start, $limit, $search){
+function getProductsForFamily($id){
     $object = new ProductsList();
 
     try{
-        $response = $object->getProductsFamilies($start, $limit, $search);
+        $response = $object->getProductsForFamily($id);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -22,10 +22,5 @@ function getProductsFamilies($start, $limit, $search){
 }
 
 #EXAMPLE#
-$start = 0;
-$limit = 10;
-// $search = '10000051';
-// $search = 'probook';
-$search = '';
-
-getProductsFamilies($start, $limit, $search);
+$id = 1;
+getProductsForFamily($id);
