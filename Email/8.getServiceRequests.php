@@ -1,7 +1,7 @@
 <?php
 /**
  * [RO] Preia cererile de service aferente afiliatului (https://github.com/celdotro/marketplace/wiki/Preia-cererile-de-retur)
- * [EN] Get service requests for the current affiliate (https://github.com/celdotro/marketplace/wiki/Get-return-requests)
+ * [EN] Get service requests for the current affiliate (https://github.com/celdotro/marketplace/wiki/Get-service-requests)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
