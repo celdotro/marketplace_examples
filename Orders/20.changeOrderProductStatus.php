@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Schimba statusul unui produs dintr-o comanda
- * [EN] Changes the status of a product from a specific order
+ * [RO] Schimba statusul unui produs dintr-o comanda (https://github.com/celdotro/marketplace/wiki/Schimba-statusul-unui-produs-din-comanda)
+ * [EN] Changes the status of a product from a specific order (https://github.com/celdotro/marketplace/wiki/Change-order-product-status)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
