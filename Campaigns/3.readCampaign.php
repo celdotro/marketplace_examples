@@ -29,14 +29,14 @@ $products = array(
     'start'     =>  0,
     'limit'     =>  10,
     'search'    =>  array(
-        'byName'    =>  'Nume1'
+        // 'byName'    =>  'Nume1'
     )
 );
 $availableProducts =  array(
     'start'     =>  0,
     'limit'     =>  10,
     'search'    =>  array(
-        'byName'    =>  'Nume2'
+        // 'byName'    =>  'Nume2'
     )
 );
 readCampaign($name, $products, $availableProducts);
