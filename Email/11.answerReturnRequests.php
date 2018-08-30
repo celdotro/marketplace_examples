@@ -1,7 +1,7 @@
 <?php
 /**
  * [RO] Raspunde unei cereri de retur (https://github.com/celdotro/marketplace/wiki/Raspunde-cererii-de-retur)
- * [EN] Send an answer to a return request (https://github.com/celdotro/marketplace/wiki/Retrieve-service-requests)
+ * [EN] Send an answer to a return request (https://github.com/celdotro/marketplace/wiki/Answer-return-request)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
