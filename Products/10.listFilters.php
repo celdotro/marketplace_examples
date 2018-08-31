@@ -24,5 +24,5 @@ function listFilters($filters = null){
 }
 
 #EXAMPLE#
-$filters = json_encode(array('keyword' => '', 'manufacturer' => array(), 'status' => array()));
+$filters = json_encode(array('keyword' => '', 'manufacturer' => array(), 'status' => array(), 'categories_id' => array()));
 listFilters($filters);
