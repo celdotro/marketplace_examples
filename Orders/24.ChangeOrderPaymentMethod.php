@@ -24,7 +24,7 @@ function changeOrderPaymentMethod($cmd, $paymentMethod, $paidSum = null){
 }
 
 #EXAMPLE#
-$order = 113638;
+$order = 2000542;
 $paymentMethod = 'Ordin de Plata';
 $paidSum = 10;
 changeOrderPaymentMethod($order, $paymentMethod, $paidSum);

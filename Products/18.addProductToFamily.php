@@ -23,5 +23,5 @@ function addProductToFamily($familyId, $model){
 
 #EXAMPLE#
 $familyId = 1;
-$model = 'testdoiphpunit';
+$model = '3mw42aw';
 addProductToFamily($familyId, $model);

@@ -24,7 +24,7 @@ function addOfferToExistingProduct($products_model, $stoc, $pret, $overridePrice
 }
 
 #EXAMPLE#
-$products_model = base64_encode('adaugaofertabug');
+$products_model = base64_encode('zamb-4-5');
 $stoc = 1;
 $pret = 100;
 $overridePrice = 1;

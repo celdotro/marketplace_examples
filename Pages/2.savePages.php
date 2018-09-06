@@ -26,8 +26,8 @@ function savePage($id, $pageData){
 #EXAMPLE#
 $id = 28;
 $pageData = array(
-    'pkey'  =>  'aPkey',
-    'ctnp'  =>  'aContinut pagina',
-    'pg_n'  =>  'aNumar pagina'
+    'pkey'  =>  'service-produse',
+    'ctnp'  =>  'bbbbb',
+    'pg_n'  =>  'Service produse'
 );
 savePage($id, $pageData);
