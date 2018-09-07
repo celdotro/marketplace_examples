@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Elimina produs din familie (https://github.com/celdotro/marketplace/wiki/Elimina-produs-din-familie)
+ * [EN] Remove product from family (https://github.com/celdotro/marketplace/wiki/Remove-product-from-family)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -22,6 +24,5 @@ function removeProductFromFamily($model){
 }
 
 #EXAMPLE#
-// $familyId = 1;
-$model = 'testdoiphpunit';
+$model = 'model';
 removeProductFromFamily($model);

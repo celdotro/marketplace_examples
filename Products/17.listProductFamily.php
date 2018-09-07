@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Listeaza familiile de produse (https://github.com/celdotro/marketplace/wiki/Listeaza-familiile-de-produse)
+ * [EN] List product families (https://github.com/celdotro/marketplace/wiki/List-product-families)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -24,8 +26,6 @@ function getProductsFamilies($start, $limit, $search){
 #EXAMPLE#
 $start = 0;
 $limit = 10;
-// $search = '10000051';
-// $search = 'probook';
 $search = '';
 
 getProductsFamilies($start, $limit, $search);
