@@ -25,7 +25,7 @@ function getOrdersList($start, $limit, $arrOptions, $status = null){
 
 #EXAMPLE#
 $start = 0;
-$limit = 10;
+$limit = 1;
 $arrOptions = array(
     // 'date'  =>   array(
     //     'from'  =>   '2017-05-05',
@@ -47,13 +47,13 @@ $arrOptions = array(
     //         'sign'  =>  'ee'
     //     )
     // ),
-    'order'  =>   2000542, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
+    // 'order'  =>   2000542, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
     // 'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
-    'order_status' => 2, // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
-    'group_by_status' => true, // lipsa elementului sau prezenta sa cu valoarea true va determina gruparea in functie de status, valoarea false va determina lispsa gruparii in functie de status / if the element is missing or its value is true, it will group by status, otherwise it will not group by any field
+    'order_status' => 1, // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
+    // 'group_by_status' => true, // lipsa elementului sau prezenta sa cu valoarea true va determina gruparea in functie de status, valoarea false va determina lispsa gruparii in functie de status / if the element is missing or its value is true, it will group by status, otherwise it will not group by any field
     // 'order_by_date_purchased' => 'DESC',
     // 'min_order' => 113637
-    'payment_method' => 'Numerar sau ramburs'
+    // 'payment_method' => 'Numerar sau ramburs'
 );
 $status = 1;
 getOrdersList($start, $limit, $arrOptions, $status);
