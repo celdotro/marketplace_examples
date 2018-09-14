@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Preia lunile aferente platilor cu cardul
- * [EN] Retrieve card payment months
+ * [RO] Preia lunile aferente platilor cu cardul (https://github.com/celdotro/marketplace/wiki/Preia-lunile-platilor-cu-cardul)
+ * [EN] Retrieve card payment months (https://github.com/celdotro/marketplace/wiki/Retrieve-card-payments-months)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
