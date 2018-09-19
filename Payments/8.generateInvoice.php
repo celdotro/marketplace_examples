@@ -24,5 +24,5 @@ function generateInvoice($borderou){
 }
 
 #EXAMPLE#
-$borderou = 1;
+$borderou = 236;
 generateInvoice($borderou);
