@@ -1,6 +1,6 @@
 <?php
 /**
- * [RO] Descarca factura (https://github.com/celdotro/marketplace/wiki/Download-invoice)
+ * [RO] Descarca factura (https://github.com/celdotro/marketplace/wiki/Descarca-factura)
  * [EN] Download invoice (https://github.com/celdotro/marketplace/wiki/Download-invoice)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
