@@ -26,7 +26,7 @@ function getMccCodes($filters, $start){
 $filters = array(
     // 'mcc' => '0742',
     // 'descriere' => 'vet',
-    'descriere_romana' => 'vet'
+    // 'descriere_romana' => 'vet'
 );
 $start = 0;
 getMccCodes($filters, $start);
