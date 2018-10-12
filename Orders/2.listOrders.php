@@ -27,10 +27,10 @@ function getOrdersList($start, $limit, $arrOptions, $status = null){
 $start = 0;
 $limit = 1;
 $arrOptions = array(
-    // 'date'  =>   array(
-    //     'from'  =>   '2017-05-05',
-    //     'to'  =>  '2017-05-31 23:59:59'
-    // ),
+    'date'  =>   array(
+        'from'  =>   '2018-09-07 08:39:42',
+        'to'  =>  '2018-09-07 08:39:42'
+    ),
     // 'customer'  =>   array(
     //     array( // Semne acceptate / Accepted signs: ee, ne
     //         'name'  =>  'nume1', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
