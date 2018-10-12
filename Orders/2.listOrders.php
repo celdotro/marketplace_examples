@@ -27,26 +27,14 @@ function getOrdersList($start, $limit, $arrOptions, $status = null){
 $start = 0;
 $limit = 1;
 $arrOptions = array(
-    'date'  =>   array(
-        'from'  =>   '2018-09-07 08:39:42',
-        'to'  =>  '2018-09-07 08:39:42'
-    ),
-    // 'customer'  =>   array(
-    //     array( // Semne acceptate / Accepted signs: ee, ne
-    //         'name'  =>  'nume1', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
-    //         'sign'  =>  'ee'
-    //     ),
-    //     array(
-    //         'name'  =>  'nume2',
-    //         'sign'  =>  'ne'
-    //     )
+    // 'date'  =>   array(
+        // 'minDate'  =>   '2018-09-07 08:39:42',
+        // 'maxDate'  =>  '2018-09-07 08:39:42',
     // ),
-    // 'product'  =>   array(
-    //     array( // Semne acceptate / Accepted signs: ee, ne
-    //         'name'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
-    //         'sign'  =>  'ee'
-    //     )
-    // ),
+            // 'customer'  =>  'Florin Test Florin Test', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
+            // 'customerSign'  =>  'ee'
+            'product'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
+            'productSign'  =>  'ee'
     // 'order'  =>   2000542, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
     // 'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
     // 'order_status' => 2, // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
