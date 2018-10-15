@@ -27,7 +27,7 @@ function listProducts($start, $limit, $search = null, $forceCount = false, $filt
 listProducts(0, 0, null, true, json_encode(
     array(
         // 'keyword' => 'schimbarestoc',
-        // 'manufacturer' => array('Manufacturer'),
+        'manufacturer' => array(8164),
         // 'status' => array(0,1),
         // 'categories_id' => array(100),
         // 'products_last_modified_min' => '2017-01-01',
