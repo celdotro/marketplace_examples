@@ -26,8 +26,8 @@ function listProducts($start, $limit, $search = null, $forceCount = false, $filt
 #EXAMPLE#
 listProducts(0, 0, null, true, json_encode(
     array(
-        // 'keyword' => 'schimbarestoc',
-        'manufacturer' => array(8164),
+        'keyword' => 't015011',
+        // 'manufacturer' => array(8164),
         // 'status' => array(0,1),
         // 'categories_id' => array(100),
         // 'products_last_modified_min' => '2017-01-01',
