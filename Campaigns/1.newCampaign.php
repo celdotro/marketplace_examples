@@ -12,11 +12,11 @@ use celmarket\Campaigns\CampaignsCreate;
 
 #23#
 #FUNCTION#
-function newCampaign($name, $dateStart, $dateEnd){
+function newCampaign($name, $dateStart, $dateEnd, $type){
     $object = new CampaignsCreate();
 
     try{
-        $response = $object->newCampaign($name, $dateStart, $dateEnd);
+        $response = $object->newCampaign($name, $dateStart, $dateEnd, $type);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,4 @@ function newCampaign($name, $dateStart, $dateEnd){
 }
 
 #EXAMPLE#
-newCampaign('Campanie Test', '2017-01-01', '2017-05-09');
+newCampaign('Campanie Test', '2017-01-01', '2017-05-09', 1);

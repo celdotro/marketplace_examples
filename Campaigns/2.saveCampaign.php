@@ -12,11 +12,11 @@ use celmarket\Campaigns\CampaignsEdit;
 
 #23#
 #FUNCTION#
-function saveCampaign($name, $newName, $dateStart, $dateEnd, $discount){
+function saveCampaign($name, $newName, $dateStart, $dateEnd, $discount, $tip_campanie){
     $object = new CampaignsEdit();
 
     try{
-        $response = $object->saveCampaign($name, $newName, $dateStart, $dateEnd, $discount);
+        $response = $object->saveCampaign($name, $newName, $dateStart, $dateEnd, $discount, $tip_campanie);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,4 @@ function saveCampaign($name, $newName, $dateStart, $dateEnd, $discount){
 }
 
 #EXAMPLE#
-saveCampaign('Campanie Test', 'Campanie Test!!!', '2017-01-01', '2017-05-09', 10);
+saveCampaign('Campanie Test', 'Campanie Test!!!', '2017-01-01', '2017-05-09', 10, 1);
