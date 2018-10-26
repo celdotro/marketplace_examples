@@ -24,5 +24,5 @@ function getCategoryCharacteristics($categID){
 }
 
 #EXAMPLE#
-$categID = 197;
+$categID = 38;
 getCategoryCharacteristics($categID);

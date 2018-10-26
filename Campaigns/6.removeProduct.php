@@ -24,6 +24,6 @@ function removeProduct($name, $productModel){
 }
 
 #EXAMPLE#
-$name = 'Campanie Test';
-$productModel = 'Model1';
+$name = 'TestPromo';
+$productModel = '6imagini';
 removeProduct($name, $productModel);

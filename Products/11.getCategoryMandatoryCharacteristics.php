@@ -24,5 +24,5 @@ function listCategoryMandatoryCharacteristics($categID){
 }
 
 #EXAMPLE#
-$categID = 1;
+$categID = 38;
 listCategoryMandatoryCharacteristics($categID);

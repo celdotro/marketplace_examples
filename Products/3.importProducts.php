@@ -190,7 +190,26 @@ $arrProducts = array(
     //     'status' => 1
     // ),
 
+    
+        array(
+        'products_name' => "Biscuiti Ecologici din Faina de Alac cu Ciocolata si Cafea Bohlsener 125gr",
+        'products_model' => "bhm53246",
+        'manufacturers_name' => "Bohlsener Muhle",
+        "categories_id" => 1118,
+        "stoc" => 1,
+        "pretf" => "8.49",
+        'products_image' => "http://localhost:334/ProductFirstFileHandler/700/700/biscuiti-ecologici-din-faina-de-alac-cu-ciocolata-si-cafea-bohlsener-125gr-8764.jpg",
+        'products_description'=> 'ABC',
+        'products_url' => "http://localhost:334/produse-bio/produse-bio-alimentare/dulciuri-bio/biscuiti-ecologici-din-faina-de-alac-cu-ciocolata-si-cafea-bohlsener-125gr",
+        "charact" => '{"Tip cafea": ["Tip"], "Forma produs": ["Forma"], "Greutate (Kg)": ["5"]}',
+        'status' => 1,
+        'hasTVA' => 0,
+        'type' => "insert",
+        'forceInsert' => 1,
+        'overridePrice' => 1,
+    
+        ),
     // // [... N]      
-    'hasTVA' => 0 // Camp optional care poate intra in conflict cu cel specificat la linia de produs. Verificati pagina de WIKI pentru mai multe informatii: https://github.com/celdotro/marketplace/wiki/Import-produse#parametri / Optional field that can conflict with the value specified in the product's line. Please check the WIKI page for more information: https://github.com/celdotro/marketplace/wiki/Import-products#parameters
+    // 'hasTVA' => 0 // Camp optional care poate intra in conflict cu cel specificat la linia de produs. Verificati pagina de WIKI pentru mai multe informatii: https://github.com/celdotro/marketplace/wiki/Import-produse#parametri / Optional field that can conflict with the value specified in the product's line. Please check the WIKI page for more information: https://github.com/celdotro/marketplace/wiki/Import-products#parameters
 );
 importProducts($arrProducts);
