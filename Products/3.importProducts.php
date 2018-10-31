@@ -89,94 +89,94 @@ $arrProducts = array(
     //     'type' => 'insert',
     //     // 'procesare_in' => 1
     // ),
-    // array(
-    //     'products_name' => 'Birou Calculator Global Network Fag', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-    //     'products_model' => '16101', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-    //     'manufacturers_name' => 'Drimus', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-    //     'categories_id' => 1270, // Obligatoriu pentru forma detailata / Mandatory for detailed form
-    //     'stoc' => 13, // Obligatoriu pentru forma detailata / Mandatory for detailed form
-    //     'pretf' => 264.0000, // Obligatoriu pentru forma detailata / Mandatory for detailed form
-    //     'products_image' => "http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpg", // Obligatoriu pentru forma detailata / Mandatory for detailed form
-    //     'products_description' => 'Birou calculator este in ziua de astazi o piesa de mobilier prezenta in toate spatiile office si in aproape toate spatiile de locuit. Este clar ca biroul trebuie sa fie unul functional si foarte rezistent, el trebuie sa raspunda tuturor cerintelor tale atunci cand petreci mult timp in fata calculatorului si sa faca fata tuturor pericolelor de zi cu zi (cafea, ceai, sucuri, zgarieturi, lovituri).
+    array(
+        'products_name' => 'Birou Calculator Global Network Fag', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_model' => '16101', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'manufacturers_name' => 'Drimus', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'categories_id' => 1270, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'stoc' => 13, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'pretf' => 264.0000, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_image' => "http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpg", // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_description' => 'Birou calculator este in ziua de astazi o piesa de mobilier prezenta in toate spatiile office si in aproape toate spatiile de locuit. Este clar ca biroul trebuie sa fie unul functional si foarte rezistent, el trebuie sa raspunda tuturor cerintelor tale atunci cand petreci mult timp in fata calculatorului si sa faca fata tuturor pericolelor de zi cu zi (cafea, ceai, sucuri, zgarieturi, lovituri).
 
-    //     Biroul pentru calculator este unul rezistent, simplu, realizat din PAL melaminat cu grosimea de 18 mm. Datorita dimensiunilor sale nu foarte mari, el este alegerea ideala atunci cand nu dispui de prea mult spatiu in camera in care vrei sa-l pozitionezi.
+        Biroul pentru calculator este unul rezistent, simplu, realizat din PAL melaminat cu grosimea de 18 mm. Datorita dimensiunilor sale nu foarte mari, el este alegerea ideala atunci cand nu dispui de prea mult spatiu in camera in care vrei sa-l pozitionezi.
         
-    //     Biroul este unul foarte practic – el este prevazut cu polita glisanta pentru tastatura, dar si cu loc pentru unitate. De asemenea, deasupra spatiului pentru unitate, biroul mai dispune si de o polita pentru depozitarea diverselor lucruri necesare muncii la birou.
+        Biroul este unul foarte practic – el este prevazut cu polita glisanta pentru tastatura, dar si cu loc pentru unitate. De asemenea, deasupra spatiului pentru unitate, biroul mai dispune si de o polita pentru depozitarea diverselor lucruri necesare muncii la birou.
         
-    //     Biroul se livreaza la colet. El este usor de montat si foarte usor de manevrat.
+        Biroul se livreaza la colet. El este usor de montat si foarte usor de manevrat.
         
-    //     Dimensiunile biroului pentru calculator sunt:
-    //     Lungime blat – 100 cm
-    //     Latime blat – 52 cm
-    //     Inaltime – 76 cm
+        Dimensiunile biroului pentru calculator sunt:
+        Lungime blat – 100 cm
+        Latime blat – 52 cm
+        Inaltime – 76 cm
         
-    //     Garantia produsului este de 2 ani.
-    //     ',
-    //     // 'moneda' => 'RON',
-    //     'products_url' => 'http://markemag.totulpentrubebe.ro/1610-2707.htm',
-    //     // 'garantie' => 1,
-    //     // 'garantie_pj' => 1,
-    //     // 'products_url' => 'https://dev.itelmobile.ro/husa-slim-nillkin-frosted-samsung-j7-max-negru/',
-    //     'image' => 
-    //         array(
+        Garantia produsului este de 2 ani.
+        ',
+        // 'moneda' => 'RON',
+        'products_url' => 'http://markemag.totulpentrubebe.ro/1610-2707.htm',
+        // 'garantie' => 1,
+        // 'garantie_pj' => 1,
+        // 'products_url' => 'https://dev.itelmobile.ro/husa-slim-nillkin-frosted-samsung-j7-max-negru/',
+        'image' => 
+            array(
                
-    //             array(
-    //                 'id' => 0,
-    //                 'url' => 'http://markemag.totulpentrubebe.ro/6321-thickbox_default/2707.jpg'
-    //             ),
-    //             array(
-    //                 'id' => 0,
-    //                 'url' => 'http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpgg'
-    //             ),
-    //             array(
-    //                 'id' => 0,
-    //                 'url' => 'http://markemag.totulpentrubebe.ro/6323-thickbox_default/2707.jpg'
-    //             ),
-    //             // array(
-    //             //     'id' => 0,
-    //             //     'url' => 'https://dev.itelmobile.ro/10955/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg'
-    //             // ),
-    //         ),
-    //     // "image"=> array(
-    //     //     "https://dev.itelmobile.ro/10954/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg",
-    //     //     "https://dev.itelmobile.ro/10955/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg"
-    //     // ),
-    //     'charact' => array(
-    //         'culoare:' => array(
-    //             'Fag',
-    //         ),
-    //         'Material:' => array(
-    //             'Pal',
-    //         ),
-    //         'Dimensiune:' => array(
-    //             '100 cm'
-    //         ),
-    //         'Tip:' => array(
-    //             'Birou'
-    //         ),
-    //         'Format:' => array(
-    //             'Standard'
-    //         ),
+                array(
+                    'id' => 0,
+                    'url' => 'http://markemag.totulpentrubebe.ro/6321-thickbox_default/2707.jpg'
+                ),
+                array(
+                    'id' => 0,
+                    'url' => 'http://markemag.totulpentrubebe.ro/6322-thickbox_default/2707.jpgg'
+                ),
+                array(
+                    'id' => 0,
+                    'url' => 'http://markemag.totulpentrubebe.ro/6323-thickbox_default/2707.jpg'
+                ),
+                // array(
+                //     'id' => 0,
+                //     'url' => 'https://dev.itelmobile.ro/10955/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg'
+                // ),
+            ),
+        // "image"=> array(
+        //     "https://dev.itelmobile.ro/10954/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg",
+        //     "https://dev.itelmobile.ro/10955/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg"
+        // ),
+        'charact' => array(
+            'culoare:' => array(
+                'Fag',
+            ),
+            'Material:' => array(
+                'Pal',
+            ),
+            'Dimensiune:' => array(
+                '100 cm'
+            ),
+            'Tip:' => array(
+                'Birou'
+            ),
+            'Format:' => array(
+                'Standard'
+            ),
 
-    //     ),
-    //     'products_weight' => 26.0000,
-    //     // 'status' => 1,
-    //     // 'import_code' => 'hus-nlk-frosted-j7max-neg',
-    //     // 'products_quantity' => 9,
-    //     // 'adaos' => 5.0000,
-    //     // 'bonus' => array(
-    //     //     'BonusModel1',
-    //     //     'BonusModel2'
-    //     // ),
-    //     // 'recomandate' => 2,
-    //     // 'procesare_in' => 1,
-    //     // 'cand' => '2018-06-22 15:28',
-    //     // 'pret_vechi' => 28.17,
-    //     'status' => 0,
-    //     // 'hasTVA' => 1, // (Poate fi suprascris de cel de pe nivelul 0) Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / (Can be overwritten by the attribute from level 0 with the same name) Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
-    //     'type' => 'insert',
-    //     // 'procesare_in' => 1
-    // ),
+        ),
+        'products_weight' => 26.0000,
+        // 'status' => 1,
+        // 'import_code' => 'hus-nlk-frosted-j7max-neg',
+        // 'products_quantity' => 9,
+        // 'adaos' => 5.0000,
+        // 'bonus' => array(
+        //     'BonusModel1',
+        //     'BonusModel2'
+        // ),
+        // 'recomandate' => 2,
+        // 'procesare_in' => 1,
+        // 'cand' => '2018-06-22 15:28',
+        // 'pret_vechi' => 28.17,
+        'status' => 0,
+        // 'hasTVA' => 1, // (Poate fi suprascris de cel de pe nivelul 0) Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / (Can be overwritten by the attribute from level 0 with the same name) Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
+        'type' => 'insert',
+        // 'procesare_in' => 1
+    ),
 
     // Al doilea produs din lista -> forma scurta (produse deja aprobate)
     // Second product -> short form (already approved products)
@@ -191,24 +191,24 @@ $arrProducts = array(
     // ),
 
     
-        array(
-        'products_name' => "Biscuiti Ecologici din Faina de Alac cu Ciocolata si Cafea Bohlsener 125gr",
-        'products_model' => "bhm53246",
-        'manufacturers_name' => "Bohlsener Muhle",
-        "categories_id" => 1118,
-        "stoc" => 1,
-        "pretf" => "8.49",
-        'products_image' => "http://localhost:334/ProductFirstFileHandler/700/700/biscuiti-ecologici-din-faina-de-alac-cu-ciocolata-si-cafea-bohlsener-125gr-8764.jpg",
-        'products_description'=> 'ABC',
-        'products_url' => "http://localhost:334/produse-bio/produse-bio-alimentare/dulciuri-bio/biscuiti-ecologici-din-faina-de-alac-cu-ciocolata-si-cafea-bohlsener-125gr",
-        "charact" => '{"Tip cafea": ["Tip"], "Forma produs": ["Forma"], "Greutate (Kg)": ["5"]}',
-        'status' => 1,
-        'hasTVA' => 0,
-        'type' => "insert",
-        'forceInsert' => 1,
-        'overridePrice' => 1,
+        // array(
+        // 'products_name' => "Biscuiti Ecologici din Faina de Alac cu Ciocolata si Cafea Bohlsener 125gr",
+        // 'products_model' => "bhm53246",
+        // 'manufacturers_name' => "Bohlsener Muhle",
+        // "categories_id" => 1118,
+        // "stoc" => 1,
+        // "pretf" => "8.49",
+        // 'products_image' => "http://localhost:334/ProductFirstFileHandler/700/700/biscuiti-ecologici-din-faina-de-alac-cu-ciocolata-si-cafea-bohlsener-125gr-8764.jpg",
+        // 'products_description'=> 'ABC',
+        // 'products_url' => "http://localhost:334/produse-bio/produse-bio-alimentare/dulciuri-bio/biscuiti-ecologici-din-faina-de-alac-cu-ciocolata-si-cafea-bohlsener-125gr",
+        // "charact" => '{"Tip cafea": ["Tip"], "Forma produs": ["Forma"], "Greutate (Kg)": ["5"]}',
+        // 'status' => 1,
+        // 'hasTVA' => 0,
+        // 'type' => "insert",
+        // 'forceInsert' => 1,
+        // 'overridePrice' => 1,
     
-        ),
+        // ),
     // // [... N]      
     // 'hasTVA' => 0 // Camp optional care poate intra in conflict cu cel specificat la linia de produs. Verificati pagina de WIKI pentru mai multe informatii: https://github.com/celdotro/marketplace/wiki/Import-produse#parametri / Optional field that can conflict with the value specified in the product's line. Please check the WIKI page for more information: https://github.com/celdotro/marketplace/wiki/Import-products#parameters
 );
