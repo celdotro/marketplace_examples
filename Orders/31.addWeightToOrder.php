@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Permite actualizarea greutatii comenzii (https://github.com/celdotro/marketplace/wiki/Adaugare-greutate)
+ * [EN] Add weight to order (https://github.com/celdotro/marketplace/wiki/Add-weight)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
