@@ -24,7 +24,7 @@ function readCampaign($name, $products, $availableProducts){
 }
 
 #EXAMPLE#
-$name = 'Campanie Test';
+$name = 'TestStoc';
 $products = array(
     'start'     =>  0,
     'limit'     =>  10,

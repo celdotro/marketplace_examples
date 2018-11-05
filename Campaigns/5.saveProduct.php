@@ -12,7 +12,7 @@ use celmarket\Campaigns\CampaignsEdit;
 
 #23#
 #FUNCTION#
-function saveProduct($name, $productModel, $promoPrice){
+function saveProduct($name, $productModel, $promoPrice, $stoc){
     $object = new CampaignsEdit();
 
     try{
@@ -24,7 +24,8 @@ function saveProduct($name, $productModel, $promoPrice){
 }
 
 #EXAMPLE#
-$name = 'Campanie Test';
-$productModel = 'Model1';
+$name = 'TestStoc';
+$productModel = '6imagini';
 $promoPrice = 100;
-saveProduct($name, $productModel, $promoPrice);
+$stoc = 22;
+saveProduct($name, $productModel, $promoPrice, $stoc);
