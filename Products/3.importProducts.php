@@ -30,10 +30,10 @@ $arrProducts = array(
     // First product -> detailed form (any type of product)
     array(
         'products_name' => 'nosyncaddoffer', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'products_model' => 'nosyncaddoffer', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'products_model' => '82 113 04 777', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'manufacturers_name' => 'Global Network', // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'categories_id' => 441, // Obligatoriu pentru forma detailata / Mandatory for detailed form
-        'stoc' => 5543676379, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+        'stoc' => 2, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'pretf' => 25.0713, // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_image' => "https://dev.itelmobile.ro/10953/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg", // Obligatoriu pentru forma detailata / Mandatory for detailed form
         'products_description' => '<p class=\"page-title\">Husa slim Nillkin Frosted Samsung J7 Max Negru<\/p>\n<p class=\"page-title\"><\/p>\n<p dir=\"ltr\" id=\"docs-internal-guid-c8104134-7b3d-cafb-73d5-4b1811b9ba96\"><span>Husa slim hard din policarbonat tare <\/span><\/p>\n<p dir=\"ltr\"><span>Ultra slim, nu ingroasa telefonul, acopera spatele si lateralele <\/span><\/p>\n<p dir=\"ltr\"><span>Este confectionata dintr-un policarbonat (plastic) de buna calitate, care rezista foarte bine la socuri si protejeaza telefonul .<\/span><\/p>\n<p dir=\"ltr\"><span>Prezinta grip anti-alunecare pe spate pentru o buna prindere in mana <\/span><\/p>\n<p dir=\"ltr\"><span>Ofera un aspect placut telefonului<\/span><\/p>\n<p dir=\"ltr\"><span>Protejeaza telefonul importiva socurilor si a zgarieturilor <\/span><\/p>\n<p dir=\"ltr\"><span>Husa este perfect realizata pentru a se potrivi device-ului din descriere <\/span><\/p>\n<p dir=\"ltr\"><span>Permite aceesul la porturile de incarcare si butoane foarte usor datorita decupajelor perfect Realizate pentru modelul acesta de telefon <\/span><\/p>\n<p dir=\"ltr\"><span>Este confectionata dintr-un material de inalta calitate <\/span><\/p>\n<p dir=\"ltr\"><span>Design ergonimic si premium<\/span><\/p>',
@@ -87,6 +87,7 @@ $arrProducts = array(
         'status' => 0,
         'hasTVA' => 1, // (Poate fi suprascris de cel de pe nivelul 0) Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / (Can be overwritten by the attribute from level 0 with the same name) Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
         'type' => 'insert',
+        // 'forceInsert' => 1
         // 'procesare_in' => 1
     ),
     // array(
