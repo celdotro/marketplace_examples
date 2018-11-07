@@ -24,7 +24,7 @@ function finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidica
 }
 
 #EXAMPLE#
-$orders_id = 2000541;
+$orders_id = 113532;
 $serie = 'A';
 $nr_fact = 111;
 $awb = 222;

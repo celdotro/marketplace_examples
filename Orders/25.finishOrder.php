@@ -24,4 +24,4 @@ function finishOrder($orders_id){
 }
 
 #EXAMPLE#
-finishOrder(123456);
+finishOrder(113526);
