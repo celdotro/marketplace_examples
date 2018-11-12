@@ -23,7 +23,7 @@ function changeOrderProductStatus($orders_products_id, $status){
 }
 
 #EXAMPLE#
-$orders_products_id = 1234;
+$orders_products_id = 4145;
 $status = 0;// 0 4 5
 
 changeOrderProductStatus($orders_products_id, $status);

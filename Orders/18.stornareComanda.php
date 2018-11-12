@@ -23,6 +23,6 @@ function stornareComanda($orders_id, $reason){
 }
 
 #EXAMPLE#
-$orders_id = 113650;
+$orders_id = 113520;
 $reason = 'Cancellation reason';
 stornareComanda($orders_id, $reason);

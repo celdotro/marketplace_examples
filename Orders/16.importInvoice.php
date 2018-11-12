@@ -24,4 +24,4 @@ function importInvoice($cmd, $serie, $nr_fact){
 }
 
 #EXAMPLE#
-importInvoice(123456, 'Serie', 1);
+importInvoice(113520, 'Serie', 1);

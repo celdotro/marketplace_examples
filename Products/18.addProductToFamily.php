@@ -26,4 +26,5 @@ function addProductToFamily($familyId, $model){
 #EXAMPLE#
 $familyId = 888;
 $model = 't015011';
-addProductToFamily($familyId, $model);
+// addProductToFamily($familyId, $model);
+addProductToFamily(17675, 'tr000587-alb-s');
