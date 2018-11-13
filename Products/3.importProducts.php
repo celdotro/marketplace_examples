@@ -213,10 +213,10 @@ $arrProducts = array(
     // // [... N]      
     // 'hasTVA' => 0 // Camp optional care poate intra in conflict cu cel specificat la linia de produs. Verificati pagina de WIKI pentru mai multe informatii: https://github.com/celdotro/marketplace/wiki/Import-produse#parametri / Optional field that can conflict with the value specified in the product's line. Please check the WIKI page for more information: https://github.com/celdotro/marketplace/wiki/Import-products#parameters
         array(
-            'products_name' => 'testfamilie7', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-                'products_model' => 'testfamilie7', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+            'products_name' => 'testfamiliecs', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+                'products_model' => 'testfamiliecs', // Obligatoriu pentru forma detailata / Mandatory for detailed form
                 'manufacturers_name' => 'Samsung', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-                'categories_id' => 225, // Obligatoriu pentru forma detailata / Mandatory for detailed form
+                'categories_id' => 1225, // Obligatoriu pentru forma detailata / Mandatory for detailed form
                 'stoc' => 2, // Obligatoriu pentru forma detailata / Mandatory for detailed form
                 'pretf' => 25.0713, // Obligatoriu pentru forma detailata / Mandatory for detailed form
                 'products_image' => "https://dev.itelmobile.ro/10953/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg", // Obligatoriu pentru forma detailata / Mandatory for detailed form
@@ -242,8 +242,11 @@ $arrProducts = array(
                 //     "https://dev.itelmobile.ro/10955/husa-slim-nillkin-frosted-samsung-j7-max-negru.jpg"
                 // ),
                 'charact' => array(
-                    'Tip:' => array(
-                        'Geanta',
+                    'Culoare:' => array(
+                        'Rosu',
+                    ),
+                    'Marime:' => array(
+                        'S',
                     ),
                 ),
                 'products_weight' => 16,
@@ -264,9 +267,17 @@ $arrProducts = array(
                 'type' => 'insert',
                 // 'forceInsert' => 1
                 // 'procesare_in' => 1
-                'family_id' => 111,
-                'family_name' => 111,
-                'family_type' => array(array("charact"=>"Tip: [954]", "mode"=> 1)
+                'family_id' => 17669,
+                'family_name' => 'Rochie de ziua',
+                'family_type' => array(
+                    array(
+                        "charact"=>"Culoare: [633]", 
+                        "mode"=> 1
+                    ),
+                    array(
+                        "charact"=>"Marime: [2589]", 
+                        "mode"=> 1
+                    )
                 )
         )
 );
