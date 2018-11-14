@@ -24,4 +24,4 @@ function printAwb($cmd){
 }
 
 #EXAMPLE#
-printAwb(123456);
+printAwb(113440);
