@@ -24,4 +24,4 @@ function cancelOrder($cmd, $motiv = 0, $observatii = ''){
 }
 
 #EXAMPLE#
-cancelOrder(123456, 65, '');
+cancelOrder(2000603, 65, '');

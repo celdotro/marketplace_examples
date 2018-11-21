@@ -24,26 +24,26 @@ function updateProductsFromOrder($cmd, $arrModels){
 }
 
 #EXAMPLE#
-$cmd = 113723;
+$cmd = 2000583;
 $products = array(
     array
         (
             'products_price' => 698.00,
             'cantitate' => 2,
             'tva' => 19,
-            'id_prod_com' => 4550,
-            'deschidere_colet' => 1,
+            'id_prod_com' => 3396710 ,
+            'deschidere_colet' => 0,
             'status_livrare' => 5
         ),
 
-    array
-        (
-            'products_price' => 713.00,
-            'cantitate' => 2,
-            'tva' => 19,
-            'id_prod_com' => 4565,
-            'deschidere_colet' => 1,
-            'status_livrare' => 5
-        )
+    // array
+    //     (
+    //         'products_price' => 713.00,
+    //         'cantitate' => 2,
+    //         'tva' => 19,
+    //         'id_prod_com' => 4565,
+    //         'deschidere_colet' => 1,
+    //         'status_livrare' => 5
+    //     )
 );
 updateProductsFromOrder($cmd, $products);
