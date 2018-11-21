@@ -16,7 +16,7 @@ function finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidica
     $object = new OrdersData();
 
     try{
-        $response = $object->finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products);
+        $response = $object->finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products, $autogenerateAwb);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -40,4 +40,5 @@ $products = array(
         'status_livrare' => 0
     )
 );
-finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products);
+$autogenerateAwb = 'true';
+finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products, $autogenerateAwb);
