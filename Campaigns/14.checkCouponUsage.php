@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Verifica utilizarea cuponului (https://github.com/celdotro/marketplace/wiki/Verifica-utilizarea-cuponului)
+ * [EN] Check coupon's usage (https://github.com/celdotro/marketplace/wiki/Check-coupon-usage)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 

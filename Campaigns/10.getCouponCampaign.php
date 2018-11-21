@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Datele aferente unei campanii de cupoane (https://github.com/celdotro/marketplace/wiki/Date-campanie-cupoane)
+ * [EN] Get coupon campaign data (https://github.com/celdotro/marketplace/wiki/Coupon-Campaign-Data)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
