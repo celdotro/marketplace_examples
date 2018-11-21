@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Schimbare status cupon (https://github.com/celdotro/marketplace/wiki/Schimbare-status-cupon)
+ * [EN] Change coupon status (https://github.com/celdotro/marketplace/wiki/Change-coupon-status)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 

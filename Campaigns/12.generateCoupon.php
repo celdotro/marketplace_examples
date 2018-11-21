@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Generare cupon (https://github.com/celdotro/marketplace/wiki/Genereaza-cupon)
+ * [EN] Coupon generation (https://github.com/celdotro/marketplace/wiki/Generate-coupon)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 

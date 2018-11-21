@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Adaugare campanie cupoane noua (https://github.com/celdotro/marketplace/wiki/Adaugare-Campanie-Cupoane-Noua)
+ * [EN] Add new coupon campaign (https://github.com/celdotro/marketplace/wiki/Add-New-Coupon-Campaign)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
