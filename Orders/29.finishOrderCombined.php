@@ -12,11 +12,11 @@ use celmarket\Orders\OrdersData;
 
 #25#
 #FUNCTION#
-function finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products){
+function finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products, $autogenerateAwb){
     $object = new OrdersData();
 
     try{
-        $response = $object->finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products);
+        $response = $object->finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products, $autogenerateAwb);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,10 +24,10 @@ function finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidica
 }
 
 #EXAMPLE#
-$orders_id = 113520;
+$orders_id = 2000582;
 $serie = 'A';
-$nr_fact = 111;
-$awb = 222;
+$nr_fact = 1;
+$awb = '(va fi generat automat la finalizarea comenzii)';
 $idAdresaRidicare = 141;
 $observations = 'a';
 $products = array(
@@ -35,9 +35,10 @@ $products = array(
     'products_price'    =>  250,
     'cantitate' =>  1,
     'tva'   =>  20,
-    'id_prod_com'   =>  4567,
+    'id_prod_com'   =>  3396707,
     'deschidere_colet'  =>  1,
     'status_livrare' => 5
     )
 );
-finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products);
+$autogenerateAwb = 'true';
+finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products, $autogenerateAwb);

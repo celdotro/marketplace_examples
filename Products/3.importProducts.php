@@ -181,15 +181,15 @@ $arrProducts = array(
 
     // Al doilea produs din lista -> forma scurta (produse deja aprobate)
     // Second product -> short form (already approved products)
-     array(
-        'products_model' => 'schimbarestoc', // Obligatoriu pentru forma scurta / Mandatory for short form
-        'pretlei' => 218.96, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
-        'stoc' => 38, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
-        'hasTVA' => 0, // (Poate fi suprascris de cel de pe nivelul 0) Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / (Can be overwritten by the attribute from level 0 with the same name) Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
-        'procesare_in' => 1,
-        'type' => 'update',
-        'status' => 1
-    ),
+    //  array(
+    //     'products_model' => 'schimbarestoc', // Obligatoriu pentru forma scurta / Mandatory for short form
+    //     'pretlei' => 218.96, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
+    //     'stoc' => 38, // Trebuie cel putin 1 camp dintre 'pretf' si 'stoc' / At least one field between 'pretf' and 'stoc' is necessary
+    //     'hasTVA' => 0, // (Poate fi suprascris de cel de pe nivelul 0) Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / (Can be overwritten by the attribute from level 0 with the same name) Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
+    //     'procesare_in' => 1,
+    //     'type' => 'update',
+    //     'status' => 1
+    // ),
 
     
         // array(
@@ -280,5 +280,62 @@ $arrProducts = array(
         //             )
         //         )
         // )
+        array(
+            'products_name' => 'Smartwatch Bluetooth DZ09 MTK',
+            'products_model' => 1720,
+            'manufacturers_name' => 'Techstar',
+            'categories_id' => 697,
+            'stoc' => 1,
+            'pretf' => 69.99,
+            'products_image' => 'http://techstar.ro/4550-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg',
+            'products_description' => 'Descriere produs importat',
+            'moneda' => 'RON',
+            'garantie' => 24,
+            'garantie_pj' => 24,
+            'products_url' => 'http://techstar.ro/1720-smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.html',
+            'image' => array(
+                array(
+                    'id' => 0,
+                    'url' => 'http://techstar.ro/4551-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+                ),
+                array(
+                    'id' => 0,
+                    'url' => 'http://techstar.ro/4552-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+                ),
+                array(
+                    'id' => 0,
+                    'url' => 'http://techstar.ro/4553-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+                ),
+                array(
+                    'id' => 0,
+                    'url' => 'http://techstar.ro/4554-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+                ),
+                array(
+                    'id' => 0,
+                    'url' => 'http://techstar.ro/4555-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+                ),
+                array(
+                    'id' => 0,
+                    'url' => 'http://techstar.ro/4556-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+                ),
+                // array(
+                //     'id' => 0,
+                //     'url' => 'http://techstar.ro/4557-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+                // )
+                ),
+                'charact' => array(
+                    'Tip:' => array('smartwatch'),
+                    'Slot SIM:' => array('nu'),
+                    'Compatibilitate:' => array('Android')
+                ),
+                'products_weight' => 0,
+                'status' => 1,
+                'recomandate' => 2,
+                'procesare_in' => 1,
+                'pret_vechi' => 226.81,
+                'hasTVA' => 1,
+                'type' => 'insert',
+                'forceInsert' => true
+        )
 );
 importProducts($arrProducts);
