@@ -1,7 +1,7 @@
 <?php
 /**
  * [RO] Preia date cupon (https://github.com/celdotro/marketplace/wiki/Date-cupon)
- * [EN] Get coupon data
+ * [EN] Get coupon data (https://github.com/celdotro/marketplace/wiki/Coupon-data)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
