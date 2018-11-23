@@ -26,8 +26,8 @@ function listProducts($start, $limit, $search = null, $forceCount = false, $filt
 #EXAMPLE#
 listProducts(0, 0, null, true, json_encode(
     array(
-        'keyword' => 't015011',
-        'status_site' => 0
+        'keyword' => 'sl_1720',
+        // 'status_site' => 0
         // 'manufacturer' => array(8164),
         // 'status' => array(0,1),
         // 'categories_id' => array(100),

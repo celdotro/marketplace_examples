@@ -280,62 +280,71 @@ $arrProducts = array(
         //             )
         //         )
         // )
+        // array(
+        //     'products_name' => 'Smartwatch Bluetooth DZ09 MTK',
+        //     'products_model' => 1720,
+        //     'manufacturers_name' => 'Techstar',
+        //     'categories_id' => 697,
+        //     'stoc' => 1,
+        //     'pretf' => 69.99,
+        //     'products_image' => 'http://techstar.ro/4550-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg',
+        //     'products_description' => 'Descriere produs importat',
+        //     'moneda' => 'RON',
+        //     'garantie' => 24,
+        //     'garantie_pj' => 24,
+        //     'products_url' => 'http://techstar.ro/1720-smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.html',
+        //     'image' => array(
+        //         array(
+        //             'id' => 0,
+        //             'url' => 'http://techstar.ro/4551-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+        //         ),
+        //         array(
+        //             'id' => 0,
+        //             'url' => 'http://techstar.ro/4552-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+        //         ),
+        //         array(
+        //             'id' => 0,
+        //             'url' => 'http://techstar.ro/4553-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+        //         ),
+        //         array(
+        //             'id' => 0,
+        //             'url' => 'http://techstar.ro/4554-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+        //         ),
+        //         array(
+        //             'id' => 0,
+        //             'url' => 'http://techstar.ro/4555-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+        //         ),
+        //         array(
+        //             'id' => 0,
+        //             'url' => 'http://techstar.ro/4556-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+        //         ),
+        //         // array(
+        //         //     'id' => 0,
+        //         //     'url' => 'http://techstar.ro/4557-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
+        //         // )
+        //         ),
+        //         'charact' => array(
+        //             'Tip:' => array('smartwatch'),
+        //             'Slot SIM:' => array('nu'),
+        //             'Compatibilitate:' => array('Android')
+        //         ),
+        //         'products_weight' => 0,
+        //         'status' => 1,
+        //         'recomandate' => 2,
+        //         'procesare_in' => 1,
+        //         'pret_vechi' => 226.81,
+        //         'hasTVA' => 1,
+        //         'type' => 'insert',
+        //         'forceInsert' => true
+        // )
         array(
-            'products_name' => 'Smartwatch Bluetooth DZ09 MTK',
-            'products_model' => 1720,
-            'manufacturers_name' => 'Techstar',
-            'categories_id' => 697,
-            'stoc' => 1,
-            'pretf' => 69.99,
-            'products_image' => 'http://techstar.ro/4550-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg',
-            'products_description' => 'Descriere produs importat',
-            'moneda' => 'RON',
-            'garantie' => 24,
-            'garantie_pj' => 24,
-            'products_url' => 'http://techstar.ro/1720-smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.html',
-            'image' => array(
-                array(
-                    'id' => 0,
-                    'url' => 'http://techstar.ro/4551-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
-                ),
-                array(
-                    'id' => 0,
-                    'url' => 'http://techstar.ro/4552-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
-                ),
-                array(
-                    'id' => 0,
-                    'url' => 'http://techstar.ro/4553-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
-                ),
-                array(
-                    'id' => 0,
-                    'url' => 'http://techstar.ro/4554-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
-                ),
-                array(
-                    'id' => 0,
-                    'url' => 'http://techstar.ro/4555-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
-                ),
-                array(
-                    'id' => 0,
-                    'url' => 'http://techstar.ro/4556-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
-                ),
-                // array(
-                //     'id' => 0,
-                //     'url' => 'http://techstar.ro/4557-large_default/smartwatch-bluetooth-dz09-mtk-compatibil-sim-si-microsd-cu-camera-auriu.jpg'
-                // )
-                ),
-                'charact' => array(
-                    'Tip:' => array('smartwatch'),
-                    'Slot SIM:' => array('nu'),
-                    'Compatibilitate:' => array('Android')
-                ),
-                'products_weight' => 0,
-                'status' => 1,
-                'recomandate' => 2,
-                'procesare_in' => 1,
-                'pret_vechi' => 226.81,
-                'hasTVA' => 1,
-                'type' => 'insert',
-                'forceInsert' => true
+            'products_model' => 'sl_1720',
+            'stoc' => 50,
+            'pretf' => 109.99,
+            'status' => 1,
+            'hasTVA' => 1,
+            'type' => 'update',
+            'procesare_in' => 1
         )
 );
-importProducts($arrProducts);
+importProducts($arrProducts); 
