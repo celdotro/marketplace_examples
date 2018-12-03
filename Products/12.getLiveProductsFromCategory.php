@@ -25,7 +25,7 @@ function getLiveProductsFromCategory($category, $keyword = null, $start = null, 
 
 #EXAMPLE#
 $category = 91;
-$keyword = 'product_name';
+$keyword = '';
 $start = 0;
 $limit = 10;
 getLiveProductsFromCategory($category, $keyword, $start, $limit);

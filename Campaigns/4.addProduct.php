@@ -12,11 +12,11 @@ use celmarket\Campaigns\CampaignsEdit;
 
 #23#
 #FUNCTION#
-function addProduct($name, $productModel){
+function addProduct($name, $productModel, $idcampanie){
     $object = new CampaignsEdit();
 
     try{
-        $response = $object->addProduct($name, $productModel);
+        $response = $object->addProduct($name, $productModel, $idcampanie);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,6 +24,7 @@ function addProduct($name, $productModel){
 }
 
 #EXAMPLE#
-$name = 'Campanie Test';
-$productModel = 'Model1';
-addProduct($name, $productModel);
+$name = 'TestStoc';
+$productModel = 'ppc18frn';
+$idcampanie = 96;
+addProduct($name, $productModel, $idcampanie);

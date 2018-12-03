@@ -24,5 +24,5 @@ function getOrderContact($orders_id){
 }
 
 #EXAMPLE#
-$orders_id = 113537;
+$orders_id = 2000610;
 getOrderContact($orders_id);
