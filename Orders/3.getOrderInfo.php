@@ -12,11 +12,11 @@ use celmarket\Orders\OrdersData;
 
 #15#
 #FUNCTION#
-function getOrderInfo($order_id){
+function getOrderInfo($order_id, $original_delivery){
     $object = new OrdersData();
 
     try{
-        $response = $object->getOrderInfo($order_id);
+        $response = $object->getOrderInfo($order_id, $original_delivery);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,4 @@ function getOrderInfo($order_id){
 }
 
 #EXAMPLE#
-getOrderInfo(2000581);
+getOrderInfo(2000581, 1);
