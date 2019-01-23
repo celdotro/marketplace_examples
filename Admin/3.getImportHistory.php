@@ -24,8 +24,8 @@ function getImportHistory($date_start = null, $date_stop = null, $import_type = 
 }   
 
 #EXAMPLE#
-$date_start = '2017-01-01';
-$date_stop = '2017-12-31';
+$date_start = '2018-01-01';
+$date_stop = '2018-01-31';
 $import_type = 1;
 $page = 0;
 
