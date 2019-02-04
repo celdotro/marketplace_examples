@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d37492a288358b3c777b01a0c6cdfa81",
+    "content-hash": "242ff338b2ea3d5904263b4c631fa278",
     "packages": [
         {
             "name": "celdotro/marketplace",
-            "version": "1.11.0",
+            "version": "1.16.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/celdotro/marketplace.git",
-                "reference": "8690ab7d2b49239d1f22f1aa0d6710f2fcd96f39"
+                "reference": "2d6e6b9e09f0ae696d50e1717c7cac65f2c3cce9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/celdotro/marketplace/zipball/8690ab7d2b49239d1f22f1aa0d6710f2fcd96f39",
-                "reference": "8690ab7d2b49239d1f22f1aa0d6710f2fcd96f39",
+                "url": "https://api.github.com/repos/celdotro/marketplace/zipball/2d6e6b9e09f0ae696d50e1717c7cac65f2c3cce9",
+                "reference": "2d6e6b9e09f0ae696d50e1717c7cac65f2c3cce9",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "php",
                 "wiki"
             ],
-            "time": "2018-10-11T11:35:03+00:00"
+            "time": "2019-01-10T09:42:58+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -181,32 +181,33 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.4.2",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+                "reference": "9f83dded91781a01c63574e387eaa769be769115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
-                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
+                "reference": "9f83dded91781a01c63574e387eaa769be769115",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "psr/http-message": "~1.0"
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -236,13 +237,14 @@
             "keywords": [
                 "http",
                 "message",
+                "psr-7",
                 "request",
                 "response",
                 "stream",
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20T17:10:46+00:00"
+            "time": "2018-12-04T20:46:45+00:00"
         },
         {
             "name": "psr/http-message",
@@ -293,6 +295,46 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7.0",
+                "satooshi/php-coveralls": ">=1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "time": "2016-02-11T07:05:27+00:00"
         }
     ],
     "packages-dev": [],
