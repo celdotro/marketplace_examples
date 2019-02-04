@@ -214,7 +214,7 @@ $arrProducts = array(
     // 'hasTVA' => 0 // Camp optional care poate intra in conflict cu cel specificat la linia de produs. Verificati pagina de WIKI pentru mai multe informatii: https://github.com/celdotro/marketplace/wiki/Import-produse#parametri / Optional field that can conflict with the value specified in the product's line. Please check the WIKI page for more information: https://github.com/celdotro/marketplace/wiki/Import-products#parameters
         array(
             'products_name' => 'testfamiliecs_2', // Obligatoriu pentru forma detailata / Mandatory for detailed form
-                'products_model' => 'mc361zm/b', // Obligatoriu pentru forma detailata / Mandatory for detailed form
+                'products_model' => 'testpret', // Obligatoriu pentru forma detailata / Mandatory for detailed form
                 'manufacturers_name' => 'Samsung', // Obligatoriu pentru forma detailata / Mandatory for detailed form
                 'categories_id' => 921, // Obligatoriu pentru forma detailata / Mandatory for detailed form
                 'stoc' => 2, // Obligatoriu pentru forma detailata / Mandatory for detailed form
