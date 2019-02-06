@@ -55,9 +55,9 @@ function getOrdersList($start, $limit, $arrOptions){
 $start = 0;
 $limit = 50;
 $arrOptions = array(
-    // 'date' => array(
-    //     'minDate' => '2018.11.15 10:25:57',
-    //     'maxDate' => '2018.11.20 10:25:57'
-    // )
+    'last_changed' => array(
+        'minDate' => '2019-02-06 12:25:57',
+        'maxDate' => '2019-02-07 23:25:57'
+    )
 );
 getOrdersList($start, $limit, $arrOptions);
