@@ -20,8 +20,8 @@ celmarket\Config::setDemo();
 
 // Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
-// Auth::setUserDetails('flo2', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
-Auth::setUserDetails('caconnect', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
+Auth::setUserDetails('flo2', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
+// Auth::setUserDetails('caconnect', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
 // Auth::setUserDetails('contentspeed', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
 // Auth::setUserDetails('neoallbet', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
 // Auth::setUserDetails('testdoi', '0OZ1LEQC0QShKn24uM3KYrVYvdm9ZktPo2EDpke30hE3xsDFmm');
