@@ -26,23 +26,23 @@ function getOrdersList($start, $limit, $arrOptions){
 #EXAMPLE#
 // $start = 0;
 // $limit = 1;
-// // $arrOptions = array(
-// //     // 'date'  =>   array(
-// //         // 'minDate'  =>   '2018-09-07 08:39:42',
-// //         // 'maxDate'  =>  '2018-09-07 08:39:42',
-// //     // ),
-// //             // 'customer'  =>  'Florin Test Florin Test', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
-// //             // 'customerSign'  =>  'ee'
-// //             'product'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
-// //             'productSign'  =>  'ee'
-// //     // 'order'  =>   2000542, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
-// //     // 'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
-// //     // 'order_status' => 2, // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
-// //     // 'group_by_status' => true, // lipsa elementului sau prezenta sa cu valoarea true va determina gruparea in functie de status, valoarea false va determina lispsa gruparii in functie de status / if the element is missing or its value is true, it will group by status, otherwise it will not group by any field
-// //     // 'order_by_date_purchased' => 'DESC',
-// //     // 'min_order' => 113637
-// //     // 'payment_method' => 'Numerar sau ramburs'
-// // );
+$arrOptions = array(
+    // 'date'  =>   array(
+        // 'minDate'  =>   '2018-09-07 08:39:42',
+        // 'maxDate'  =>  '2018-09-07 08:39:42',
+    // ),
+            // 'customer'  =>  'Florin Test Florin Test', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
+            // 'customerSign'  =>  'ee'
+            // 'product'  =>   'laptop', // daca valoarea elementului este null, 0 sau sirul vid, atunci filtrul nu va fi aplicat / if the element's value is null, 0 or empty string, then it won't be used as a filter
+            // 'productSign'  =>  'ee'
+    // 'order'  =>   2000542, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
+    // 'invoice'  =>  0, // lipsa elementului sau prezenta sa cu valoarea null, 0 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0 or empty string, then it won't be used as a filter
+    // 'order_status' => 2, // lipsa elementului sau prezenta sa cu valoarea null, 0, 99 sau sirul vid duc la neaplicarea filtrului / if the element is missing or if its value is null, 0, 99 or empty string, then it won't be used as a filter
+    // 'group_by_status' => true, // lipsa elementului sau prezenta sa cu valoarea true va determina gruparea in functie de status, valoarea false va determina lispsa gruparii in functie de status / if the element is missing or its value is true, it will group by status, otherwise it will not group by any field
+    // 'order_by_date_purchased' => 'DESC',
+    // 'min_order' => 113637
+    // 'payment_method' => 'Numerar sau ramburs'
+);
 // $arrOptions =array(
 //     'product' => 'testdoiphpunit',
 //     'customerSign' => 'ee',
@@ -54,10 +54,10 @@ function getOrdersList($start, $limit, $arrOptions){
 
 $start = 0;
 $limit = 50;
-$arrOptions = array(
-    'last_changed' => array(
-        'minDate' => '2019-02-06 12:25:57',
-        'maxDate' => '2019-02-07 23:25:57'
-    )
-);
+// $arrOptions = array(
+//     'last_changed' => array(
+//         'minDate' => '2019-02-06 12:25:57',
+//         'maxDate' => '2019-02-07 23:25:57'
+//     )
+// );
 getOrdersList($start, $limit, $arrOptions);
