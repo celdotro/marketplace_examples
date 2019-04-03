@@ -1,5 +1,7 @@
 <?php
 /**
+ * [RO] Verifica paginile obligatorii (https://github.com/celdotro/marketplace/wiki/Verifica-pagini-obligatorii)
+ * [EN] Checks the mandatory pages (https://github.com/celdotro/marketplace/wiki/Check-mandatory-pages)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
