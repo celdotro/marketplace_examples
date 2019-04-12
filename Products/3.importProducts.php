@@ -350,8 +350,8 @@ $arrProducts = array(
         //         'forceInsert' => true
         // )
         array(
-            'products_model' => 'BH/1224N',
-            'stoc' => 50,
+            'products_model' => 'produsstoczero',
+            'stoc' => 0,
             'pretf' => 109.99,
             // 'status' => 1,
             // 'hasTVA' => 1,
