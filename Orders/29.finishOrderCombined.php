@@ -24,21 +24,21 @@ function finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidica
 }
 
 #EXAMPLE#
-$orders_id = 2000582;
+$orders_id = 2000622;
 $serie = 'A';
 $nr_fact = 1;
 $awb = '(va fi generat automat la finalizarea comenzii)';
-$idAdresaRidicare = 141;
+$idAdresaRidicare = 786;
 $observations = 'a';
 $products = array(
-    array(
-    'products_price'    =>  250,
-    'cantitate' =>  1,
-    'tva'   =>  20,
-    'id_prod_com'   =>  3396707,
-    'deschidere_colet'  =>  1,
-    'status_livrare' => 5
-    )
+    // array(
+    // 'products_price'    =>  250,
+    // 'cantitate' =>  1,
+    // 'tva'   =>  20,
+    // 'id_prod_com'   =>  3396707,
+    // 'deschidere_colet'  =>  1,
+    // 'status_livrare' => 5
+    // )
 );
 $autogenerateAwb = 'true';
 finishOrderCombined($orders_id, $serie, $nr_fact, $awb, $idAdresaRidicare, $observations, $products, $autogenerateAwb);
