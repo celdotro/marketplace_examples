@@ -350,9 +350,9 @@ $arrProducts = array(
         //         'forceInsert' => true
         // )
         array(
-            'products_model' => 'produsstoczero',
-            'stoc' => 0,
-            'pretf' => 109.99,
+            'products_model' => 'checkprice',
+            'stoc' => 1,
+            'pretf' => 10,
             // 'status' => 1,
             // 'hasTVA' => 1,
             'type' => 'update',
