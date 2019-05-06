@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "242ff338b2ea3d5904263b4c631fa278",
+    "content-hash": "cf187fe99474e02ece0c23bb9c2e1167",
     "packages": [
         {
             "name": "celdotro/marketplace",
-            "version": "1.16.3",
+            "version": "v1.18.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/celdotro/marketplace.git",
-                "reference": "2d6e6b9e09f0ae696d50e1717c7cac65f2c3cce9"
+                "reference": "cf49f175508d0edaac80b40f7fdb7016e18be322"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/celdotro/marketplace/zipball/2d6e6b9e09f0ae696d50e1717c7cac65f2c3cce9",
-                "reference": "2d6e6b9e09f0ae696d50e1717c7cac65f2c3cce9",
+                "url": "https://api.github.com/repos/celdotro/marketplace/zipball/cf49f175508d0edaac80b40f7fdb7016e18be322",
+                "reference": "cf49f175508d0edaac80b40f7fdb7016e18be322",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "php",
                 "wiki"
             ],
-            "time": "2019-01-10T09:42:58+00:00"
+            "time": "2019-05-03T11:47:31+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
