@@ -1,6 +1,6 @@
 {  
     "require": {  
-        "celdotro/marketplace": "^1.18.2"
+        "celdotro/marketplace": "^1.18.4"
     },
     "prefer-stable": true
 }
