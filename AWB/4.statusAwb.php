@@ -24,4 +24,4 @@ function statusAwb($cmd){
 }
 
 #EXAMPLE#
-statusAwb(2000622);
+statusAwb(113516);
