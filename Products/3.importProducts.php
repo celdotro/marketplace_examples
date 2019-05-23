@@ -79,7 +79,8 @@ $arrProducts = array(
         'status' => 1,
         'hasTVA' => 1, // (Poate fi suprascris de cel de pe nivelul 0) Are valoarea 0 sau nu exista daca pretf NU include TVA si 1 daca include / (Can be overwritten by the attribute from level 0 with the same name) Has the value of 0 or it doesn't exist if pretf DOES NOT have the VAT included or 1 otherwise
         'type' => 'insert',
-        'procesare_in' => 1
+        'procesare_in' => 1,
+        'virtual' => 1
     ),
 
     // Al doilea produs din lista -> forma scurta (produse deja aprobate)
