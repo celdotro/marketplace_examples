@@ -24,4 +24,4 @@ function makeOrderDisputed($order_id){
 }
 
 #EXAMPLE#
-makeOrderDisputed(2000624);
+makeOrderDisputed(123456);
