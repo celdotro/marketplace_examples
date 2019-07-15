@@ -12,11 +12,11 @@ use celmarket\Admin\AdminAccount;
 
 
 #FUNCTION#
-function updateAccountInformation($cif = NULL, $iban = NULL, $telephone = NULL, $password = NULL, $bank = NULL, $fullName = NULL, $hqAddress = NULL, $description = NULL, $apiLink = NULL, $contactPerson, $county, $city, $reg){
+function updateAccountInformation($cif = NULL, $iban = NULL, $telephone = NULL, $password = NULL, $bank = NULL, $fullName = NULL, $hqAddress = NULL, $description = NULL, $apiLink = NULL, $contactPerson, $county, $city, $reg, $timpProcesareImplicit = 0){
     $object = new AdminAccount();
 
     try{
-        $response = $object->updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city, $reg);
+        $response = $object->updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city, $reg, $timpProcesareImplicit);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -42,5 +42,6 @@ $reg = array(
     'j3' => 'ABCD',
     'j4' => '2018'
 );
+$timpProcesareImplicit = 1;
 
-updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city, $reg);
+updateAccountInformation($cif, $iban, $telephone, $password, $bank, $fullName, $hqAddress, $description, $apiLink, $contactPerson, $county, $city, $reg, $timpProcesareImplicit);
