@@ -1,5 +1,6 @@
 <?php
 namespace celmarket;
+
 use celmarket\AuthProvider;
 use PDO;
 
@@ -49,7 +50,7 @@ class AuthProviderMemcached extends AuthProvider
     {
         $token = self::$memcached->get('celro_' . (!empty(self::$providerID) ? self::$providerID : md5(self::$user . self::$password)));
         
-        if($token) {
+        if ($token) {
             self::setToken($token);
         }
 
@@ -64,7 +65,7 @@ class AuthProviderMemcached extends AuthProvider
 
         $token = self::$memcached->get('celro_' . (!empty(self::$providerID) ? self::$providerID : md5(self::$user . self::$password)));
         
-        if($token) {
+        if ($token) {
             return $token;
         }
 
@@ -91,8 +92,9 @@ class AuthProviderMemcached extends AuthProvider
                 // Insert new token
                 $insert_token = self::$memcached->set('celro_' . (!empty(self::$providerID) ? self::$providerID : md5(self::$user . self::$password)), $res);
 
-                if(!$insert_token)
+                if (!$insert_token) {
                     throw new \Exception('Token-ul nu a fost salvat in baza de date');
+                }
             }
 
             // Token static attribute gets the value of the response

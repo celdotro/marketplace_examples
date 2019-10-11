@@ -1,5 +1,6 @@
 <?php
 namespace celmarket;
+
 use celmarket\AuthProvider;
 use PDO;
 
@@ -52,7 +53,7 @@ class AuthProviderMySQL extends AuthProvider
         $query->execute([':provider_id' => (!empty(self::$providerID) ? self::$providerID : md5(self::$user . self::$password))]);
         $token = $query->fetchColumn();
 
-        if($token) {
+        if ($token) {
             self::setToken($token);
         }
 
@@ -69,7 +70,7 @@ class AuthProviderMySQL extends AuthProvider
         $query->execute([':provider_id' => (!empty(self::$providerID) ? self::$providerID : md5(self::$user . self::$password))]);
         $token = $query->fetchColumn();
 
-        if($token) {
+        if ($token) {
             return $token;
         }
 
@@ -98,7 +99,7 @@ class AuthProviderMySQL extends AuthProvider
                 $query = self::$db->prepare("INSERT INTO marketplace_tokens (provider_id, token) VALUES (:provider_id, :token)");
                 $insert_token = $query->execute([':provider_id' => (!empty(self::$providerID) ? self::$providerID : md5(self::$user . self::$password)), ':token' => $res]);
 
-                if(!$insert_token) {
+                if (!$insert_token) {
                     throw new \Exception('Token-ul nu a fost salvat in baza de date');
                 }
             }
