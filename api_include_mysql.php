@@ -14,10 +14,15 @@
 // Include vendor
 include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
+require __DIR__.'/AuthProviderMySQL.php';
+
 // Optional - set link to demo server
 celmarket\Config::setDemo();
 
 // Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
+use celmarket\AuthProviderMySQL;
 
-Auth::setUserDetails('username', 'password');
+//Optional providerid for account distinction. If not set it will use md5(userpass)
+AuthProviderMySQL::setProviderID('ID_AFILIAT');
+Auth::setUserDetails('USER', 'PASSWORD', AuthProviderMySQL::class);
