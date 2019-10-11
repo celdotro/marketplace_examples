@@ -19,5 +19,4 @@ celmarket\Config::setDemo();
 
 // Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
-
-Auth::setUserDetails('username', 'password');
+Auth::setUserDetails('USERNAME', 'PASSWORD');
