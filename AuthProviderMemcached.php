@@ -18,8 +18,8 @@ class AuthProviderMemcached extends AuthProvider
     private static $providerID;
 
     private static $memcached;
-    private static $memcached_host = '192.168.0.5';
-    private static $memcached_port = 11211;
+    private static $memcached_host = 'HOST';
+    private static $memcached_port = 'PORT';
 
     public function __construct($userName = '', $password = '')
     {

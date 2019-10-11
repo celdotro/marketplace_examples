@@ -18,10 +18,10 @@ class AuthProviderMySQL extends AuthProvider
     private static $providerID;
 
     private static $db;
-    private static $db_host = '192.168.0.241';
-    private static $db_user = 'test';
-    private static $db_password = 'q';
-    private static $db_database = 'test_marketplace';
+    private static $db_host = 'HOST';
+    private static $db_user = 'USER';
+    private static $db_password = 'PASSWORD';
+    private static $db_database = 'DB';
     
     public function __construct($userName = '', $password = '')
     {
