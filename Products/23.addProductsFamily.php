@@ -27,4 +27,5 @@ function addProductsFamily($id, $name, $characts){
 $id = 888;
 $name = '888';
 $characts = '{"mode":1,"charact":618}';
-addProductsFamily($id, $name, $characts);
+$categ_id = 124;
+addProductsFamily($id, $categ_id, $name, $characts);
