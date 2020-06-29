@@ -14,8 +14,8 @@
 // Include vendor
 include 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
-// Optional - set link to demo server
-celmarket\Config::setDemo();
+// DEPRECATED - NOT USED ANYMORE INTERNALY!
+// celmarket\Config::setDemo();
 
 // Authenticate - change USERNAME and PASSWORD with your credentials
 use celmarket\Auth;
