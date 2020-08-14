@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Printeaza un AWB (https://github.com/celdotro/marketplace/wiki/Printare-AWB)
- * [EN] Print an AWB (https://github.com/celdotro/marketplace/wiki/AWB-Print)
+ * [RO] Listeaza toate AWB-urile unei comenzi (https://github.com/celdotro/marketplace/wiki/Listare-AWB)
+ * [EN] Lists all order AWBs (https://github.com/celdotro/marketplace/wiki/List-AWBs)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -12,11 +12,11 @@ use celmarket\Orders\OrdersAWB;
 
 #24#
 #FUNCTION#
-function printAwb($awb_id){
+function getAwbs($orders_id){
     $object = new OrdersAWB();
 
     try{
-        $response = $object->printAwb($awb_id);
+        $response = $object->getAwbs($orders_id);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,4 @@ function printAwb($awb_id){
 }
 
 #EXAMPLE#
-printAwb('e59b2779414e8a2ab9f9c753cb33ef39');
+getAwbs(1234);

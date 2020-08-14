@@ -1,22 +1,22 @@
 <?php
 /**
- * [RO] Adauga o adresa pentru ridicarea coletelor de catre curieri (https://github.com/celdotro/marketplace/wiki/Adaugare-adresa)
- * [EN] Adds a new pick-up address that will be sent to couriers (https://github.com/celdotro/marketplace/wiki/Add-address)
+ * [RO] Adauga o adresa noua (https://github.com/celdotro/marketplace/wiki/Adaugare-adresa)
+ * [EN] Adds a new address (https://github.com/celdotro/marketplace/wiki/Add-address)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 
 
 
-use celmarket\Admin\AdminAddress;
+use celmarket\Admin\AdminAddresses;
 
 #0#
 #FUNCTION#
-function addAddress($address, $courier, $accData){
-    $object = new AdminAddress();
+function addAddress($params = array()){
+    $object = new AdminAddresses();
 
     try{
-        $response = $object->addAddress($address, $courier, $accData);
+        $response = $object->addAddress($params);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,8 +24,12 @@ function addAddress($address, $courier, $accData){
 }   
 
 #EXAMPLE#
-$address = 'Str. X...';
-$courier = 'Courier Name';
-$accData = array();
+$params = array(
+    'type'      => 'pickup',
+    'county'    => 'Sector 6',
+    'city'      => 'Bucuresti',
+    'address'   => 'Strada X, nr. 10',
+    'status'    => 1
+);
 
-addAddress($address, $courier, $accData);
+addAddress($params);

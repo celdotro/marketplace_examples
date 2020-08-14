@@ -1,7 +1,7 @@
 <?php
 /**
- * [RO] Listeaza toate adresele (https://github.com/celdotro/marketplace/wiki/Listare-adrese)
- * [EN] Lists all addresses (https://github.com/celdotro/marketplace/wiki/List-addresses)
+ * [RO] Listeaza toate judetele (https://github.com/celdotro/marketplace/wiki/Listeaza-judetele)
+ * [EN] Lists all counties (https://github.com/celdotro/marketplace/wiki/List-counties)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
@@ -11,11 +11,11 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 use celmarket\Admin\AdminAddresses;
 
 #FUNCTION#
-function getAddresses(){
+function getCountiesList(){
     $object = new AdminAddresses();
 
     try{
-        $response = $object->getAddresses();
+        $response = $object->getCountiesList();
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -23,4 +23,4 @@ function getAddresses(){
 }   
 
 #EXAMPLE#
-getAddresses();
+getCountiesList();

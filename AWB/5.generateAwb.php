@@ -8,15 +8,15 @@ include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_includ
 
 
 
-use celmarket\AWB\AWBImport;
+use celmarket\Orders\OrdersAWB;
 
 #24#
 #FUNCTION#
-function generateAwb($orders_id, $idAddress){
-    $object = new AWBImport();
+function generateAwb($awbData, $awbSender, $awbReceiver = array(), $awbOptions = array()){
+    $object = new OrdersAWB();
 
     try{
-        $response = $object->generateAwb($orders_id, $idAddress);
+        $response = $object->generateAwb($awbData, $awbSender, $awbReceiver, $awbOptions);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,4 +24,17 @@ function generateAwb($orders_id, $idAddress){
 }
 
 #EXAMPLE#
-generateAwb(123456, 100);
+$awbData = array(
+    'orders_id'         => 123,
+    'courier_account'   => 123,
+    'envelopes'         => 0,
+    'packages'          => 1,
+    'weight'            => 1
+);
+
+$awbSender = array(
+    'address_id'        => 123,
+    'contact_id'        => 123
+);
+
+generateAwb($awbData, $awbSender);

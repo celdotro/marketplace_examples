@@ -1,22 +1,22 @@
 <?php
 /**
- * [RO] Actualizeaza adresa unui punct de ridicare pentru curieri (https://github.com/celdotro/marketplace/wiki/Editare-adresa)
- * [EN] Updates address information of a pick-up point (https://github.com/celdotro/marketplace/wiki/Edit-address)
+ * [RO] Editeaza o adresa (https://github.com/celdotro/marketplace/wiki/Editare-adresa)
+ * [EN] Updates an address (https://github.com/celdotro/marketplace/wiki/Edit-address)
  */
 include __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'api_include.php';
 
 
 
 
-use celmarket\Admin\AdminAddress;
+use celmarket\Admin\AdminAddresses;
 
 #0#
 #FUNCTION#
-function editAddress($id, $address, $courier){
-    $object = new AdminAddress();
+function editAddress($id, $params = array()){
+    $object = new AdminAddresses();
 
     try{
-        $response = $object->editAddress($id, $address, $courier);
+        $response = $object->editAddress($id, $params);
         print_r($response);
     } catch (Exception $e) {
         echo $e->getMessage();
@@ -24,8 +24,13 @@ function editAddress($id, $address, $courier){
 }   
 
 #EXAMPLE#
-$id = 1;
-$address = 'Str. Y...';
-$courier = 0;
+$id = 123;
+$params = array(
+    'type'      => 'pickup',
+    'county'    => 'Sector 6',
+    'city'      => 'Bucuresti',
+    'address'   => 'Strada X, Nr. 15',
+    'status'    => 1
+);
 
-editAddress($id, $address, $courier);
+editAddress($id, $params);
